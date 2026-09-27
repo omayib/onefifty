@@ -1,0 +1,49 @@
+# Onefifty
+
+> Onefifty is a pop-rock band from Yogyakarta, Indonesia, formed in 2022 by academicians of Universitas AMIKOM Yogyakarta, The Creative Economy Park. The band plays campus events, graduations, orientations and public stages. Tagline: "You run the event. We wake up the room."
+
+## The name
+The name comes from Asisten Ahli 150, the first academic rank (Jabatan Fungsional Akademik) of an Indonesian lecturer and the gate to a professional academic career. It stands for growth: as the members grow as academicians and as musicians, they want to bring a positive and significant impact to life.
+
+## Members
+
+- Arif Akbarul Huda: ML/AI Engineer; music producer
+- Arifiyanto Hadinegoro: Soft Computing; guitar, bass, drums
+- Agit Amrullah: Computer Vision; bass or guitar
+- Muhammad Tofa Nurcholis: Game Development; vocals
+- Anggit Ferdita Nugraha: Programmer; drums
+- Rifda Faticha: UI/UX Researcher; vocals
+- Fajar Sigit Purnomo: Computer Network Engineer; bass
+- Nadea Cipta Laksmita: AI Music; keyboard, music producer
+- Muhammad Najih Fasya: Urban & Regional Planning Researcher; vocals
+
+The lineup rotates between events.
+
+## Now and next
+
+- Ongoing project: Jogja reads, we're listening. Onefifty is talking with young adults who read in Yogyakarta's book cafés to learn what reading gives them, and will turn those stories into its first original songs. Readers can share their story via Instagram @onefifty.band.
+- Upcoming events: none scheduled yet.
+
+## Performances
+
+- 2022-09-07: Kenduri Informatika, Moelih Ndeso Resto, Yogyakarta
+- 2023-05-17: Accreditation thanksgiving, Faculty of Computer Science, Rumah Mbelik, Yogyakarta. Lineup: Arifiyanto Hadinegoro (guitar), Agit Amrullah (guitar), Arif Akbarul Huda (bass), Anggit Ferdita Nugraha (percussion), Muhammad Tofa Nurcholis (vocals)
+- 2024-02-07: Kenduri Informatika, Cengkir Heritage, Yogyakarta. Lineup: Rifda Faticha (vocals), Muhammad Tofa Nurcholis (vocals), Fajar Sigit Purnomo (bass), Arifiyanto Hadinegoro (guitar), Arif Akbarul Huda (guitar). Planned setlist: Cinta Terbaik, Menghapus Jejakmu, Tak Segampang Itu, Demi Waktu, Komang, Jiwa yang Bersedih, Mesin Waktu, Waktu yang Salah, Asal Kau Bahagia, Cinta Luar Biasa, April, Jika Itu yang Terbaik, Cinta Ini Membunuhku, Saat Kau Tak Disini, The Reason, Puisi, Dengar Bisikku, Nemen
+- 2024-03-26: Ngabuburit Ramadan session, Gedung 7, Universitas AMIKOM Yogyakarta, Sleman. Lineup: Arif Akbarul Huda (played, role not recorded), Arifiyanto Hadinegoro (played, role not recorded), Anggit Ferdita Nugraha (played, role not recorded), Muhammad Tofa Nurcholis (played, role not recorded)
+- 2024-04-17: Syawalan, first day back after Eid, Universitas AMIKOM Yogyakarta, Sleman. Planned setlist: Assalamualaikum, Tombo Ati, Mesin Waktu, Air dan Api × Topeng, Kangen, Bukan Pujangga, Anugerah, Hidupku Kan Damaikan Hatimu, Hidup Untukmu Mati Tanpamu, Cinta Terbaik, Tunggu Aku di Jakarta, JAP, Selamat Lebaran
+- 2024-05-13: Graduate farewell (Pelepasan), Tanjungsari Ballroom, Merapi Merbabu Hotel Seturan, Sleman. Lineup: Arifiyanto Hadinegoro (drums), Arif Akbarul Huda (guitar), Fajar Sigit Purnomo (bass), Muhammad Tofa Nurcholis (vocals), Rifda Faticha (vocals). Played setlist: Anugerah Terindah yang Pernah Kumiliki, Jangan Menyerah, Topeng × Air dan Api, Aku Bukan Jodohnya, Nemen, Kolam Ikan, Mengingatmu, Cinta Terbaik, Jogja Istimewa, April, Kisah Klasik
+- 2024-06-26: Entrepreneur Day 87, Universitas AMIKOM Yogyakarta, Sleman. Lineup: Arifiyanto Hadinegoro (drums), Arif Akbarul Huda (guitar), Fajar Sigit Purnomo (bass), Muhammad Tofa Nurcholis (vocals), Rifda Faticha (vocals). Planned setlist: Mesin Waktu, Air dan Api × Topeng, Kangen, Bukan Pujangga, Anugerah, Hidupku Kan Damaikan Hatimu, Hidup Untukmu Mati Tanpamu, Cinta Terbaik, Jangan Menyerah, April
+- 2024-09-12: PPM 2024, new student orientation, Universitas AMIKOM Yogyakarta, Sleman. Lineup: Arif Akbarul Huda (guitar), Fajar Sigit Purnomo (bass), Anggit Ferdita Nugraha (drums), Muhammad Tofa Nurcholis (vocals), Rifda Faticha (vocals), Arifiyanto Hadinegoro (played, role not recorded), Nadea Cipta Laksmita (stage director). Played setlist: Mengingatmu (Battle of Surabaya OST), Penjaga Hati, Sialan
+- 2024-09-26: Entrepreneur Day, Universitas AMIKOM Yogyakarta, Sleman. Lineup: Arif Akbarul Huda (played, role not recorded), Arifiyanto Hadinegoro (played, role not recorded), Fajar Sigit Purnomo (played, role not recorded), Muhammad Tofa Nurcholis (vocals). Planned setlist: Untungnya, Kini Mereka Tahu, Sial, Mengingatmu, Penjaga Hati, Aku Bukan Jodohnya, April
+- 2026-07-13: Opening of Creative Space AMIKOM, Creative Space, Universitas AMIKOM Yogyakarta, Sleman. Lineup: Arif Akbarul Huda (guitar), Fajar Sigit Purnomo (guitar), Agit Amrullah (bass), Arifiyanto Hadinegoro (drums), Nadea Cipta Laksmita (keys), Muhammad Tofa Nurcholis (vocals). Planned setlist: Everything U Are, Hidup Untukmu Mati Tanpamu, Wherever You Are, Chaosmyth, The Beginning, Jika Itu yang Terbaik, Anugerah Terindah, April, Tentang Aku
+- 2026-07-29: AMICTA inauguration, Ambarrukmo Plaza, Sleman. Lineup: Arif Akbarul Huda (guitar), Fajar Sigit Purnomo (guitar), Agit Amrullah (bass), Arifiyanto Hadinegoro (drums), Nadea Cipta Laksmita (keys), Muhammad Tofa Nurcholis (vocals). Played setlist: Jika Itu yang Terbaik, Everything U Are, Bagai Bintang di Surga, Hidup Untukmu Mati Tanpamu, Pergilah Kasih, Wherever You Are
+- 2026-09-24: PPM 2026 inauguration, with guest vocalist Muhammad Najih Fasya, Universitas AMIKOM Yogyakarta, Sleman. Lineup: Arif Akbarul Huda (guitar), Fajar Sigit Purnomo (guitar), Agit Amrullah (bass), Arifiyanto Hadinegoro (drums), Nadea Cipta Laksmita (keys), Muhammad Najih Fasya (vocals). Played setlist: Gemilang, Everything U Are
+
+## Booking
+
+Message @onefifty.band on Instagram: https://www.instagram.com/onefifty.band
+
+## Links
+- Website: https://onefifty.example/
+- Instagram: https://www.instagram.com/onefifty.band
+- University: https://amikom.ac.id
