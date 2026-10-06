@@ -4,9 +4,14 @@
 
 ## Brand collaboration
 
+Positioned as an alternative to KOL/influencer marketing: instead of sponsored content audiences can scroll past, the product is used live on stage while the audience sings along, tried on the spot, and shared through clips, with measurable results.
+
+
+- Moments the band plays: welcomes (new student orientation, welcome parties), celebrations (graduations, launches, mall stages), and gatherings (Syawalan, kenduri, company gatherings).
 - Themed shows for communities already emotionally tied to the theme: Nostalgia Game, Slow Rock 90-an (90s slow rock), AI Music Showcase.
 - How it works: the audience sees the product used on stage by people like them (seen), tries it through song voting, vouchers and giveaways (tried), and keeps the moment alive through studio sessions and short clips they share themselves (shared). Votes, redeemed vouchers, giveaway entries and shared clips are counted (measured).
-- Next show: Nostalgia Game. Limited collaboration slots for coffee, PC and gaming gear brands. Contact via Instagram @onefifty.band.
+- Pricing: Paket Momen, starting from Rp3 million per event (product used on stage, song voting/voucher/giveaway activation, studio session and short clips). Final price depends on the event and activation.
+- Next show: Nostalgia Game. Limited collaboration slots for coffee, PC and gaming gear brands. Contact via WhatsApp +62 821-3612-3205 (https://wa.me/6282136123205) or Instagram @onefifty.band.
 
 ## The name
 The name comes from Asisten Ahli 150, the first academic rank (Jabatan Fungsional Akademik) of an Indonesian lecturer and the gate to a professional academic career. It stands for growth: as the members grow as academicians and as musicians, they want to bring a positive and significant impact to life.
@@ -45,6 +50,6 @@ The lineup rotates between events.
 Brands and event organizers: message @onefifty.band on Instagram: https://www.instagram.com/onefifty.band
 
 ## Links
-- Website: https://onefifty.example/
+- Website: https://omayib.github.io/onefifty/
 - Instagram: https://www.instagram.com/onefifty.band
 - University: https://amikom.ac.id
