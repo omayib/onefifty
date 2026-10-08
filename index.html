@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Onefifty · Show Eksklusif untuk Brand, Konten TikTok &amp; Reels | Jogja</title>
+<title>Onefifty · Brand Punya Cerita, Kami Bikin Show-nya | Jogja</title>
 
 <meta
   name="description"
-  content="Bikin show eksklusif bersama Onefifty untuk konten TikTok dan Reels yang terkontrol dan bisa di-boost dari akun brand. Atau temukan event di Jogja yang cocok untuk audience brand Anda."
+  content="Onefifty bikin live music show untuk brand: direkam jadi konten TikTok dan Reels, atau dibawa ke panggung event. Mulai dari konten, lanjut ke live activation. Jogja."
 >
 
 <meta
   name="keywords"
-  content="show eksklusif brand, konten TikTok brand Jogja, konten Reels brand, live session brand, event Jogja, event Yogyakarta 2026, brand activation Jogja, aktivasi brand Jogja, sponsor event Jogja, experiential marketing Jogja, live music brand activation, Onefifty, komunitas Jogja"
+  content="show untuk brand, konten TikTok brand, konten Reels brand, branded content Jogja, live music brand activation, brand activation Jogja, event Jogja, Onefifty"
 >
 
 <link rel="canonical" href="https://omayib.github.io/onefifty/">
@@ -31,12 +31,12 @@
 
 <meta
   property="og:title"
-  content="Bikin momennya. Hadir di dalamnya. | Onefifty"
+  content="Brand punya cerita. Kami bikin show-nya. | Onefifty"
 >
 
 <meta
   property="og:description"
-  content="Show eksklusif Onefifty untuk konten TikTok dan Reels: terkontrol, dibuat untuk format vertikal, dan bisa di-boost dari akun brand. Atau temukan event di Jogja untuk brand Anda."
+  content="Live music show yang dibuat untuk brand Anda, hidup di Reels, TikTok, atau panggung."
 >
 
 <meta
@@ -81,12 +81,12 @@
 
 <meta
   name="twitter:title"
-  content="Bikin momennya. Hadir di dalamnya. | Onefifty"
+  content="Brand punya cerita. Kami bikin show-nya. | Onefifty"
 >
 
 <meta
   name="twitter:description"
-  content="Show eksklusif bersama Onefifty untuk konten TikTok dan Reels brand Anda. Atau temukan event di Jogja yang cocok."
+  content="Onefifty bikin show untuk brand: jadi konten TikTok dan Reels, atau dibawa ke panggung."
 >
 
 <meta
@@ -116,7 +116,7 @@
     assets/images/welcome-party-live-band-onefifty-800.webp 800w,
     assets/images/welcome-party-live-band-onefifty-1600.webp 1600w
   "
-  imagesizes="100vw"
+  imagesizes="300px"
   fetchpriority="high"
 >
 
@@ -197,54 +197,79 @@ section{background:var(--bg);color:var(--fg);padding-block:88px}
 @media (max-width:900px){.nav a:not(.btn){display:none}.nav .d-only{display:none}.nav .m-only{display:inline-flex}}
 
 /* hero */
-.hero{position:relative;padding:0;min-height:min(92svh,860px);display:grid;align-items:end;overflow:hidden;isolation:isolate}
-.hero-bg{position:absolute;inset:0;z-index:-2}
-.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 62%}
+.hero{position:relative;padding:0;overflow:hidden;isolation:isolate;border-bottom:1px solid var(--light-rule)}
 .hero::before{content:"";position:absolute;inset:0;z-index:-1;background:
-  linear-gradient(180deg,rgba(13,11,17,.6) 0%,rgba(13,11,17,.4) 28%,rgba(13,11,17,.85) 58%,var(--stage) 100%),
-  radial-gradient(120% 70% at 85% 0%,rgba(240,160,75,.22),transparent 60%)}
-.hero-inner{padding-block:120px 48px;display:grid;gap:22px}
-.hero h1{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(56px,13vw,148px);line-height:.86;letter-spacing:-.005em;max-width:12ch}
+  radial-gradient(70% 70% at 85% 30%,rgba(240,160,75,.20),transparent 60%),
+  radial-gradient(60% 80% at 0% 100%,rgba(91,42,134,.45),transparent 70%)}
+.hero-inner{padding-block:64px 72px;display:grid;gap:48px;align-items:center}
+@media (min-width:900px){.hero-inner{grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);padding-block:96px 104px;gap:56px}}
+.hero-copy{display:grid;gap:22px}
+.hero h1{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(52px,9.4vw,124px);line-height:.86;letter-spacing:-.005em}
 .hero h1 span{display:block}
 .hero h1 .hl{color:var(--amp)}
-.hero .sub{font-size:clamp(18px,2.2vw,22px);max-width:48ch;color:#E4DEEC}
-.hero .eyebrow{justify-self:start;background:rgba(13,11,17,.72);color:var(--amp);padding:6px 12px;border-radius:999px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
-.hero-tags{font-family:var(--mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--light)}
-.hero-tags span{color:var(--amp);padding-inline:6px}
-.hero-cap{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--light-mut)}
-.hero .btn-ghost{color:var(--light)}
+.hero .sub{font-size:clamp(18px,2.2vw,22px);max-width:44ch;color:#E4DEEC}
+.hero .eyebrow{justify-self:start}
+.hero .also{font-size:16px;color:var(--light-mut)}
+.hero .also a{color:var(--light);font-weight:600}
 .hero .btn svg{width:22px;height:22px}
-@media (min-width:900px){.hero-inner{padding-block:160px 64px}}
 
-/* show eksklusif (primary offer) */
-.rs{position:relative;overflow:hidden;isolation:isolate;border-block:1px solid var(--light-rule)}
-.rs::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(80% 60% at 100% 0%,rgba(240,160,75,.16),transparent 60%),radial-gradient(60% 60% at 0% 100%,rgba(91,42,134,.35),transparent 70%)}
-.rs-grid{display:grid;gap:44px}
-@media (min-width:900px){.rs-grid{grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:64px;align-items:center}}
-.rs .h2 em{display:block}
-.why-rs{list-style:none;margin:32px 0 0;padding:0;display:grid;gap:0}
-@media (min-width:700px){.why-rs{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px}}
-.why-rs li{padding:16px 0;border-top:1px solid var(--rule);display:grid;grid-template-columns:34px minmax(0,1fr);gap:4px 12px;align-content:start}
-.why-rs svg{width:24px;height:24px;color:var(--amp);grid-row:1/3;margin-top:2px}
-.why-rs b{font-weight:600;font-size:17px}
-.why-rs span{font-size:15px;color:var(--mut)}
-.rs .cta-row{margin-top:32px}
-.rs-note{margin-top:16px;font-size:14px;color:var(--mut);max-width:64ch}
-.phone{position:relative;justify-self:center;width:min(300px,78vw);aspect-ratio:9/16;border-radius:34px;padding:10px;background:#000;border:1px solid #3a3444;box-shadow:0 40px 80px -30px rgba(0,0,0,.9),0 0 0 6px rgba(240,160,75,.08);transform:rotate(2.5deg)}
-.phone img{width:100%;height:100%;object-fit:cover;object-position:40% 50%;border-radius:26px}
-.phone::after{content:"";position:absolute;inset:10px;border-radius:26px;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,transparent 22%,transparent 55%,rgba(0,0,0,.85) 100%)}
+/* vertical "show" frame */
+.phone-wrap{display:grid;justify-items:center;gap:16px;margin:0}
+.phone{position:relative;width:min(300px,76vw);aspect-ratio:9/16;border-radius:34px;padding:10px;background:#000;border:1px solid #3a3444;box-shadow:0 40px 80px -30px rgba(0,0,0,.9),0 0 0 6px rgba(240,160,75,.08);transform:rotate(2.5deg)}
+.phone img{width:100%;height:100%;object-fit:cover;object-position:62% 50%;border-radius:26px}
+.phone::after{content:"";position:absolute;inset:10px;border-radius:26px;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.5) 0%,transparent 24%,transparent 50%,rgba(0,0,0,.9) 100%)}
 .ph-top,.ph-cap,.ph-side{position:absolute;z-index:1;color:#fff}
-.ph-top{top:26px;left:26px;right:26px;display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-size:11px;letter-spacing:.1em}
-.ph-top .rec{display:inline-flex;align-items:center;gap:6px;background:rgba(0,0,0,.55);padding:3px 8px;border-radius:999px}
-.ph-top .rec i{width:8px;height:8px;border-radius:50%;background:#ff3b30;animation:blink 1.2s steps(2,start) infinite}
+.ph-top{top:24px;left:24px;right:24px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.ph-watch{display:inline-flex;align-items:center;gap:6px;background:rgba(0,0,0,.6);border:1px solid rgba(255,255,255,.25);padding:5px 10px;border-radius:999px;font-size:12px;font-weight:600;text-decoration:none;color:#fff}
+.ph-watch:hover{background:var(--amp);color:var(--amp-ink);border-color:var(--amp)}
+.ph-top .live{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;display:inline-flex;align-items:center;gap:6px}
+.ph-top .live i{width:7px;height:7px;border-radius:50%;background:#ff3b30;animation:blink 1.2s steps(2,start) infinite}
 @keyframes blink{to{visibility:hidden}}
-@media (prefers-reduced-motion: reduce){.ph-top .rec i{animation:none}}
-.ph-cap{left:26px;right:64px;bottom:30px;display:grid;gap:4px;font-size:13px;line-height:1.35}
-.ph-cap b{font-size:14px}
-.ph-cap .boost{justify-self:start;margin-top:6px;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;background:var(--amp);color:var(--amp-ink);padding:3px 8px;border-radius:4px}
-.ph-side{right:22px;bottom:34px;display:grid;gap:16px;justify-items:center;font-family:var(--mono);font-size:10px}
+@media (prefers-reduced-motion: reduce){.ph-top .live i{animation:none}}
+.ph-cap{left:24px;right:62px;bottom:28px;display:grid;gap:6px;font-size:13px;line-height:1.35}
+.ph-cap .ph-title{font-family:var(--display);font-weight:900;font-size:30px;line-height:.9;text-transform:uppercase;letter-spacing:.01em}
+.ph-cap .ph-title span{color:var(--amp)}
+.ph-cap small{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;opacity:.8}
+.ph-side{right:20px;bottom:32px;display:grid;gap:16px;justify-items:center}
 .ph-side svg{width:24px;height:24px}
-.path .tag-hot{justify-self:start;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;background:var(--amp);color:var(--amp-ink);padding:3px 8px;border-radius:4px}
+.made-for{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--light-mut)}
+.made-for b{color:var(--amp);font-weight:500}
+
+/* one show, many lives */
+.modes{list-style:none;margin:44px 0 0;padding:0;display:grid;gap:16px}
+@media (min-width:900px){.modes{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.mode{background:var(--card);border:1px solid var(--rule);border-radius:16px;padding:24px;display:grid;gap:12px;align-content:start}
+.mode .ic{color:var(--acc);width:34px;height:34px}
+.mode .k{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut)}
+.mode h3{font-family:var(--display);font-weight:900;font-size:clamp(34px,3.6vw,44px);line-height:.92;text-transform:uppercase}
+.mode p{color:var(--mut);font-size:16px}
+.mode .flowline{font-family:var(--mono);font-size:13px;letter-spacing:.04em;color:var(--fg)}
+.mode .flowline b{color:var(--acc);font-weight:500}
+.mode .out{border-top:1px solid var(--rule);padding-top:12px;display:grid;gap:6px}
+.mode .out>span{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+.mode.usp{background:var(--violet);color:#fff;border-color:var(--violet);--mut:#DCCDEE;--acc:var(--amp);--rule:rgba(255,255,255,.22)}
+.mode.usp h3{color:var(--amp)}
+.mode .tag-hot{justify-self:start;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;background:var(--amp);color:var(--amp-ink);padding:3px 8px;border-radius:4px}
+.example{margin-top:28px;border:1.5px dashed var(--acc);border-radius:16px;padding:24px;display:grid;gap:16px}
+.example h3{font-family:var(--display);font-weight:900;font-size:clamp(30px,4vw,44px);line-height:.95;text-transform:uppercase}
+.example h3 span{color:var(--acc)}
+.example>p{color:var(--mut);max-width:62ch}
+.beats{list-style:none;margin:0;padding:0;display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));counter-reset:bt}
+.beats li{display:flex;gap:10px;align-items:baseline;padding:10px 14px;border-radius:10px;background:var(--card);border:1px solid var(--rule);font-weight:600;font-size:15px}
+.beats li::before{counter-increment:bt;content:counter(bt);font-family:var(--mono);font-size:12px;color:var(--acc)}
+.example .cta-row{margin-top:4px}
+
+/* live / event intro */
+.live-head{display:grid;gap:22px}
+@media (min-width:900px){.live-head{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);align-items:end;gap:48px}}
+.live-cta{display:grid;gap:12px;justify-items:start}
+.live-cta p{font-size:15px;color:var(--mut)}
+.ev-sub{margin-top:64px;padding-top:28px;border-top:1px solid var(--rule);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:12px 24px}
+.ev-sub h3{font-family:var(--display);font-weight:900;font-size:clamp(30px,4vw,44px);line-height:.95;text-transform:uppercase}
+.ev-sub p{font-size:15px;color:var(--mut)}
+.ev-sub .lnk{display:inline-flex;align-items:center;gap:6px}
+.ev-sub .lnk svg{width:18px;height:18px}
+.chips{margin-top:20px!important}
 
 /* event discovery */
 .ev-head{display:grid;gap:18px}
@@ -289,39 +314,36 @@ section{background:var(--bg);color:var(--fg);padding-block:88px}
 .tags{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:6px}
 .tags li{font-size:13px;font-weight:500;padding:2px 10px;border:1px solid var(--rule);border-radius:999px}
 
-/* three paths */
-.paths{list-style:none;margin:44px 0 0;padding:0;display:grid;gap:16px}
-@media (min-width:700px){.paths{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (min-width:1100px){.paths{grid-template-columns:repeat(4,minmax(0,1fr))}}
-.path{background:var(--card);border:1px solid var(--rule);border-radius:16px;padding:24px;display:grid;gap:12px;align-content:start;grid-template-rows:auto auto 1fr auto}
-.path .no{font-family:var(--mono);font-size:12px;color:var(--mut);letter-spacing:.08em;text-transform:uppercase}
-.path h3{font-family:var(--display);font-weight:900;font-size:clamp(30px,3.4vw,38px);line-height:.95;text-transform:uppercase}
-.path p{color:var(--mut);font-size:16px}
-.path .flowline{font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:var(--acc)}
-.path .btn{justify-self:start;margin-top:6px}
-.path.hot{background:var(--dark);color:var(--paper);border-color:var(--dark);--mut:#C9C1B3;--acc:var(--amp)}
-
-/* how it works */
+/* how it works (funnel) */
 .steps{list-style:none;margin:44px 0 0;padding:0;display:grid;gap:0;counter-reset:st}
 @media (min-width:860px){.steps{grid-template-columns:repeat(4,minmax(0,1fr))}}
 .steps li{position:relative;padding:22px 22px 22px 0;border-top:2px solid var(--rule);display:grid;gap:8px;align-content:start}
 .steps li::before{counter-increment:st;content:"0" counter(st);font-family:var(--mono);font-size:12px;color:var(--mut)}
 .steps li.key{border-top-color:var(--amp)}
-.steps h3{font-family:var(--display);font-weight:900;font-size:44px;line-height:.9;text-transform:uppercase}
+.steps h3{font-family:var(--display);font-weight:900;font-size:clamp(34px,3.6vw,44px);line-height:.9;text-transform:uppercase}
 .steps li.key h3{color:var(--amp)}
 .steps p{color:var(--mut);font-size:15.5px;max-width:30ch}
+.steps .q{font-style:italic;color:var(--fg)}
 @media (max-width:859px){.steps li{padding:18px 0}}
 
-/* activation options */
-.acts-grid{list-style:none;margin:44px 0 0;padding:0;display:grid;gap:16px}
-@media (min-width:760px){.acts-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (min-width:1100px){.acts-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+/* inside the show */
+.layer{margin-top:44px;font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut);display:flex;align-items:center;gap:12px}
+.layer::after{content:"";flex:1;height:1px;background:var(--rule)}
+.acts-grid{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:16px}
+@media (min-width:760px){.acts-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .act{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:22px;display:grid;gap:8px;align-content:start}
 .act .ic{color:var(--acc);width:34px;height:34px;margin-bottom:6px}
 .act .k{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc)}
 .act h3{font-family:var(--display);font-weight:900;font-size:30px;line-height:.95;text-transform:uppercase}
 .act p{color:var(--mut);font-size:15.5px}
-.act ul{margin-top:6px}
+.act-share{margin-top:16px;border-radius:14px;padding:22px;background:var(--amp);color:var(--amp-ink);display:grid;gap:10px 28px;align-items:center}
+@media (min-width:760px){.act-share{grid-template-columns:auto minmax(0,1fr) auto}}
+.act-share .ic{width:34px;height:34px}
+.act-share h3{font-family:var(--display);font-weight:900;font-size:30px;line-height:.95;text-transform:uppercase}
+.act-share p{font-size:15.5px}
+.act-share .k{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.7;display:block}
+.act-share ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.act-share li{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border:1.5px solid currentColor;border-radius:999px}
 
 /* past events (proof) */
 .study{display:grid;gap:24px;padding-block:40px;border-top:1px solid var(--rule)}
@@ -456,6 +478,7 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
 .final::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(91,42,134,.94),rgba(45,18,70,.96))}
 .final h2{font-family:var(--display);font-weight:900;font-size:clamp(46px,8.5vw,104px);line-height:.9;text-transform:uppercase;max-width:14ch}
 .final h2 span{display:block;color:var(--amp)}
+.final .alt a{color:#fff}
 .final .lede{color:#E8DDF5}
 .final .cta-row{margin-top:32px}
 .final .btn-ghost{color:#fff}
@@ -581,13 +604,13 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
   <div class="wrap bar">
     <a class="brand" href="#top" aria-label="Onefifty, ke atas halaman">ONEFIFTY<span>.</span></a>
     <nav class="nav" aria-label="Bagian halaman">
-      <a href="#show-eksklusif">Show eksklusif</a>
-      <a href="#event">Event</a>
+      <a href="#show">Show</a>
       <a href="#cara-kerja">Cara kerja</a>
+      <a href="#event">Live &amp; event</a>
       <a href="#rekam-jejak">Rekam jejak</a>
-      <a href="#tentang">Tentang Onefifty</a>
-      <a class="btn btn-amp d-only" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank">Bikin Show Eksklusif →</a>
-      <a class="btn btn-amp m-only" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank"><svg aria-hidden="true"><use href="#i-rec"/></svg>Show Eksklusif</a>
+      <a href="#tentang">Tentang</a>
+      <a class="btn btn-amp d-only" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20untuk%20brand%20saya.%0A%0ABrand%3A%20%0AProduk%3A%20%0AFormat%20%28Social%20%2F%20Live%29%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank">Bikin Show →</a>
+      <a class="btn btn-amp m-only" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20untuk%20brand%20saya.%0A%0ABrand%3A%20%0AProduk%3A%20%0AFormat%20%28Social%20%2F%20Live%29%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank">Bikin Show</a>
     </nav>
   </div>
 </header>
@@ -596,65 +619,127 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
 
 <!-- 01 HERO -->
 <section class="hero" id="top" aria-labelledby="h1">
-  <div class="hero-bg">
-    <img src="assets/images/welcome-party-live-band-onefifty-800.webp" srcset="assets/images/welcome-party-live-band-onefifty-800.webp 800w, assets/images/welcome-party-live-band-onefifty-1600.webp 1600w" sizes="100vw" alt="" width="1600" height="1068" fetchpriority="high">
-  </div>
   <div class="wrap hero-inner">
-    <p class="eyebrow">Show eksklusif &amp; event brand · Jogja</p>
-    <h1 id="h1"><span>Bikin momennya.</span><span class="hl">Hadir di dalamnya.</span></h1>
-    <p class="sub">Bikin show eksklusif bareng Onefifty: live music khusus untuk brand Anda, dengan momen yang jadi konten TikTok dan Reels. Atau temukan event di Jogja yang cocok untuk audience Anda.</p>
-    <p class="cta-row">
-      <a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank"><svg aria-hidden="true"><use href="#i-rec"/></svg>Bikin Show Eksklusif →</a>
-      <a class="btn btn-ghost" href="#event"><svg aria-hidden="true"><use href="#i-search"/></svg>Cari Event Lain</a>
-    </p>
-    <p class="hero-tags">Show eksklusif<span>·</span>TikTok &amp; Reels<span>·</span>Live music<span>·</span>Brand activation</p>
-    <p class="hero-cap">Foto: Onefifty di Welcome Party 2026 · Universitas AMIKOM Yogyakarta</p>
-  </div>
-</section>
-
-<!-- 02 SHOW EKSKLUSIF (PRIMARY OFFER) -->
-<section class="rs" id="show-eksklusif" aria-labelledby="h-rs">
-  <div class="wrap rs-grid">
-    <div>
-      <p class="eyebrow rv">Format utama · Show eksklusif</p>
-      <h2 class="h2 rv" id="h-rs">Bikin show sendiri. <em>Kontennya milik brand.</em></h2>
-      <p class="lede rv">Onefifty menggelar show khusus untuk brand Anda, dirancang dan direkam untuk <strong>TikTok dan Reels</strong>. Anda tidak perlu menunggu jadwal event orang lain atau berbagi panggung dengan sponsor lain.</p>
-      <ul class="why-rs">
-        <li class="rv"><svg aria-hidden="true"><use href="#i-sliders"/></svg><b>Lebih terkontrol</b><span>Lokasi, waktu, audience, setlist, dan penempatan produk ditentukan bersama. Momen penting bisa diulang.</span></li>
-        <li class="rv"><svg aria-hidden="true"><use href="#i-rec"/></svg><b>Dibuat untuk vertikal</b><span>Momen dirancang untuk format 9:16 sejak awal, bukan potongan dokumentasi event.</span></li>
-        <li class="rv"><svg aria-hidden="true"><use href="#i-boost"/></svg><b>Bisa di-boost sendiri</b><span>Konten diunggah dari akun brand atau sebagai kolaborasi, lalu jangkauannya diatur dengan budget iklan Anda.</span></li>
-        <li class="rv"><svg aria-hidden="true"><use href="#i-pin"/></svg><b>Di tempat Anda</b><span>Outlet, kafe, kantor, kampus, atau ruang komunitas. Audience-nya bisa pelanggan atau komunitas Anda.</span></li>
-      </ul>
-      <p class="cta-row rv">
-        <a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank"><svg aria-hidden="true"><use href="#i-rec"/></svg>Bikin Show Eksklusif →</a>
-        <a class="lnk" href="#event">Atau cari event lain ↓</a>
+    <div class="hero-copy">
+      <p class="eyebrow">Music show untuk brand · Jogja</p>
+      <h1 id="h1"><span>Bikin show untuk brand.</span><span class="hl">Bukan sekadar bikin konten.</span></h1>
+      <p class="sub">Sebuah music experience yang dirancang untuk menceritakan brand Anda, lalu hidup di Reels, TikTok, atau panggung.</p>
+      <p class="cta-row">
+        <a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20untuk%20brand%20saya.%0A%0ABrand%3A%20%0AProduk%3A%20%0AFormat%20%28Social%20%2F%20Live%29%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank"><svg aria-hidden="true"><use href="#i-rec"/></svg>Bikin Show untuk Brand →</a>
       </p>
-      <p class="rs-note rv">Format, durasi, jumlah video, dan hak pakai konten kita sepakati di awal sesuai kebutuhan brand.</p>
+      <p class="also">Mau dibawa ke panggung? <a href="#event">Bisa juga →</a></p>
     </div>
-    <figure class="phone rv" style="margin:0" aria-label="Ilustrasi konten vertikal dari show eksklusif">
-      <img src="assets/images/launching-creative-space-live-music-onefifty-800.webp" alt="Onefifty tampil akustik di ruang komunitas, contoh suasana show eksklusif" width="800" height="450" loading="lazy">
-      <div class="ph-top" aria-hidden="true"><span class="rec"><i></i>REC</span><span>9:16</span></div>
-      <div class="ph-side" aria-hidden="true"><svg><use href="#i-heart"/></svg><svg><use href="#i-share"/></svg></div>
-      <figcaption class="ph-cap"><b>@brandanda × @onefifty.band</b><span>Live session di outlet kami 🎸 lagu favorit kalian?</span><span class="boost">Boost dari akun brand</span></figcaption>
+    <figure class="phone-wrap">
+      <div class="phone">
+        <img src="assets/images/welcome-party-live-band-onefifty-800.webp" alt="Onefifty di atas panggung di depan ribuan penonton, dibingkai seperti video vertikal" width="800" height="534" fetchpriority="high">
+        <div class="ph-top"><a class="ph-watch" href="https://www.instagram.com/onefifty.band" rel="me noopener" target="_blank">▶ Tonton show kami</a><span class="live" aria-hidden="true"><i></i>SHOW</span></div>
+        <div class="ph-side" aria-hidden="true"><svg><use href="#i-heart"/></svg><svg><use href="#i-share"/></svg></div>
+        <figcaption class="ph-cap"><span class="ph-title">Necafe <span>×</span> Onefifty</span><small>Episode 01 · live music show</small></figcaption>
+      </div>
+      <p class="made-for" aria-hidden="true">Made for <b>TikTok</b> · <b>Reels</b> · <b>Live</b></p>
     </figure>
   </div>
 </section>
 
-<!-- 03 EVENT DISCOVERY (secondary offer) -->
+<!-- 02 ONE SHOW, MANY LIVES -->
+<section id="show" aria-labelledby="h-show">
+  <div class="wrap">
+    <p class="eyebrow rv">Satu show</p>
+    <h2 class="h2 rv" id="h-show">Satu show. <em>Banyak cara untuk hidup.</em></h2>
+    <ul class="modes">
+      <li class="mode rv">
+        <svg class="ic" aria-hidden="true"><use href="#i-rec"/></svg>
+        <span class="k">01 · Mulai di sini</span>
+        <h3>Reels Show</h3>
+        <p>Show khusus brand, direkam dalam format vertikal. Tidak perlu event, venue besar, atau ribuan penonton untuk memulai.</p>
+        <div class="out"><span>Inspirasi hasil</span><ul class="tags"><li>Hero video</li><li>Reels</li><li>TikTok</li><li>Shorts</li><li>Behind the scenes</li><li>Cutdown</li></ul></div>
+      </li>
+      <li class="mode rv">
+        <svg class="ic" aria-hidden="true"><use href="#i-music"/></svg>
+        <span class="k">02 · Bawa ke panggung</span>
+        <h3>Stage show</h3>
+        <p>Konsep yang sama dibawa ke event, kampus, festival, launching, atau community gathering.</p>
+        <div class="out"><span>Inspirasi hasil</span><ul class="tags"><li>Performance</li><li>Brand interaction</li><li>Audience activation</li><li>Dokumentasi</li></ul></div>
+      </li>
+      <li class="mode usp rv">
+        <span class="tag-hot">Ini yang membedakan kami</span>
+        <h3>Reel → Live</h3>
+        <p>Show yang sudah dibuat untuk Reels bisa dikembangkan menjadi live activation.</p>
+      </li>
+    </ul>
+
+    <div class="example rv">
+      <span class="stamp">Inspirasi · brand kopi</span>
+      <h3>Necafe <span>×</span> Onefifty</h3>
+      <p>Jangan bikin video “review kopi”. Bikin mini show, lalu jadikan satu episode yang bisa diposting.</p>
+      <ol class="beats">
+        <li>Band memainkan lagu</li>
+        <li>Produk jadi bagian dari scene</li>
+        <li>Ada gimmick &amp; interaksi</li>
+        <li>Audience ikut bernyanyi</li>
+        <li>Direkam vertikal</li>
+        <li>Dipotong jadi Reels &amp; TikTok</li>
+      </ol>
+      <p class="cta-row"><a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20untuk%20brand%20saya.%0A%0ABrand%3A%20%0AProduk%3A%20%0AFormat%20%28Social%20%2F%20Live%29%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank">Bikin Show untuk Brand →</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- 03 HOW IT WORKS (funnel) -->
+<section class="s-paper" id="cara-kerja" aria-labelledby="h-cara">
+  <div class="wrap">
+    <p class="eyebrow rv">Cara kerja</p>
+    <h2 class="h2 rv" id="h-cara">Mulai dari konten. <em>Lanjut ke panggung.</em></h2>
+    <ol class="steps">
+      <li class="rv"><h3>Brief</h3><p class="q">“Saya butuh konten yang beda.”</p><p>Ceritakan brand, produk, dan audience Anda.</p></li>
+      <li class="rv"><h3>Bikin show</h3><p>Kami rancang konsep, lagu, gimmick, dan cara produk masuk ke cerita.</p></li>
+      <li class="rv"><h3>Rekam &amp; publish</h3><p>Diproduksi vertikal, tayang di TikTok dan Reels, dan bisa di-boost dari akun brand.</p></li>
+      <li class="key rv"><h3>Bawa ke panggung</h3><p class="q">“Kalau dibawa ke event kita bagaimana?”</p><p>Show yang sama jadi Stage show di depan audience.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 04 INSIDE THE SHOW -->
+<section class="s-2" id="aktivasi" aria-labelledby="h-akt">
+  <div class="wrap">
+    <p class="eyebrow rv">Di dalam show</p>
+    <h2 class="h2 rv" id="h-akt">Apa yang membuat <em>orang berhenti scroll?</em></h2>
+    <p class="lede rv">Tiga lapis show, lalu satu lapis distribusi yang membawanya ke feed.</p>
+    <ul class="acts-grid">
+      <li class="act rv"><svg class="ic" aria-hidden="true"><use href="#i-music"/></svg><span class="k">Play</span><h3>Music performance</h3><p>Lagu yang bikin orang ingin ikut nyanyi, personalized.</p></li>
+      <li class="act rv"><svg class="ic" aria-hidden="true"><use href="#i-try"/></svg><span class="k">Experience</span><h3>Produk masuk ke cerita</h3><p>Brand jadi bagian dari scene, bukan sekadar disebut di akhir video.</p></li>
+      <li class="act rv"><svg class="ic" aria-hidden="true"><use href="#i-tap"/></svg><span class="k">Interact</span><h3>Audience ikut beraksi</h3><p>Voting lagu, challenge, sampling, voucher, atau giveaway.</p></li>
+    </ul>
+    <p class="layer rv">Content</p>
+    <div class="act-share rv">
+      <svg class="ic" aria-hidden="true"><use href="#i-share"/></svg>
+      <div><span class="k">Share · distribution layer</span><h3>Momen diubah jadi konten</h3><p>Show dirancang agar bisa dipotong, diposting, dan di-boost.</p></div>
+      <ul><li>TikTok</li><li>Reels</li><li>Shorts</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- 05 Stage show + EVENT DISCOVERY -->
 <section id="event" aria-labelledby="h-event">
   <div class="wrap">
-    <div class="ev-head">
+    <div class="live-head">
       <div>
-        <p class="eyebrow rv">Pilihan lain · Event di Jogja yang akan datang</p>
-        <h2 class="h2 rv" id="h-event">Atau hadir di event <em>tempat audience berkumpul.</em></h2>
-        <p class="lede rv">Mungkin audience yang Anda cari ada di salah satu event ini. Pilih eventnya, tentukan bentuk kehadiran brand Anda, lalu ajak Onefifty.</p>
+        <p class="eyebrow rv">Stage show</p>
+        <h2 class="h2 rv" id="h-event">Mau bawa show ini <em>ke audience langsung?</em></h2>
+        <p class="lede rv">Show yang sama bisa tampil di event, kampus, festival, launching, atau community gathering.</p>
       </div>
-      <div class="ev-side rv">
-        <p>Belum tahu event yang cocok?</p>
-        <button class="btn btn-ghost btn-sm" type="button" data-open="finder"><svg aria-hidden="true"><use href="#i-compass"/></svg>Bantu saya menemukan event</button>
+      <div class="live-cta rv">
+        <p>Punya event?</p>
+        <a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20mengajak%20Onefifty%20ke%20event%20saya.%0A%0AEvent%3A%20%0ATanggal%3A%20%0AVenue%3A%20%0ABrand%3A%20%0ATujuan%3A%20" data-open="own" rel="noopener" target="_blank">Bawa ke Event Saya →</a>
+        <p>Belum punya?</p>
+        <a class="btn btn-ghost" href="#ev-filter"><svg aria-hidden="true"><use href="#i-search"/></svg>Cari Event yang Cocok</a>
       </div>
     </div>
 
+    <div class="ev-sub">
+      <div><h3>Event di Jogja</h3><p>Yang akan datang, dikurasi dari sumber publik.</p></div>
+      <button class="lnk" type="button" data-open="finder"><svg aria-hidden="true"><use href="#i-compass"/></svg>Belum tahu event yang cocok? Bantu saya</button>
+    </div>
     <ul class="chips" id="ev-filter" aria-label="Filter kategori event"></ul>
     <div class="finder-bar" id="finder-bar" hidden>
       <p id="finder-text"></p>
@@ -667,79 +752,12 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
   </div>
 </section>
 
-<!-- 03 THREE PATHS -->
-<section class="s-paper" id="mulai" aria-labelledby="h-mulai">
-  <div class="wrap">
-    <p class="eyebrow rv">Mulai dari mana?</p>
-    <h2 class="h2 rv" id="h-mulai">Empat jalan <em>ke momen yang sama.</em></h2>
-    <ul class="paths">
-      <li class="path hot rv">
-        <span class="tag-hot">Paling terkontrol</span>
-        <h3>Saya ingin show sendiri</h3>
-        <p>Show khusus untuk brand Anda, momennya jadi konten TikTok dan Reels. Lokasi, audience, dan kontennya diatur bersama, lalu bisa di-boost dari akun brand.</p>
-        <p class="flowline">Brief → Show → Rekam → Posting &amp; boost</p>
-        <a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank">Bikin Show Eksklusif →</a>
-      </li>
-      <li class="path rv">
-        <span class="no">Jalur A · Tertarik event</span>
-        <h3>Saya lihat event yang menarik</h3>
-        <p>Pilih event dari daftar, tentukan bentuk aktivasinya, dan kirim brief ke kami dalam satu langkah.</p>
-        <p class="flowline">Cari event → Pilih → Aktivasi → Onefifty</p>
-        <a class="btn btn-ghost" href="#event">Cari Event →</a>
-      </li>
-      <li class="path rv">
-        <span class="no">Jalur B · Punya event</span>
-        <h3>Saya sudah punya event</h3>
-        <p>Kirim detail event Anda. Kami bantu mencari bentuk kehadiran Onefifty yang paling cocok.</p>
-        <p class="flowline">Brief event → Aktivasi → Onefifty</p>
-        <a class="btn btn-ghost" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20mengajak%20Onefifty%20ke%20event%20saya.%0A%0AEvent%3A%20%0ATanggal%3A%20%0AVenue%3A%20%0ABrand%3A%20%0ATujuan%3A%20" data-open="own" rel="noopener" target="_blank">Kirim Brief Event →</a>
-      </li>
-      <li class="path rv">
-        <span class="no">Jalur C · Belum tahu</span>
-        <h3>Saya belum tahu event apa</h3>
-        <p>Tidak masalah. Ceritakan audience yang ingin Anda temui, kami tampilkan event yang paling relevan.</p>
-        <p class="flowline">Audience → Tujuan → Kategori brand → Event</p>
-        <a class="btn btn-ghost" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20mengajak%20Onefifty%20ke%20event%20saya.%0A%0AEvent%3A%20%0ATanggal%3A%20%0AVenue%3A%20%0ABrand%3A%20%0ATujuan%3A%20" data-open="finder" rel="noopener" target="_blank">Bantu Saya Menemukan Event →</a>
-      </li>
-    </ul>
-  </div>
-</section>
-
-<!-- 04 HOW IT WORKS -->
-<section id="cara-kerja" aria-labelledby="h-cara">
-  <div class="wrap">
-    <p class="eyebrow rv">Cara kerja</p>
-    <h2 class="h2 rv" id="h-cara">Cari. Pilih. Rancang. <em>Ajak.</em></h2>
-    <ol class="steps">
-      <li class="rv"><h3>Cari</h3><p>Jelajahi event di Jogja berdasarkan kategori, atau biarkan kami mencocokkan dari audience yang Anda tuju.</p></li>
-      <li class="rv"><h3>Pilih</h3><p>Lihat detail event: siapa audiensnya, di mana, dan brand seperti apa yang cocok hadir.</p></li>
-      <li class="rv"><h3>Rancang</h3><p>Pilih bentuk kehadiran: tampil, sampling, giveaway, voting, sampai konten. Isi tujuan dan budget.</p></li>
-      <li class="key rv"><h3>Ajak</h3><p>Brief Anda terkirim ke WhatsApp kami, lengkap dan kontekstual. Kami balas dengan rekomendasi format.</p></li>
-    </ol>
-  </div>
-</section>
-
-<!-- 05 ACTIVATION OPTIONS -->
-<section class="s-2" id="aktivasi" aria-labelledby="h-akt">
-  <div class="wrap">
-    <p class="eyebrow rv">Bentuk kehadiran</p>
-    <h2 class="h2 rv" id="h-akt">Bagaimana brand Anda <em>ingin hadir?</em></h2>
-    <p class="lede rv">Ini yang membedakan Onefifty dari direktori event. Pilih satu atau gabungkan beberapa.</p>
-    <ul class="acts-grid">
-      <li class="act rv"><svg class="ic" aria-hidden="true"><use href="#i-music"/></svg><span class="k">Play</span><h3>Onefifty tampil di event</h3><p>Live performance sebagai bagian dari acara. Full band atau akustik, dari 2 lagu sampai 3 sesi.</p></li>
-      <li class="act rv"><svg class="ic" aria-hidden="true"><use href="#i-try"/></svg><span class="k">Experience</span><h3>Audience mencoba brand Anda</h3><p>Product sampling, voucher, atau giveaway di tengah keseruan acara.</p></li>
-      <li class="act rv"><svg class="ic" aria-hidden="true"><use href="#i-tap"/></svg><span class="k">Interact</span><h3>Brand jadi bagian dari performance</h3><p>Segmen khusus di panggung: voting lagu, challenge, atau momen yang menghubungkan brand dengan audience.</p></li>
-      <li class="act rv"><svg class="ic" aria-hidden="true"><use href="#i-share"/></svg><span class="k">Share</span><h3>Momen yang layak dibagikan</h3><p>Momen dirancang agar berlanjut jadi foto, video, reels, dan konten audience setelah acara.</p></li>
-    </ul>
-  </div>
-</section>
-
-<!-- 07 PAST EVENTS (PROOF) -->
+<!-- 06 PAST SHOWS (PROOF) -->
 <section id="rekam-jejak" aria-labelledby="h-jejak">
   <div class="wrap">
     <p class="eyebrow rv">Rekam jejak</p>
     <h2 class="h2 rv" id="h-jejak">Event yang <em>pernah kami jalani.</em></h2>
-    <p class="lede rv">Ini bukti, bukan inventaris. Event di bawah benar-benar kami mainkan. Bagian <strong>ide untuk event serupa</strong> adalah gagasan aktivasi, bukan hasil campaign.</p>
+    <p class="lede rv"><strong>Ide untuk event serupa</strong> adalah gagasan aktivasi, bukan hasil campaign.</p>
     <article class="study">
       <figure class="study-photo rv">
         <img src="assets/images/welcome-party-live-band-onefifty-800.webp" srcset="assets/images/welcome-party-live-band-onefifty-800.webp 800w, assets/images/welcome-party-live-band-onefifty-1600.webp 1600w" sizes="(min-width:900px) 500px, 100vw" alt="Onefifty berpose di panggung Welcome Party 2026 di depan lautan mahasiswa baru" width="800" height="534" loading="lazy">
@@ -847,29 +865,28 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
   </div>
 </section>
 
-<!-- 08 WHY ONEFIFTY -->
+<!-- 07 WHY ONEFIFTY -->
 <section class="s-2" id="kenapa" aria-labelledby="h-kenapa">
   <div class="wrap">
     <p class="eyebrow rv">Kenapa Onefifty</p>
-    <h2 class="h2 rv" id="h-kenapa">KOL membawa brand ke feed. <em>Kami membawa brand ke momen.</em></h2>
+    <h2 class="h2 rv" id="h-kenapa">KOL membuat konten tentang brand. <em>Onefifty membuat show tentang brand.</em></h2>
     <ul class="stats">
       <li class="rv"><b>12+</b><span>panggung, dari kampus sampai mall</span></li>
       <li class="hot rv"><b>1.500</b><span>audience dalam satu event (Welcome Party 2026)</span></li>
       <li class="rv"><b>9</b><span>personel, dosen &amp; profesional</span></li>
       <li class="rv"><b>2022</b><span>mulai bermain bersama</span></li>
     </ul>
-    <p class="pull rv">Kami bukan sekadar membuat orang melihat brand Anda. <span>Kami membantu brand Anda jadi bagian dari pengalaman yang sedang mereka nikmati.</span></p>
+    <p class="pull rv">Show-nya bisa hidup di feed. <span>Bisa juga hidup di panggung.</span></p>
   </div>
 </section>
 
-<!-- 09 ABOUT -->
+<!-- 08 ABOUT -->
 <section class="s-paper" id="tentang" aria-labelledby="h-mem">
   <div class="wrap">
     <div class="people-head">
       <div>
         <p class="eyebrow rv">Tentang Onefifty</p>
         <h2 class="h2 rv" id="h-mem"><span>Kami bukan</span><span>sekadar band.</span></h2>
-        <p class="lede rv">Siang hari kami mengajar, ngoding, meneliti, dan membuat produk. <strong>Malamnya kami bermain musik.</strong></p>
       </div>
       <p class="why-us rv">Kami hidup di beberapa komunitas sekaligus: teknologi, pendidikan, kreatif, musik, dan profesional. Itulah yang membuat kami paham cara membuat brand masuk secara natural ke dalam sebuah momen.</p>
     </div>
@@ -1136,67 +1153,67 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
   </div>
 </section>
 
-<!-- 10 PRICING -->
+<!-- 09 PRICING -->
 <section class="s-violet" id="harga" aria-labelledby="h-harga">
   <div class="wrap price">
     <div>
       <p class="eyebrow rv">Harga</p>
-      <h2 class="price-big rv" id="h-harga"><small>Mulai dari</small>Rp3 juta<span>/event</span></h2>
+      <h2 class="price-big rv" id="h-harga"><small>Stage show mulai dari</small>Rp3 juta<span>/event</span></h2>
     </div>
     <div class="rv">
-      <p class="lede" style="margin-top:0">Format dan harga menyesuaikan event, lineup, durasi, dan bentuk aktivasi.</p>
-      <ul><li>Live performance Onefifty</li><li>Brand mention &amp; product placement</li><li>Interaksi audience: voting, voucher, giveaway</li><li>Dokumentasi untuk konten setelah acara</li></ul>
-      <p class="lede" style="font-size:16px">Show eksklusif: produksi dan hak pakai konten dihitung terpisah sesuai kebutuhan.</p>
-      <p class="cta-row" style="margin-top:28px"><a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank">Bikin Show Eksklusif →</a><a class="btn btn-ghost" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20mengajak%20Onefifty%20ke%20event%20saya.%0A%0AEvent%3A%20%0ATanggal%3A%20%0AVenue%3A%20%0ABrand%3A%20%0ATujuan%3A%20" data-open="own" rel="noopener" target="_blank">Diskusikan Event Anda</a></p>
+      <p class="lede" style="margin-top:0"><strong>Reels Show</strong> menyesuaikan konsep, produksi, jumlah video, dan hak pakai konten. <strong>Stage show</strong> menyesuaikan event, lineup, durasi, dan bentuk interaksi.</p>
+      <ul><li>Konsep show yang dirancang untuk brand</li><li>Live music performance Onefifty</li><li>Produk masuk ke cerita &amp; interaksi audience</li><li>Konten vertikal untuk TikTok dan Reels</li></ul>
+      <p class="cta-row" style="margin-top:28px"><a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20untuk%20brand%20saya.%0A%0ABrand%3A%20%0AProduk%3A%20%0AFormat%20%28Social%20%2F%20Live%29%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank">Bikin Show untuk Brand →</a><a class="btn btn-ghost" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20mengajak%20Onefifty%20ke%20event%20saya.%0A%0AEvent%3A%20%0ATanggal%3A%20%0AVenue%3A%20%0ABrand%3A%20%0ATujuan%3A%20" data-open="own" rel="noopener" target="_blank">Bawa ke Event Saya</a></p>
     </div>
   </div>
 </section>
 
-<!-- 11 FAQ -->
+<!-- 10 FAQ -->
 <section class="s-2" id="faq" aria-labelledby="h-faq">
   <div class="wrap">
     <p class="eyebrow rv">FAQ</p>
     <h2 class="h2 rv" id="h-faq">Sebelum ngobrol</h2>
     <div class="faq">
-      <details><summary>Apa itu show eksklusif?</summary><p>Show Onefifty yang digelar khusus untuk satu brand, di lokasi dan waktu yang disepakati, lalu <strong>direkam untuk jadi konten TikTok dan Reels</strong>. Audience-nya bisa pelanggan, member, atau komunitas brand Anda.</p></details>
-      <details><summary>Kenapa show eksklusif lebih terkontrol daripada ikut event?</summary><p>Di event orang lain, jadwal, panggung, dan aturan sponsor ditentukan penyelenggara. Di show eksklusif, <strong>lokasi, setlist, penempatan produk, dan pengambilan gambar ditentukan bersama</strong>, dan momen penting bisa diulang. Kontennya bisa di-boost dari akun brand, jadi jangkauannya Anda yang atur.</p></details>
+      <details><summary>Apa itu Reels show?</summary><p>Show Onefifty yang dibuat khusus untuk brand Anda dan <strong>direkam dalam format vertikal untuk TikTok, Reels, dan Shorts</strong>. Produk jadi bagian dari scene, bukan sekadar disebut. Kontennya bisa diposting dan di-boost dari akun brand.</p></details>
+      <details><summary>Apa bedanya Reels show dan Stage Show?</summary><p>Reels show: bikin, rekam, publish, tanpa perlu event atau venue besar. Stage show: konsep yang sama dibawa ke event, kampus, festival, launching, atau community gathering, dengan audience langsung dan interaksi.</p></details>
+      <details><summary>Harus pilih Reels atau Stage dari awal?</summary><p>Tidak. Paling mudah mulai dari Reels show. <strong>Kalau kontennya berhasil, show yang sama bisa dikembangkan jadi Stage show.</strong></p></details>
+      <details><summary>Apa bedanya dengan KOL?</summary><p><strong>KOL membuat konten tentang brand. Onefifty membuat show tentang brand.</strong> Show-nya bisa hidup di feed, bisa juga hidup di panggung.</p></details>
+      <details><summary>Berapa biayanya?</summary><p>Stage show mulai <strong>Rp3 juta/event</strong>. Reels show menyesuaikan konsep, produksi, jumlah video, dan hak pakai konten.</p></details>
+      <details><summary>Saya sudah punya event sendiri. Bisa?</summary><p>Bisa. Pilih <strong>Bawa ke Event Saya</strong>, isi detail event, bentuk show, tujuan, dan budget. Brief Anda langsung terkirim ke WhatsApp kami.</p></details>
       <details><summary>Apakah event di daftar ini milik Onefifty?</summary><p>Bukan. Daftar event dikurasi dari sumber publik. <strong>Onefifty membantu brand menjajaki kehadiran di event tersebut</strong>, termasuk berkomunikasi dengan penyelenggara. Kehadiran tetap bergantung pada persetujuan penyelenggara.</p></details>
       <details><summary>Dari mana data audience-nya?</summary><p>Segmen audience dan kategori “cocok untuk” adalah penilaian kami berdasarkan jenis event. Angka jumlah pengunjung hanya kami tampilkan bila tersedia dari sumber. <strong>Kalau tidak diketahui, kami tulis belum tersedia.</strong></p></details>
-      <details><summary>Saya sudah punya event sendiri. Bisa?</summary><p>Bisa. Pilih <strong>Saya Sudah Punya Event</strong>, isi detail event, bentuk aktivasi, tujuan, dan budget. Brief Anda langsung terkirim ke WhatsApp kami.</p></details>
-      <details><summary>Berapa biayanya?</summary><p>Mulai <strong>Rp3 juta/event</strong>. Format dan harga menyesuaikan event, lineup, durasi, dan bentuk aktivasi.</p></details>
-      <details><summary>Apa bedanya dengan KOL?</summary><p><strong>KOL membawa brand ke feed. Onefifty membawa brand ke momen.</strong> Brand masuk ke acara, dinikmati langsung oleh audience, lalu momennya bisa lanjut jadi konten.</p></details>
-      <details><summary>Apa yang bisa diukur?</summary><p>Partisipasi, jumlah vote, voucher yang ditukar, peserta giveaway, dan konten yang dibagikan. Indikatornya kita sepakati di awal sesuai tujuan brand.</p></details>
+      <details><summary>Apa yang bisa diukur?</summary><p>Untuk Reels show: performa konten di akun brand, seperti views, share, dan komentar. Untuk Stage show: partisipasi, vote, voucher yang ditukar, dan peserta giveaway. Indikatornya kita sepakati di awal.</p></details>
       <details><summary>Bisa booking Onefifty sebagai band saja?</summary><p>Bisa. Full band atau akustik, dari 2 lagu sampai 3 sesi, dengan monitor sendiri. Kirim tanggal, tempat, dan gambaran acaranya.</p></details>
       <details><summary>Siapa Onefifty?</summary><p>Band pop-rock Jogja yang mulai main bareng sejak 2022. Anggotanya dosen dan profesional dari lingkungan AMIKOM. Sudah lebih dari 12 kali naik panggung, dari kampus sampai mall.</p></details>
     </div>
   </div>
 </section>
 
-<!-- 12 FINAL CTA -->
+<!-- 11 FINAL CTA -->
 <section class="final" id="kolaborasi" aria-labelledby="h-final">
   <div class="final-bg"><img src="assets/images/cengkir-heritage-kenduri-800.webp" alt="" width="800" height="533" loading="lazy"></div>
   <div class="wrap">
     <p class="eyebrow rv" style="color:var(--amp)">Ngobrol yuk</p>
-    <h2 class="rv" id="h-final" style="margin-top:12px">Bikin show sendiri? <span>Atau masuk ke event?</span></h2>
-    <p class="lede rv">Show eksklusif memberi Anda kontrol penuh atas momen dan kontennya. Kalau lebih cocok hadir di event yang sudah ada, kami bantu carikan.</p>
+    <h2 class="rv" id="h-final" style="margin-top:12px">Punya brand yang <span>layak dibuat show?</span></h2>
+    <p class="lede rv">Bikin sesuatu yang bisa ditonton, dibagikan, dan, kalau waktunya tepat, dibawa ke panggung.</p>
     <p class="cta-row rv">
-      <a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank"><svg aria-hidden="true"><use href="#i-rec"/></svg>Bikin Show Eksklusif</a>
-      <a class="btn btn-ghost" href="#event"><svg aria-hidden="true"><use href="#i-search"/></svg>Cari Event Lain</a>
+      <a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20untuk%20brand%20saya.%0A%0ABrand%3A%20%0AProduk%3A%20%0AFormat%20%28Social%20%2F%20Live%29%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank"><svg aria-hidden="true"><use href="#i-rec"/></svg>Bikin Show untuk Brand →</a>
     </p>
-    <p class="alt rv">WhatsApp <a href="https://wa.me/6282136123205" rel="noopener" target="_blank">+62 821-3612-3205</a> · Instagram <a href="https://www.instagram.com/onefifty.band" rel="me noopener" target="_blank">@onefifty.band</a></p>
+    <p class="alt rv">Sudah punya event? <a href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20mengajak%20Onefifty%20ke%20event%20saya.%0A%0AEvent%3A%20%0ATanggal%3A%20%0AVenue%3A%20%0ABrand%3A%20%0ATujuan%3A%20" data-open="own" rel="noopener" target="_blank">Bawa Onefifty ke sana →</a></p>
+    <p class="alt rv" style="margin-top:8px">WhatsApp <a href="https://wa.me/6282136123205" rel="noopener" target="_blank">+62 821-3612-3205</a> · Instagram <a href="https://www.instagram.com/onefifty.band" rel="me noopener" target="_blank">@onefifty.band</a></p>
   </div>
 </section>
 </main>
 
 <footer class="foot">
   <div class="wrap foot-in">
-    <p><b>ONEFIFTY</b><br>Bikin momennya. Hadir di dalamnya. · Yogyakarta</p>
-    <p><a href="#show-eksklusif">Show eksklusif</a> · <a href="#event">Event</a> · <a href="#cara-kerja">Cara kerja</a> · <a href="#rekam-jejak">Rekam jejak</a> · <a href="#tentang">Tentang</a> · <a href="https://www.instagram.com/onefifty.band" rel="me noopener" target="_blank">Instagram</a></p>
+    <p><b>ONEFIFTY</b><br>Brand punya cerita. Kami bikin show-nya. · Yogyakarta</p>
+    <p><a href="#show">Show</a> · <a href="#cara-kerja">Cara kerja</a> · <a href="#event">Live &amp; event</a> · <a href="#rekam-jejak">Rekam jejak</a> · <a href="#tentang">Tentang</a> · <a href="https://www.instagram.com/onefifty.band" rel="me noopener" target="_blank">Instagram</a></p>
   </div>
 </footer>
 
 <div class="dock">
-  <a class="d-main" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank">Bikin Show Eksklusif →</a>
+  <a class="d-main" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20untuk%20brand%20saya.%0A%0ABrand%3A%20%0AProduk%3A%20%0AFormat%20%28Social%20%2F%20Live%29%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank">Bikin Show untuk Brand →</a>
   <a class="d-wa" href="https://wa.me/6282136123205" rel="noopener" target="_blank" aria-label="WhatsApp Onefifty"><svg aria-hidden="true"><use href="#i-wa"/></svg></a>
 </div>
 
@@ -1211,14 +1228,23 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
       <!-- mode: event dari daftar -->
       <div id="plan-event" class="d-head"></div>
 
-      <!-- mode: show eksklusif -->
+      <!-- mode: bikin show (social / live) -->
       <div id="plan-show" class="d-sec" hidden>
         <div class="d-head">
-          <span class="step-n">Format utama · Show eksklusif</span>
-          <h2 id="plan-show-title">Bikin show eksklusif</h2>
-          <p class="desc">Show khusus untuk brand Anda, direkam untuk TikTok dan Reels. Ceritakan gambarannya, kami susun format dan rencana kontennya.</p>
+          <span class="step-n">Bikin show · Social atau Live</span>
+          <h2 id="plan-show-title">Bikin show untuk brand</h2>
+          <p class="desc">Ceritakan brand dan produk Anda. Kami susun konsep show-nya: untuk konten, untuk panggung, atau keduanya.</p>
         </div>
-        <fieldset class="radios"><legend>Lokasi</legend>
+        <fieldset class="radios"><legend>Bentuk show</legend>
+          <div class="pills">
+            <label><input type="radio" name="rs_fmt" value="Reels show (TikTok/Reels)" checked><span>Reels show</span></label>
+            <label><input type="radio" name="rs_fmt" value="Stage show (di event)"><span>Stage show</span></label>
+            <label><input type="radio" name="rs_fmt" value="Social dulu, lalu Live"><span>Social → Live</span></label>
+            <label><input type="radio" name="rs_fmt" value="Belum tahu, minta saran"><span>Belum tahu</span></label>
+          </div>
+        </fieldset>
+        <label class="field"><span>Produk yang ingin masuk ke show</span><input name="rs_prod" placeholder="mis. kopi susu gula aren, aplikasi, sepatu" autocomplete="off"></label>
+        <fieldset class="radios"><legend>Lokasi show</legend>
           <div class="pills">
             <label><input type="radio" name="rs_loc" value="Outlet / toko brand"><span>Outlet / toko brand</span></label>
             <label><input type="radio" name="rs_loc" value="Kafe / ruang komunitas"><span>Kafe / ruang komunitas</span></label>
@@ -1257,7 +1283,7 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
       </div>
 
       <div class="d-sec">
-        <h3><small id="sec-act-n">Langkah 1</small>Bagaimana brand Anda ingin hadir?</h3>
+        <h3><small id="sec-act-n">Langkah 1</small><span id="sec-act-t">Bagaimana brand Anda ingin hadir?</span></h3>
         <div class="pick">
           <fieldset><legend><svg aria-hidden="true"><use href="#i-music"/></svg><b>PLAY</b><span>Onefifty tampil</span></legend>
             <label class="ck"><input type="checkbox" name="act" value="Live performance Onefifty" checked><span>Live performance<small>Bagian dari acara</small></span></label>
@@ -1811,7 +1837,7 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
       +(e.status==='unverified'?'<div><dt>Status</dt><dd>Baru dari satu sumber. Kami konfirmasi ulang ke penyelenggara.</dd></div>':'')
       +'</dl></div>';
   };
-  // mode: event dari daftar (cur = event) | 'own' (punya event) | 'show' (show eksklusif)
+  // mode: event dari daftar (cur = event) | 'own' (punya event) | 'show' (bikin show)
   var mode='own';
   var setMode=function(ev,m){
     cur=ev; mode=ev?'event':(m||'own');
@@ -1821,6 +1847,7 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
     $('sec-act-n').textContent=ev?'Langkah 1':'Langkah 2';
     $('sec-plan-n').textContent=ev?'Langkah 2':'Langkah 3';
     $('plan-cta').textContent={event:'Minta Onefifty Rancang Formatnya →',own:'Diskusikan dengan Onefifty →',show:'Rancang Show Saya →'}[mode];
+    $('sec-act-t').textContent=mode==='show'?'Apa yang ada di dalam show?':'Bagaimana brand Anda ingin hadir?';
     if(mode==='show'){ ['Live performance Onefifty','Social content'].forEach(function(v){ var i=form.querySelector('input[name="act"][value="'+v+'"]'); if(i) i.checked=true; }); }
     if(ev) renderDetail(ev);
     updateMsg();
@@ -1832,8 +1859,9 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
       lines.push('Saya tertarik mengajak Onefifty ke *'+cur.name+'* pada *'+fmtRange(cur,MONL)+'* ('+cur.venue+').','');
     }else if(mode==='show'){
       var plat=[].slice.call(form.querySelectorAll('input[name="rs_plat"]:checked')).map(function(i){return i.value;});
-      lines.push('Saya ingin bikin *show eksklusif* bareng Onefifty untuk konten '+(plat.join(' & ')||'TikTok & Reels')+'.','');
-      [['Lokasi','rs_loc'],['Target tayang','rs_when'],['Audience yang diundang','rs_aud']].forEach(function(f){ if(val(f[1])) lines.push(f[0]+': '+val(f[1])); });
+      lines.push('Saya ingin bikin *show* bareng Onefifty untuk brand saya.','');
+      [['Bentuk show','rs_fmt'],['Produk','rs_prod'],['Lokasi','rs_loc'],['Target tayang','rs_when'],['Audience yang diundang','rs_aud']].forEach(function(f){ if(val(f[1])) lines.push(f[0]+': '+val(f[1])); });
+      if(plat.length&&!/^Stage show/.test(val('rs_fmt'))) lines.push('Platform: '+plat.join(', '));
       if(lines[lines.length-1]!=='') lines.push('');
     }else{
       lines.push('Saya punya event dan ingin mengajak Onefifty.','');
@@ -1844,7 +1872,7 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
     lines.push('Tujuan: '+(val('goal')||'-'));
     lines.push('Aktivasi: '+(acts.join(' + ')||'-'));
     lines.push('Budget: '+(val('budget')||'-'));
-    lines.push('',cur?'Bisa dibantu rekomendasikan formatnya?':mode==='show'?'Bisa dibantu susun format show dan rencana kontennya?':'Bisa didiskusikan formatnya?');
+    lines.push('',cur?'Bisa dibantu rekomendasikan formatnya?':mode==='show'?'Bisa dibantu susun konsep show-nya?':'Bisa didiskusikan formatnya?');
     if(cur) lines.push('','Info event: '+cur.source_url);
     return lines.join('\n');
   };
@@ -1860,7 +1888,7 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
     dlg.scrollTop=0;
     if(jump){ var t=form.querySelector('.pick'); setTimeout(function(){ t.closest('.d-sec').scrollIntoView({block:'start'}); },30); }
   };
-  dlg.addEventListener('close',function(){ if(/^#event\//.test(location.hash)) history.replaceState(null,'','#event'); else if(location.hash==='#bikin-show') history.replaceState(null,'','#show-eksklusif'); });
+  dlg.addEventListener('close',function(){ if(/^#event\//.test(location.hash)) history.replaceState(null,'','#event'); else if(location.hash==='#bikin-show') history.replaceState(null,'','#show'); });
 
   /* ---------- finder (jalur C) ---------- */
   var fdlg=$('dlg-finder'), fform=$('finder-form');
@@ -1923,7 +1951,7 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
    "@type": "WebPage",
    "@id": "https://omayib.github.io/onefifty/#webpage",
    "url": "https://omayib.github.io/onefifty/",
-   "name": "Onefifty: Temukan Event di Jogja, Hadir di Momennya",
+   "name": "Onefifty: Brand punya cerita, kami bikin show-nya",
    "about": {
     "@id": "https://omayib.github.io/onefifty/#band"
    },
@@ -1931,7 +1959,7 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
     "@id": "https://omayib.github.io/onefifty/#website"
    },
    "inLanguage": "id",
-   "description": "Cari event di Jogja yang relevan dengan audience brand Anda, pilih bentuk kehadirannya, lalu ajak Onefifty: live music, sampling, voting, giveaway, dan konten. Mulai Rp3 juta/event.",
+   "description": "Onefifty bikin live music show untuk brand: direkam jadi konten TikTok dan Reels, atau dibawa ke panggung event di Jogja.",
    "primaryImageOfPage": {
     "@type": "ImageObject",
     "url": "https://omayib.github.io/onefifty/assets/images/og-onefifty.jpg",
@@ -1951,7 +1979,7 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
    ],
    "url": "https://omayib.github.io/onefifty/",
    "description": "Onefifty adalah band pop-rock dari Yogyakarta yang dibentuk pada 2022 oleh dosen dan profesional di lingkungan Universitas AMIKOM Yogyakarta. Onefifty sudah 12 kali naik panggung, dari kampus sampai mall, dan membuka kolaborasi agar brand bisa hadir di momen live music yang dinikmati bersama.",
-   "slogan": "Bikin momennya. Hadir di dalamnya.",
+   "slogan": "Brand punya cerita. Kami bikin show-nya.",
    "foundingDate": "2022",
    "foundingLocation": {
     "@type": "Place",
@@ -2959,9 +2987,9 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
   {
    "@type": "Service",
    "@id": "https://omayib.github.io/onefifty/#harga",
-   "name": "Live music untuk brand",
-   "serviceType": "Live music, brand activation",
-   "description": "Brand hadir di acara melalui live music, interaksi penonton, dan momen yang bisa berlanjut menjadi konten.",
+   "name": "Show untuk brand",
+   "serviceType": "Branded live music show, social content, brand activation",
+   "description": "Live music show yang dirancang untuk brand. Reels show direkam vertikal untuk TikTok, Reels, dan Shorts; Stage show membawa konsep yang sama ke event dengan audience langsung.",
    "provider": {
     "@id": "https://omayib.github.io/onefifty/#band"
    },
@@ -2987,92 +3015,100 @@ dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-b
     "availability": "https://schema.org/LimitedAvailability"
    }
   },
- {
-  "@type": "FAQPage",
-  "@id": "https://omayib.github.io/onefifty/#faq",
-  "mainEntity": [
-   {
-    "@type": "Question",
-    "name": "Apa itu show eksklusif?",
-    "acceptedAnswer": {
-     "@type": "Answer",
-     "text": "Show Onefifty yang digelar khusus untuk satu brand, di lokasi dan waktu yang disepakati, lalu direkam untuk jadi konten TikTok dan Reels. Audience-nya bisa pelanggan, member, atau komunitas brand."
+  {
+   "@type": "FAQPage",
+   "@id": "https://omayib.github.io/onefifty/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Apa itu Reels show?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Show Onefifty yang dibuat khusus untuk brand Anda dan direkam dalam format vertikal untuk TikTok, Reels, dan Shorts. Produk jadi bagian dari scene, bukan sekadar disebut. Kontennya bisa diposting dan di-boost dari akun brand."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Apa bedanya Reels show dan Stage show?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Reels show: bikin, rekam, publish, tanpa perlu event atau venue besar. Stage show: konsep yang sama dibawa ke event, kampus, festival, launching, atau community gathering, dengan audience langsung dan interaksi."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Harus pilih Social atau Live dari awal?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Tidak. Paling mudah mulai dari Reels show. Kalau kontennya berhasil, show yang sama bisa dikembangkan jadi Stage show."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Apa bedanya dengan KOL?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "KOL membuat konten tentang brand. Onefifty membuat show tentang brand. Show-nya bisa hidup di feed, bisa juga hidup di panggung."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Berapa biayanya?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Stage show mulai Rp3 juta/event. Reels show menyesuaikan konsep, produksi, jumlah video, dan hak pakai konten."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Saya sudah punya event sendiri. Bisa?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Bisa. Pilih Bawa ke Event Saya, isi detail event, bentuk show, tujuan, dan budget. Brief Anda langsung terkirim ke WhatsApp kami."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Apakah event di daftar ini milik Onefifty?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Bukan. Daftar event dikurasi dari sumber publik. Onefifty membantu brand menjajaki kehadiran di event tersebut, termasuk berkomunikasi dengan penyelenggara. Kehadiran tetap bergantung pada persetujuan penyelenggara."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Dari mana data audience-nya?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Segmen audience dan kategori “cocok untuk” adalah penilaian kami berdasarkan jenis event. Angka jumlah pengunjung hanya kami tampilkan bila tersedia dari sumber. Kalau tidak diketahui, kami tulis belum tersedia."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Apa yang bisa diukur?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Untuk Reels show: performa konten di akun brand, seperti views, share, dan komentar. Untuk Stage show: partisipasi, vote, voucher yang ditukar, dan peserta giveaway. Indikatornya kita sepakati di awal."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Bisa booking Onefifty sebagai band saja?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Bisa. Full band atau akustik, dari 2 lagu sampai 3 sesi, dengan monitor sendiri. Kirim tanggal, tempat, dan gambaran acaranya."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Siapa Onefifty?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Band pop-rock Jogja yang mulai main bareng sejak 2022. Anggotanya dosen dan profesional dari lingkungan AMIKOM. Sudah lebih dari 12 kali naik panggung, dari kampus sampai mall."
+     }
     }
-   },
-   {
-    "@type": "Question",
-    "name": "Kenapa show eksklusif lebih terkontrol daripada ikut event?",
-    "acceptedAnswer": {
-     "@type": "Answer",
-     "text": "Di event orang lain, jadwal, panggung, dan aturan sponsor ditentukan penyelenggara. Di show eksklusif, lokasi, setlist, penempatan produk, dan pengambilan gambar ditentukan bersama, dan momen penting bisa diulang. Kontennya bisa di-boost dari akun brand."
-    }
-   },
-   {
-    "@type": "Question",
-    "name": "Apakah event di daftar ini milik Onefifty?",
-    "acceptedAnswer": {
-     "@type": "Answer",
-     "text": "Bukan. Daftar event dikurasi dari sumber publik. Onefifty membantu brand menjajaki kehadiran di event tersebut, termasuk berkomunikasi dengan penyelenggara. Kehadiran tetap bergantung pada persetujuan penyelenggara."
-    }
-   },
-   {
-    "@type": "Question",
-    "name": "Dari mana data audience-nya?",
-    "acceptedAnswer": {
-     "@type": "Answer",
-     "text": "Segmen audience dan kategori cocok untuk adalah penilaian kami berdasarkan jenis event. Angka jumlah pengunjung hanya ditampilkan bila tersedia dari sumber. Kalau tidak diketahui, kami tulis belum tersedia."
-    }
-   },
-   {
-    "@type": "Question",
-    "name": "Saya sudah punya event sendiri. Bisa?",
-    "acceptedAnswer": {
-     "@type": "Answer",
-     "text": "Bisa. Pilih Saya Sudah Punya Event, isi detail event, bentuk aktivasi, tujuan, dan budget. Brief langsung terkirim ke WhatsApp Onefifty."
-    }
-   },
-   {
-    "@type": "Question",
-    "name": "Berapa biayanya?",
-    "acceptedAnswer": {
-     "@type": "Answer",
-     "text": "Mulai Rp3 juta/event. Format dan harga menyesuaikan event, lineup, durasi, dan bentuk aktivasi."
-    }
-   },
-   {
-    "@type": "Question",
-    "name": "Apa bedanya dengan KOL?",
-    "acceptedAnswer": {
-     "@type": "Answer",
-     "text": "KOL membawa brand ke feed. Onefifty membawa brand ke momen. Brand masuk ke acara, dinikmati langsung oleh audience, lalu momennya bisa lanjut jadi konten."
-    }
-   },
-   {
-    "@type": "Question",
-    "name": "Apa yang bisa diukur?",
-    "acceptedAnswer": {
-     "@type": "Answer",
-     "text": "Partisipasi, jumlah vote, voucher yang ditukar, peserta giveaway, dan konten yang dibagikan. Indikatornya disepakati di awal sesuai tujuan brand."
-    }
-   },
-   {
-    "@type": "Question",
-    "name": "Bisa booking Onefifty sebagai band saja?",
-    "acceptedAnswer": {
-     "@type": "Answer",
-     "text": "Bisa. Full band atau akustik, dari 2 lagu sampai 3 sesi, dengan monitor sendiri."
-    }
-   },
-   {
-    "@type": "Question",
-    "name": "Siapa Onefifty?",
-    "acceptedAnswer": {
-     "@type": "Answer",
-     "text": "Band pop-rock Jogja yang mulai main bareng sejak 2022. Anggotanya dosen dan profesional dari lingkungan Universitas AMIKOM Yogyakarta. Sudah lebih dari 12 kali naik panggung, dari kampus sampai mall."
-    }
-   }
-  ]
- }
+   ]
+  }
  ]
 }
 </script>
