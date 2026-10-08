@@ -1,6 +1,20 @@
 # Onefifty
 
-> Onefifty is a pop-rock band from Yogyakarta, Indonesia, formed in 2022 by lecturers and professionals at Universitas AMIKOM Yogyakarta. The band has played 12 stages, from campus events, orientations and graduations to mall stages, and invites brands to become part of live music moments people enjoy together. Positioning: "Local Influence Through Live Experience". Headline: "Jangan cuma tampil di feed. Hadir di momennya." (Don't just appear in the feed. Be present in the moment.)
+> Onefifty is a brand-activation event hub and pop-rock band from Yogyakarta, Indonesia, formed in 2022 by lecturers and professionals at Universitas AMIKOM Yogyakarta. The primary offer is an exclusive show ("show eksklusif"): Onefifty stages a show just for one brand, designed and filmed for TikTok and Instagram Reels, which is more controlled than joining someone else's event and can be boosted from the brand's own account. As a secondary option, brands can discover public events in Jogja that match their audience and invite Onefifty there. Headline: "Bikin momennya. Hadir di dalamnya." (Create the moment. Be part of it.)
+
+## Exclusive show (primary offer)
+
+- An exclusive Onefifty show for one brand at an agreed location (outlet, cafe, office, campus or community space) and time, with an invited audience such as customers, members or the brand's community.
+- Planned for vertical 9:16 content from the start; location, setlist, product placement and filming are decided together, and key moments can be retaken.
+- Content is posted from the brand's account or as a collaboration and can be boosted with the brand's own ad budget.
+- Format, duration, number of videos and content usage rights are agreed upfront; production is priced separately from the Rp3 million/event starting price for performances.
+
+## Event hub
+
+- Paths besides the exclusive show: (A) pick an upcoming Jogja event from the curated list; (B) "Saya sudah punya event": send a brief for your own event; (C) "Belum tahu event apa": choose target audience, goal and brand category, and the site shows the most relevant events by category and audience (not a promise of results).
+- Events are curated from public sources and are not owned by Onefifty. Audience segments and brand fit are Onefifty's own assessment; unknown data (attendance, organizer) is shown as "Belum tersedia" rather than estimated. Presence at an event still requires the organizer's approval; Onefifty helps approach them.
+- Activation options: Play (Onefifty performs), Experience (product sampling, vouchers, giveaways), Interact (voting, a brand segment on stage), Share (moments designed to continue as social content).
+- The activation builder sends a pre-filled WhatsApp brief: event, brand, goal, chosen activations and budget range.
 
 ## Brand collaboration
 
@@ -49,7 +63,7 @@ The lineup is not always the same; it is adjusted to each event.
 
 ## Booking and collaboration
 
-Brands and event organizers: share the date, venue and an overview of the event via WhatsApp (https://wa.me/6282136123205) or Instagram @onefifty.band (https://www.instagram.com/onefifty.band). Full band or acoustic, from 2 songs up to 3 sessions, with their own monitors.
+Use the event hub on the website, or share the date, venue and an overview of the event via WhatsApp (https://wa.me/6282136123205) or Instagram @onefifty.band (https://www.instagram.com/onefifty.band). Full band or acoustic, from 2 songs up to 3 sessions, with their own monitors.
 
 ## Links
 - Website: https://omayib.github.io/onefifty/

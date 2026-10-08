@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Onefifty · Local Influence Through Live Experience | Aktivasi Brand Jogja</title>
+<title>Onefifty · Show Eksklusif untuk Brand, Konten TikTok &amp; Reels | Jogja</title>
 
 <meta
   name="description"
-  content="Jangan cuma tampil di feed. Hadir di momennya. Onefifty membantu brand hadir di tengah komunitas melalui live music, interaksi, product experience, voting, voucher, giveaway, dan konten. Mulai Rp3 juta/event di Jogja."
+  content="Bikin show eksklusif bersama Onefifty untuk konten TikTok dan Reels yang terkontrol dan bisa di-boost dari akun brand. Atau temukan event di Jogja yang cocok untuk audience brand Anda."
 >
 
 <meta
   name="keywords"
-  content="Onefifty, local influence Jogja, live brand experience Jogja, brand activation Jogja, aktivasi brand Jogja, experiential marketing Jogja, live music brand activation, KOL lokal Jogja, komunitas Jogja, event activation Jogja"
+  content="show eksklusif brand, konten TikTok brand Jogja, konten Reels brand, live session brand, event Jogja, event Yogyakarta 2026, brand activation Jogja, aktivasi brand Jogja, sponsor event Jogja, experiential marketing Jogja, live music brand activation, Onefifty, komunitas Jogja"
 >
 
 <link rel="canonical" href="https://omayib.github.io/onefifty/">
@@ -31,12 +31,12 @@
 
 <meta
   property="og:title"
-  content="Jangan cuma tampil di feed. Hadir di momennya. | Onefifty"
+  content="Bikin momennya. Hadir di dalamnya. | Onefifty"
 >
 
 <meta
   property="og:description"
-  content="KOL membawa brand ke feed. Onefifty membawa brand ke momen. Live music dan brand experience untuk menjangkau komunitas di Jogja. Mulai Rp3 juta/event."
+  content="Show eksklusif Onefifty untuk konten TikTok dan Reels: terkontrol, dibuat untuk format vertikal, dan bisa di-boost dari akun brand. Atau temukan event di Jogja untuk brand Anda."
 >
 
 <meta
@@ -81,12 +81,12 @@
 
 <meta
   name="twitter:title"
-  content="Jangan cuma tampil di feed. Hadir di momennya. | Onefifty"
+  content="Bikin momennya. Hadir di dalamnya. | Onefifty"
 >
 
 <meta
   name="twitter:description"
-  content="Onefifty membantu brand hadir di tengah komunitas melalui live music, interaksi, dan live brand experience di Jogja. Mulai Rp3 juta/event."
+  content="Show eksklusif bersama Onefifty untuk konten TikTok dan Reels brand Anda. Atau temukan event di Jogja yang cocok."
 >
 
 <meta
@@ -147,10 +147,12 @@ html{scroll-behavior:smooth;scroll-padding-top:68px;-webkit-text-size-adjust:100
 body{margin:0;overflow-x:clip;background:var(--stage);color:var(--light);font-family:var(--sans);font-size:17px;line-height:1.6}
 img{max-width:100%;display:block}
 a{color:inherit}
-a:focus-visible,summary:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--amp);outline-offset:3px;border-radius:4px}
-h1,h2,h3,p{margin:0}
+a:focus-visible,summary:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--amp);outline-offset:3px;border-radius:4px}
+h1,h2,h3,h4,p{margin:0}
 h1,h2,h3{text-wrap:balance}
+button{font:inherit;color:inherit;cursor:pointer}
 .wrap{max-width:1160px;margin-inline:auto;padding-inline:20px}
+[hidden]{display:none!important}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .skip{position:absolute;left:-999px;top:8px;background:var(--amp);color:var(--amp-ink);padding:8px 12px;z-index:50}
 .skip:focus{left:12px}
@@ -171,13 +173,16 @@ section{background:var(--bg);color:var(--fg);padding-block:88px}
 .ic{width:28px;height:28px;flex:none}
 
 /* buttons */
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:12px 22px;border-radius:999px;font-weight:600;font-size:17px;text-decoration:none;line-height:1.2;transition:transform .15s ease,filter .15s ease}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:12px 22px;border-radius:999px;border:0;font-weight:600;font-size:17px;text-decoration:none;line-height:1.2;transition:transform .15s ease,filter .15s ease}
 .btn:hover{filter:brightness(1.08);transform:translateY(-1px)}
 .btn-amp{background:var(--amp);color:var(--amp-ink)}
-.btn-ghost{border:1.5px solid currentColor;color:var(--fg)}
-.btn-dark{background:var(--dark);color:var(--paper)}
+.btn-ghost{background:transparent;border:1.5px solid currentColor;color:var(--fg)}
+.btn-wa{background:var(--wa);color:#0B141A}
+.btn-sm{min-height:42px;padding:9px 16px;font-size:15px}
 .btn svg{width:20px;height:20px;flex:none}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.lnk{font-weight:600;color:var(--acc);text-decoration:none;background:none;border:0;padding:0}
+.lnk:hover{text-decoration:underline}
 
 /* header */
 .top{position:sticky;top:0;z-index:30;background:rgba(13,11,17,.86);backdrop-filter:saturate(140%) blur(10px);-webkit-backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid var(--light-rule)}
@@ -185,141 +190,140 @@ section{background:var(--bg);color:var(--fg);padding-block:88px}
 .brand{font-family:var(--display);font-weight:900;font-size:26px;letter-spacing:.06em;text-decoration:none;color:var(--light)}
 .brand span{color:var(--amp)}
 .nav{display:flex;gap:22px;align-items:center}
-.nav a{color:var(--light-mut);text-decoration:none;font-size:14.5px;font-weight:500}
-.nav a:hover{color:var(--light)}
-.nav .btn{min-height:40px;padding:8px 16px;font-size:14.5px;color:var(--amp-ink)}
-.nav .btn:hover{color:var(--amp-ink)}
-@media (max-width:900px){.nav a:not(.btn){display:none}}
+.nav a:not(.btn){color:var(--light-mut);text-decoration:none;font-size:13.5px;font-weight:500;font-family:var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.nav a:not(.btn):hover{color:var(--light)}
+.nav .btn{min-height:40px;padding:8px 16px;font-size:14.5px}
+.nav .m-only{display:none}
+@media (max-width:900px){.nav a:not(.btn){display:none}.nav .d-only{display:none}.nav .m-only{display:inline-flex}}
 
 /* hero */
 .hero{position:relative;padding:0;min-height:min(92svh,860px);display:grid;align-items:end;overflow:hidden;isolation:isolate}
 .hero-bg{position:absolute;inset:0;z-index:-2}
 .hero-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 62%}
 .hero::before{content:"";position:absolute;inset:0;z-index:-1;background:
-  linear-gradient(180deg,rgba(13,11,17,.6) 0%,rgba(13,11,17,.35) 28%,rgba(13,11,17,.82) 58%,var(--stage) 100%),
+  linear-gradient(180deg,rgba(13,11,17,.6) 0%,rgba(13,11,17,.4) 28%,rgba(13,11,17,.85) 58%,var(--stage) 100%),
   radial-gradient(120% 70% at 85% 0%,rgba(240,160,75,.22),transparent 60%)}
-.hero-inner{padding-block:120px 40px;display:grid;gap:22px}
-.hero h1{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(54px,12.5vw,136px);line-height:.86;letter-spacing:-.005em;max-width:12ch}
+.hero-inner{padding-block:120px 48px;display:grid;gap:22px}
+.hero h1{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(56px,13vw,148px);line-height:.86;letter-spacing:-.005em;max-width:12ch}
 .hero h1 span{display:block}
 .hero h1 .hl{color:var(--amp)}
-.hero .sub{font-size:clamp(18px,2.2vw,22px);max-width:46ch;color:#E4DEEC}
+.hero .sub{font-size:clamp(18px,2.2vw,22px);max-width:48ch;color:#E4DEEC}
 .hero .eyebrow{justify-self:start;background:rgba(13,11,17,.72);color:var(--amp);padding:6px 12px;border-radius:999px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.hero-tags{font-family:var(--mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--light)}
+.hero-tags span{color:var(--amp);padding-inline:6px}
 .hero-cap{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--light-mut)}
 .hero .btn-ghost{color:var(--light)}
-@media (min-width:900px){.hero-inner{padding-block:160px 56px}}
+.hero .btn svg{width:22px;height:22px}
+@media (min-width:900px){.hero-inner{padding-block:160px 64px}}
 
-/* proof strip */
-.proof{padding-block:0 56px}
-.stats{list-style:none;margin:0;padding:24px 0 0;border-top:1px solid var(--light-rule);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
-.stats li{display:grid;gap:4px;align-content:start}
-.stats b{font-family:var(--display);font-weight:900;font-size:clamp(44px,6vw,68px);line-height:.9;font-variant-numeric:tabular-nums}
-.stats span{font-size:15px;color:var(--light-mut);max-width:22ch}
-.stats li.hot b{color:var(--amp)}
-@media (max-width:760px){.stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 20px}}
+/* show eksklusif (primary offer) */
+.rs{position:relative;overflow:hidden;isolation:isolate;border-block:1px solid var(--light-rule)}
+.rs::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(80% 60% at 100% 0%,rgba(240,160,75,.16),transparent 60%),radial-gradient(60% 60% at 0% 100%,rgba(91,42,134,.35),transparent 70%)}
+.rs-grid{display:grid;gap:44px}
+@media (min-width:900px){.rs-grid{grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:64px;align-items:center}}
+.rs .h2 em{display:block}
+.why-rs{list-style:none;margin:32px 0 0;padding:0;display:grid;gap:0}
+@media (min-width:700px){.why-rs{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px}}
+.why-rs li{padding:16px 0;border-top:1px solid var(--rule);display:grid;grid-template-columns:34px minmax(0,1fr);gap:4px 12px;align-content:start}
+.why-rs svg{width:24px;height:24px;color:var(--amp);grid-row:1/3;margin-top:2px}
+.why-rs b{font-weight:600;font-size:17px}
+.why-rs span{font-size:15px;color:var(--mut)}
+.rs .cta-row{margin-top:32px}
+.rs-note{margin-top:16px;font-size:14px;color:var(--mut);max-width:64ch}
+.phone{position:relative;justify-self:center;width:min(300px,78vw);aspect-ratio:9/16;border-radius:34px;padding:10px;background:#000;border:1px solid #3a3444;box-shadow:0 40px 80px -30px rgba(0,0,0,.9),0 0 0 6px rgba(240,160,75,.08);transform:rotate(2.5deg)}
+.phone img{width:100%;height:100%;object-fit:cover;object-position:40% 50%;border-radius:26px}
+.phone::after{content:"";position:absolute;inset:10px;border-radius:26px;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,transparent 22%,transparent 55%,rgba(0,0,0,.85) 100%)}
+.ph-top,.ph-cap,.ph-side{position:absolute;z-index:1;color:#fff}
+.ph-top{top:26px;left:26px;right:26px;display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-size:11px;letter-spacing:.1em}
+.ph-top .rec{display:inline-flex;align-items:center;gap:6px;background:rgba(0,0,0,.55);padding:3px 8px;border-radius:999px}
+.ph-top .rec i{width:8px;height:8px;border-radius:50%;background:#ff3b30;animation:blink 1.2s steps(2,start) infinite}
+@keyframes blink{to{visibility:hidden}}
+@media (prefers-reduced-motion: reduce){.ph-top .rec i{animation:none}}
+.ph-cap{left:26px;right:64px;bottom:30px;display:grid;gap:4px;font-size:13px;line-height:1.35}
+.ph-cap b{font-size:14px}
+.ph-cap .boost{justify-self:start;margin-top:6px;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;background:var(--amp);color:var(--amp-ink);padding:3px 8px;border-radius:4px}
+.ph-side{right:22px;bottom:34px;display:grid;gap:16px;justify-items:center;font-family:var(--mono);font-size:10px}
+.ph-side svg{width:24px;height:24px}
+.path .tag-hot{justify-self:start;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;background:var(--amp);color:var(--amp-ink);padding:3px 8px;border-radius:4px}
 
-/* kinetic marquee */
-.marquee{background:var(--amp);color:var(--amp-ink);overflow:hidden;padding-block:14px;border-block:2px solid var(--stage)}
-.marquee-track{display:flex;width:max-content;animation:slide 32s linear infinite}
-.marquee ul{list-style:none;margin:0;padding:0;display:flex;flex:none}
-.marquee li{font-family:var(--display);font-weight:900;font-size:clamp(28px,4vw,42px);line-height:1;text-transform:uppercase;padding-inline:22px;display:flex;align-items:center;gap:44px;white-space:nowrap}
-.marquee li::after{content:"✦";font-size:.6em}
-@keyframes slide{to{transform:translateX(-50%)}}
-@media (prefers-reduced-motion: reduce){.marquee-track{animation:none;flex-wrap:wrap;width:auto}.marquee-track ul+ul{display:none}}
+/* event discovery */
+.ev-head{display:grid;gap:18px}
+@media (min-width:900px){.ev-head{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);align-items:end;gap:48px}}
+.ev-side{display:grid;gap:10px;justify-items:start}
+.ev-side p{font-size:15px;color:var(--mut)}
+.chips{list-style:none;margin:36px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.chip-btn{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:7px 15px;border-radius:999px;border:1.5px solid var(--rule);background:transparent;color:var(--fg);font-size:15px;font-weight:500}
+.chip-btn small{font-family:var(--mono);font-size:11.5px;color:var(--mut)}
+.chip-btn:hover{border-color:var(--mut)}
+.chip-btn[aria-pressed="true"]{background:var(--amp);border-color:var(--amp);color:var(--amp-ink)}
+.chip-btn[aria-pressed="true"] small{color:var(--amp-ink);opacity:.7}
+.finder-bar{margin-top:20px;padding:14px 18px;border-radius:12px;border:1.5px dashed var(--amp);display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;justify-content:space-between}
+.finder-bar p{font-size:15px}
+.finder-bar p b{color:var(--amp)}
+.finder-bar[hidden]{display:none}
+.events{list-style:none;margin:24px 0 0;padding:0;display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+@media (max-width:420px){.events{grid-template-columns:minmax(0,1fr)}}
+.ev-card{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:20px 20px 18px;display:grid;gap:10px;align-content:start;position:relative;transition:border-color .15s}
+.ev-card:hover{border-color:#4a4256}
+.ev-card .when{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ev-card time{font-family:var(--display);font-weight:900;font-size:26px;line-height:1;color:var(--amp);text-transform:uppercase;letter-spacing:.02em}
+.ev-card .soon{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+.ev-card .soon.now{color:var(--wa)}
+.ev-card h3{font-size:21px;font-weight:600;line-height:1.25}
+.ev-card h3 a{text-decoration:none}
+.ev-card h3 a::after{content:"";position:absolute;inset:0;border-radius:14px}
+.ev-card h3 a:focus-visible{outline:0}
+.ev-card:has(h3 a:focus-visible){outline:3px solid var(--amp);outline-offset:3px}
+.venue{display:flex;gap:6px;align-items:flex-start;font-size:14.5px;color:var(--mut)}
+.venue svg{width:16px;height:16px;flex:none;margin-top:3px}
+.ev-card .desc{font-size:15px;color:var(--mut)}
+.fit{font-size:14.5px}
+.fit b{font-family:var(--mono);font-weight:500;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--amp);display:block;margin-bottom:2px}
+.ev-card .acts{margin-top:6px;padding-top:14px;border-top:1px solid var(--rule);display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;position:relative;z-index:1}
+.ev-card .acts .btn{min-height:40px;padding:8px 14px;font-size:14.5px}
+.match{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:999px;background:rgba(240,160,75,.16);color:var(--amp)}
+.ev-empty{grid-column:1/-1;padding:28px;border:1.5px dashed var(--rule);border-radius:14px;display:grid;gap:12px;justify-items:start}
+.ev-empty p{color:var(--mut)}
+.ev-note{margin-top:22px;font-size:14px;color:var(--mut);display:flex;gap:10px;align-items:flex-start;max-width:78ch}
+.ev-note svg{width:18px;height:18px;flex:none;margin-top:3px;color:var(--acc)}
+.tags{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:6px}
+.tags li{font-size:13px;font-weight:500;padding:2px 10px;border:1px solid var(--rule);border-radius:999px}
 
-/* reframe */
-.versus{margin-top:48px;display:grid;gap:18px}
-.flow{border:1px solid var(--rule);border-radius:14px;padding:22px;background:var(--card);display:grid;gap:14px}
-.flow-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
-.flow-head h3{font-family:var(--display);font-weight:900;font-size:28px;text-transform:uppercase;line-height:1}
-.flow-head p{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
-.flow ol{list-style:none;margin:6px 0 0;padding:0;display:flex}
-.flow li{flex:1 1 0;min-width:0;position:relative;display:grid;justify-items:center;text-align:center;gap:4px}
-.node{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;border:1.5px solid var(--rule);background:var(--card);position:relative;z-index:1;margin-bottom:6px}
-.node svg{width:26px;height:26px}
-.flow li b{font-weight:600;font-size:16px;line-height:1.2}
-.flow li small{font-size:13px;color:var(--mut);line-height:1.35}
-.flow li+li::before{content:"";position:absolute;top:27px;left:-50%;right:50%;height:2px;background:var(--rule)}
-.flow li+li::after{content:"";position:absolute;top:23px;left:0;width:8px;height:8px;border-top:2px solid var(--rule);border-right:2px solid var(--rule);transform:translateX(-50%) rotate(45deg);background:var(--card);z-index:1}
-.flow.kol .node{color:var(--mut)}
-.flow.kol li b{color:var(--mut)}
-.flow.kol li+li::before{background:repeating-linear-gradient(90deg,var(--rule) 0 6px,transparent 6px 11px)}
-.flow.us{border-color:var(--amp);box-shadow:0 0 0 1px var(--amp) inset,0 20px 60px -30px rgba(240,160,75,.6)}
-.flow.us h3{color:var(--amp)}
-.flow.us .node{border-color:var(--amp);color:var(--amp);background:#221a14}
-.flow.us li.key .node{background:var(--amp);color:var(--amp-ink);box-shadow:0 0 0 6px rgba(240,160,75,.16)}
-.flow.us li+li::before{background:var(--amp)}
-.flow.us li+li::after{border-color:var(--amp)}
-@media (max-width:640px){
-  .flow ol{flex-direction:column;gap:30px}
-  .flow li{grid-template-columns:56px minmax(0,1fr);grid-template-rows:auto auto;justify-items:start;text-align:left;column-gap:14px;row-gap:0;align-items:center}
-  .node{grid-row:1/3;margin:0}
-  .flow li b{align-self:end}
-  .flow li small{align-self:start}
-  .flow li+li::before{top:-30px;left:27px;right:auto;width:2px;height:30px}
-  .flow.kol li+li::before{background:repeating-linear-gradient(180deg,var(--rule) 0 4px,transparent 4px 8px)}
-  .flow li+li::after{top:-18px;left:28px;transform:translateX(-50%) rotate(135deg)}
-}
-.pull{margin-top:40px;font-family:var(--display);font-weight:700;font-size:clamp(21px,2.5vw,30px);line-height:1.15;text-transform:uppercase;letter-spacing:.01em;max-width:none;padding-left:20px;border-left:4px solid var(--amp);text-wrap:pretty}
-.pull span{color:var(--mut);display:block}
+/* three paths */
+.paths{list-style:none;margin:44px 0 0;padding:0;display:grid;gap:16px}
+@media (min-width:700px){.paths{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:1100px){.paths{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.path{background:var(--card);border:1px solid var(--rule);border-radius:16px;padding:24px;display:grid;gap:12px;align-content:start;grid-template-rows:auto auto 1fr auto}
+.path .no{font-family:var(--mono);font-size:12px;color:var(--mut);letter-spacing:.08em;text-transform:uppercase}
+.path h3{font-family:var(--display);font-weight:900;font-size:clamp(30px,3.4vw,38px);line-height:.95;text-transform:uppercase}
+.path p{color:var(--mut);font-size:16px}
+.path .flowline{font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:var(--acc)}
+.path .btn{justify-self:start;margin-top:6px}
+.path.hot{background:var(--dark);color:var(--paper);border-color:var(--dark);--mut:#C9C1B3;--acc:var(--amp)}
 
-/* rails: scroll on mobile, grid on desktop */
-.rail{list-style:none;margin:40px 0 0;padding:0;display:grid;gap:16px}
-@media (max-width:759px){
-  .rail{grid-auto-flow:column;grid-auto-columns:min(82%,340px);overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 20px 18px;margin-inline:-20px;scroll-padding-inline:20px;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
-  .rail>li{scroll-snap-align:start}
-  .rail-hint{display:block!important}
-}
-.rail-hint{display:none;margin-top:6px;font-family:var(--mono);font-size:12px;color:var(--mut);letter-spacing:.06em}
+/* how it works */
+.steps{list-style:none;margin:44px 0 0;padding:0;display:grid;gap:0;counter-reset:st}
+@media (min-width:860px){.steps{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.steps li{position:relative;padding:22px 22px 22px 0;border-top:2px solid var(--rule);display:grid;gap:8px;align-content:start}
+.steps li::before{counter-increment:st;content:"0" counter(st);font-family:var(--mono);font-size:12px;color:var(--mut)}
+.steps li.key{border-top-color:var(--amp)}
+.steps h3{font-family:var(--display);font-weight:900;font-size:44px;line-height:.9;text-transform:uppercase}
+.steps li.key h3{color:var(--amp)}
+.steps p{color:var(--mut);font-size:15.5px;max-width:30ch}
+@media (max-width:859px){.steps li{padding:18px 0}}
 
-/* join cards */
-@media (min-width:760px){.join{grid-template-columns:repeat(3,minmax(0,1fr))}}
-.join li{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:22px;display:grid;gap:8px;align-content:start;min-height:220px;position:relative}
-.join .no{font-family:var(--mono);font-size:12px;color:var(--mut)}
-.join .ic{color:var(--acc);width:34px;height:34px;margin-block:4px 6px}
-.join h3{font-family:var(--display);font-weight:900;font-size:36px;line-height:.95;text-transform:uppercase}
-.join p{color:var(--mut);font-size:16px}
-.join p strong{color:var(--fg);font-weight:600}
+/* activation options */
+.acts-grid{list-style:none;margin:44px 0 0;padding:0;display:grid;gap:16px}
+@media (min-width:760px){.acts-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:1100px){.acts-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.act{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:22px;display:grid;gap:8px;align-content:start}
+.act .ic{color:var(--acc);width:34px;height:34px;margin-bottom:6px}
+.act .k{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc)}
+.act h3{font-family:var(--display);font-weight:900;font-size:30px;line-height:.95;text-transform:uppercase}
+.act p{color:var(--mut);font-size:15.5px}
+.act ul{margin-top:6px}
 
-/* audience */
-.aud-grid{margin-top:44px;display:grid;gap:28px}
-@media (min-width:900px){.aud-grid{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);align-items:start;gap:48px}}
-.aud-feature{position:relative;margin:0;border-radius:14px;overflow:hidden;background:var(--stage-3)}
-.aud-feature img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;object-position:50% 88%}
-.aud-feature figcaption{position:absolute;left:0;right:0;bottom:0;padding:60px 20px 18px;background:linear-gradient(transparent,rgba(13,11,17,.92));display:grid;gap:2px}
-.aud-feature b{font-family:var(--display);font-weight:900;font-size:clamp(52px,8vw,84px);line-height:.9;color:var(--amp)}
-.aud-feature span{font-weight:600}
-.aud-feature small{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--light-mut)}
-.aud-list{list-style:none;margin:0;padding:0;display:grid}
-.aud-list li{display:grid;grid-template-columns:minmax(0,1fr);gap:2px;padding-block:14px;border-top:1px solid var(--rule)}
-.aud-list li:last-child{border-bottom:1px solid var(--rule)}
-.aud-list h3{font-family:var(--display);font-weight:700;font-size:28px;line-height:1.05;text-transform:uppercase}
-.aud-list p{font-size:14.5px;color:var(--mut)}
-.aud-list p b{font-family:var(--mono);font-weight:500;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--acc);margin-right:6px}
-.note{margin-top:28px;padding:18px 20px;border-radius:12px;background:var(--card);border:1px solid var(--rule);max-width:64ch}
-.note p+p{margin-top:4px;color:var(--mut)}
-
-/* industries */
-.ind{list-style:none;margin:40px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
-@media (max-width:560px){.ind{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.ind li{padding:12px 14px}.ind h3{font-size:15.5px}.ind p{font-size:13px}}
-.ind li{padding:16px 18px;border:1px solid var(--rule);border-radius:12px;background:var(--card);display:grid;gap:4px}
-.ind h3{font-size:18px;font-weight:600}
-.ind p{font-size:14px;color:var(--mut)}
-.disclaimer{margin-top:18px;font-size:14px;color:var(--mut);display:flex;gap:10px;align-items:flex-start;max-width:70ch}
-.disclaimer svg{width:18px;height:18px;flex:none;margin-top:3px;color:var(--acc)}
-
-/* use cases */
-@media (min-width:760px){.cases{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (min-width:1100px){.cases{grid-template-columns:repeat(4,minmax(0,1fr))}}
-.cases li{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:22px;display:grid;gap:14px;align-content:start}
-.cases h3{font-family:var(--display);font-weight:900;font-size:30px;line-height:.95;text-transform:uppercase}
-.cases ol{list-style:none;margin:0;padding:0;display:grid;gap:0}
-.cases ol li{background:none;border:0;border-radius:0;padding:0;display:grid;gap:0;font-weight:600;font-size:16px}
-.cases ol li span{display:block;padding:10px 14px;border-radius:8px;border:1.5px solid var(--rule);background:var(--bg)}
-.cases ol li:last-child span{background:var(--acc);color:#fff;border-color:var(--acc)}
-.cases ol li+li::before{content:"↓";display:block;text-align:center;color:var(--acc);line-height:1.6;font-weight:400}
-.cases .stamp{justify-self:start}
-
-/* case studies */
+/* past events (proof) */
 .study{display:grid;gap:24px;padding-block:40px;border-top:1px solid var(--rule)}
 .study:first-of-type{margin-top:40px}
 @media (min-width:900px){.study{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:48px;align-items:start}.study:nth-of-type(even) .study-photo{order:2}}
@@ -338,13 +342,13 @@ section{background:var(--bg);color:var(--fg);padding-block:88px}
 .study .idea{margin-top:4px;padding:16px 18px;border:1.5px dashed var(--acc);border-radius:10px;display:grid;gap:8px}
 .study .idea p{font-size:16px}
 @media (max-width:560px){.study dl>div{grid-template-columns:minmax(0,1fr);gap:2px}}
-.tags{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:6px}
-.tags li{font-size:13.5px;font-weight:500;padding:3px 11px;border:1px solid var(--rule);border-radius:999px}
+.study .tags li{font-size:13.5px;padding:3px 11px}
 
 .more-h{margin-top:56px;font-family:var(--display);font-weight:900;font-size:clamp(30px,4vw,44px);text-transform:uppercase;line-height:1}
 .more-sub{color:var(--mut);margin-top:8px}
 .shows{list-style:none;margin:28px 0 0;padding:0;display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(270px,1fr))}
-@media (max-width:759px){.shows{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(80%,320px);overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 20px 18px;margin-inline:-20px;scroll-padding-inline:20px}.shows>li{scroll-snap-align:start}}
+@media (max-width:759px){.shows{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(80%,320px);overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 20px 18px;margin-inline:-20px;scroll-padding-inline:20px}.shows>li{scroll-snap-align:start}.rail-hint{display:block!important}}
+.rail-hint{display:none;margin-top:6px;font-family:var(--mono);font-size:12px;color:var(--mut);letter-spacing:.06em}
 .show{background:var(--card);border:1px solid var(--rule);border-radius:12px;overflow:hidden;display:grid;align-content:start}
 .show img,.show .noimg{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;background:var(--paper-2)}
 .show .noimg{display:grid;place-items:center;font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--dark-mut)}
@@ -359,45 +363,15 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
 .songs{margin:8px 0 0;padding-left:20px;font-size:14px;color:var(--mut)}
 .nosl{font-family:var(--mono);font-size:12.5px;color:var(--mut);margin-top:6px}
 
-/* packages */
-.pk-grid{list-style:none;margin:44px 0 0;padding:0;display:grid;gap:16px}
-@media (min-width:900px){.pk-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
-.pk{background:var(--card);border:1px solid var(--rule);border-radius:16px;padding:26px 24px;display:grid;gap:14px;align-content:start}
-.pk.main{background:var(--paper);color:var(--dark);border-color:transparent;box-shadow:0 24px 60px -24px rgba(0,0,0,.55)}
-.pk-name{font-family:var(--mono);font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc)}
-.pk.main .pk-name{color:var(--violet)}
-.pk-price{font-family:var(--display);font-weight:900;font-size:clamp(40px,5vw,54px);line-height:.92;text-transform:uppercase}
-.pk-price small{display:block;font-family:var(--mono);font-weight:500;font-size:12.5px;letter-spacing:.08em;opacity:.75;margin-bottom:4px}
-.pk-price span{font-size:.45em;opacity:.7}
-.pk.main .pk-price{color:var(--violet)}
-.pk-for{font-weight:600;font-size:17px}
-.pk ul{list-style:none;margin:0;padding:14px 0 0;border-top:1px solid var(--rule);display:grid;gap:8px}
-.pk.main ul{border-color:var(--dark-rule)}
-.pk ul li{padding-left:24px;position:relative;font-size:15.5px}
-.pk ul li::before{content:"✓";position:absolute;left:0;font-weight:700;color:var(--acc)}
-.pk.main ul li::before{color:var(--violet)}
-.pk-label{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;opacity:.75}
-.pk-note{margin-top:22px;font-size:15px;color:var(--mut);max-width:70ch}
-.pk-cta{margin-top:28px}
-.next-show{margin-top:40px;padding:20px 22px;border-radius:14px;border:1.5px dashed var(--acc);display:grid;gap:6px;max-width:720px}
-.next-show h3{font-family:var(--display);font-weight:900;font-size:30px;line-height:1;text-transform:uppercase}
-.next-show p{color:var(--mut)}
-
-/* measurement */
-.dash{margin-top:44px;border:1px solid var(--rule);border-radius:16px;background:var(--card);overflow:hidden}
-.dash-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:14px 20px;border-bottom:1px solid var(--rule);font-family:var(--mono);font-size:12.5px;color:var(--mut);letter-spacing:.06em;text-transform:uppercase}
-.dash-top i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--amp);margin-right:8px;vertical-align:middle;box-shadow:0 0 0 4px rgba(240,160,75,.2)}
-.metrics{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr))}
-.metrics li{padding:22px 20px;border-right:1px solid var(--rule);display:grid;gap:8px;align-content:start}
-.metrics li:last-child{border-right:0}
-.metrics h3{font-family:var(--mono);font-size:12.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--acc)}
-.metrics .val{font-family:var(--display);font-weight:900;font-size:52px;line-height:.9;color:var(--light-rule);-webkit-text-stroke:1.5px var(--mut);color:transparent}
-.metrics .mbar{height:6px;border-radius:3px;background:repeating-linear-gradient(90deg,var(--rule) 0 8px,transparent 8px 12px)}
-.metrics p{font-size:15px;font-weight:600}
-.metrics small{font-size:13.5px;color:var(--mut);line-height:1.45}
-@media (max-width:900px){.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.metrics li{border-bottom:1px solid var(--rule)}.metrics li:nth-child(2n){border-right:0}.metrics li:last-child{grid-column:1/-1}}
-@media (max-width:340px){.metrics{grid-template-columns:minmax(0,1fr)}.metrics li{border-right:0}}
-@media (max-width:560px){.metrics li{padding:18px 16px}.metrics .val{font-size:40px}}
+/* why */
+.stats{list-style:none;margin:44px 0 0;padding:24px 0 0;border-top:1px solid var(--rule);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.stats li{display:grid;gap:4px;align-content:start}
+.stats b{font-family:var(--display);font-weight:900;font-size:clamp(48px,6.4vw,76px);line-height:.9;font-variant-numeric:tabular-nums}
+.stats span{font-size:15px;color:var(--mut);max-width:22ch}
+.stats li.hot b{color:var(--amp)}
+@media (max-width:760px){.stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 20px}}
+.pull{margin-top:48px;font-family:var(--display);font-weight:700;font-size:clamp(21px,2.5vw,30px);line-height:1.15;text-transform:uppercase;letter-spacing:.01em;padding-left:20px;border-left:4px solid var(--amp);text-wrap:pretty}
+.pull span{color:var(--mut);display:block}
 
 /* people */
 .people-head{display:grid;gap:24px}
@@ -416,6 +390,8 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
 .name-origin{margin-top:28px;display:grid;gap:6px;max-width:64ch}
 .name-origin h3{font-size:18px;font-weight:600}
 .name-origin p{color:var(--mut)}
+.formats{margin-top:20px;font-size:15.5px;color:var(--mut);max-width:70ch}
+.formats strong{color:var(--fg)}
 .lu-wrap{margin-top:28px;border-top:1px solid var(--rule);padding-top:18px}
 .lu-wrap>summary{font-size:13.5px;color:var(--violet)}
 .lu-wrap .sub{margin-top:12px;color:var(--mut)}
@@ -452,19 +428,15 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
 .tot-h{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
 @media (max-width:560px){.who{white-space:normal;font-size:13px;min-width:112px;max-width:112px;line-height:1.25;padding-right:8px!important}}
 
-/* music */
-.music-grid{display:grid;gap:32px;margin-top:40px}
-@media (min-width:900px){.music-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:center}}
-.music-photo{margin:0}
-.music-photo img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;border-radius:8px}
-.music-photo figcaption{margin-top:10px;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
-.formats{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.formats li{padding:16px;border:1px solid var(--rule);border-radius:12px;background:var(--card);display:grid;gap:2px}
-.formats b{font-family:var(--display);font-weight:900;font-size:26px;line-height:1;text-transform:uppercase}
-.formats span{font-size:14px;color:var(--mut)}
-.rep{margin-top:24px}
-.rep p{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin-bottom:10px}
-.rep .tags li{font-size:15px;padding:6px 14px;font-weight:600}
+/* pricing */
+.price{display:grid;gap:28px}
+@media (min-width:900px){.price{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:end;gap:56px}}
+.price-big{font-family:var(--display);font-weight:900;font-size:clamp(64px,11vw,140px);line-height:.85;text-transform:uppercase}
+.price-big small{display:block;font-family:var(--mono);font-weight:500;font-size:13px;letter-spacing:.1em;color:var(--mut);margin-bottom:10px}
+.price-big span{font-size:.36em;color:var(--mut)}
+.price ul{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:8px}
+.price ul li{padding-left:24px;position:relative;font-size:16px}
+.price ul li::before{content:"✓";position:absolute;left:0;font-weight:700;color:var(--acc)}
 
 /* faq */
 .faq{margin-top:36px;display:grid;gap:0;max-width:860px}
@@ -483,6 +455,7 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
 .final-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
 .final::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(91,42,134,.94),rgba(45,18,70,.96))}
 .final h2{font-family:var(--display);font-weight:900;font-size:clamp(46px,8.5vw,104px);line-height:.9;text-transform:uppercase;max-width:14ch}
+.final h2 span{display:block;color:var(--amp)}
 .final .lede{color:#E8DDF5}
 .final .cta-row{margin-top:32px}
 .final .btn-ghost{color:#fff}
@@ -496,29 +469,86 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
 /* sticky contact: pill on desktop, dock on mobile */
 .dock{position:fixed;z-index:40;right:max(18px,env(safe-area-inset-right));bottom:max(18px,env(safe-area-inset-bottom));display:flex;gap:8px}
 .dock a{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-weight:600;border-radius:999px;box-shadow:0 10px 30px rgba(0,0,0,.4)}
-.dock .d-wa{background:var(--wa);color:#0B141A;padding:12px 20px 12px 16px;font-size:16px}
-.dock .d-ig{background:var(--stage-3);color:var(--light);width:52px;justify-content:center;border:1px solid var(--light-rule)}
+.dock .d-main{background:var(--amp);color:var(--amp-ink);padding:12px 20px 12px 16px;font-size:16px}
+.dock .d-wa{background:var(--wa);color:#0B141A;width:52px;justify-content:center}
 .dock svg{width:22px;height:22px;flex:none}
 @media (max-width:759px){
   .dock{left:0;right:0;bottom:0;padding:10px 12px max(10px,env(safe-area-inset-bottom));background:rgba(13,11,17,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--light-rule)}
-  .dock .d-wa{flex:1;justify-content:center;box-shadow:none}
-  .dock .d-ig{box-shadow:none}
-  .foot{padding-bottom:110px}
+  .dock .d-main{flex:1;justify-content:center;box-shadow:none}
+  .dock .d-wa{box-shadow:none}
 }
-@media (min-width:760px){.foot{padding-bottom:110px}}
+.foot{padding-bottom:110px}
+
+/* dialogs: event detail + activation builder, finder */
+dialog{padding:0;border:0;background:var(--stage-2);color:var(--light);width:min(760px,calc(100vw - 32px));max-height:calc(100dvh - 32px);border-radius:18px;box-shadow:0 40px 120px -20px rgba(0,0,0,.8);overflow:auto;overscroll-behavior:contain}
+dialog::backdrop{background:rgba(8,6,12,.72);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
+@media (max-width:640px){dialog{width:100vw;max-width:100vw;height:100dvh;max-height:100dvh;border-radius:0;margin:0}}
+.dlg-bar{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 16px;background:rgba(23,20,29,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--light-rule)}
+.dlg-bar button{background:none;border:0;padding:8px 4px;font-weight:600;color:var(--light-mut);display:inline-flex;align-items:center;gap:6px}
+.dlg-bar button:hover{color:var(--light)}
+.dlg-bar .x{font-size:24px;line-height:1;padding:4px 8px}
+.dlg-body{padding:24px 24px 32px;display:grid;gap:32px}
+@media (max-width:560px){.dlg-body{padding:20px 16px 28px}}
+.d-head{display:grid;gap:10px}
+.d-head time{font-family:var(--mono);font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--amp)}
+.d-head h2{font-family:var(--display);font-weight:900;font-size:clamp(40px,7vw,64px);line-height:.9;text-transform:uppercase}
+.d-head .desc{color:var(--light-mut)}
+.d-sec{display:grid;gap:14px}
+.d-sec>h3{font-family:var(--display);font-weight:900;font-size:clamp(26px,4vw,34px);line-height:.95;text-transform:uppercase}
+.d-sec>h3 small{display:block;font-family:var(--mono);font-weight:500;font-size:12px;letter-spacing:.1em;color:var(--light-mut);margin-bottom:6px}
+.facts{margin:0;display:grid;border-top:1px solid var(--light-rule)}
+.facts>div{display:grid;grid-template-columns:170px minmax(0,1fr);gap:14px;padding-block:10px;border-bottom:1px solid var(--light-rule)}
+.facts dt{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--amp);padding-top:3px}
+.facts dd{margin:0;font-size:15.5px}
+.facts dd.na{color:var(--light-mut);font-style:italic}
+.facts a{color:var(--amp);word-break:break-word}
+@media (max-width:560px){.facts>div{grid-template-columns:minmax(0,1fr);gap:2px}}
+.reason{padding:14px 16px;border-radius:10px;background:var(--stage-3);font-size:15.5px}
+.reason b{font-family:var(--mono);font-weight:500;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--amp);display:block;margin-bottom:2px}
+.pick{display:grid;gap:10px}
+@media (min-width:600px){.pick{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.pick fieldset{margin:0;border:1px solid var(--light-rule);border-radius:12px;padding:14px 16px;display:grid;gap:6px;background:var(--stage)}
+.pick legend{padding:0;float:left;width:100%;margin-bottom:4px;display:flex;gap:10px;align-items:center}
+.pick legend svg{width:22px;height:22px;color:var(--amp)}
+.pick legend b{font-family:var(--mono);font-weight:500;font-size:12px;letter-spacing:.12em;color:var(--amp)}
+.pick legend span{font-weight:600;font-size:15px}
+.pick fieldset:has(input:checked){border-color:var(--amp)}
+.ck{display:flex;gap:10px;align-items:flex-start;font-size:15px;cursor:pointer;padding:4px 0}
+.ck input{width:18px;height:18px;margin:2px 0 0;accent-color:var(--amp);flex:none}
+.ck small{display:block;color:var(--light-mut);font-size:13px}
+.field{display:grid;gap:6px}
+.field>span,.radios legend{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--light-mut)}
+.field input,.field textarea{width:100%;min-height:46px;padding:10px 14px;border-radius:10px;border:1.5px solid var(--light-rule);background:var(--stage);color:var(--light);font:inherit;font-size:16px}
+.field input:focus,.field textarea:focus{border-color:var(--amp);outline:0}
+.fields{display:grid;gap:14px}
+@media (min-width:600px){.fields.two{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.radios{margin:0;padding:0;border:0;display:grid;gap:8px}
+.radios legend{padding:0;margin-bottom:8px}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pills label{position:relative}
+.pills input{position:absolute;opacity:0;inset:0;cursor:pointer}
+.pills span{display:inline-flex;align-items:center;min-height:40px;padding:7px 15px;border-radius:999px;border:1.5px solid var(--light-rule);font-size:15px;font-weight:500}
+.pills input:checked+span{background:var(--amp);border-color:var(--amp);color:var(--amp-ink)}
+.pills input:focus-visible+span{outline:3px solid var(--amp);outline-offset:2px}
+.preview summary{color:var(--light-mut)}
+.preview pre{margin:10px 0 0;padding:14px 16px;border-radius:10px;background:var(--stage);border:1px solid var(--light-rule);white-space:pre-wrap;font-family:var(--mono);font-size:13px;line-height:1.55;color:var(--light)}
+.send{display:grid;gap:10px;justify-items:start;padding-top:8px;border-top:1px solid var(--light-rule)}
+.send p{font-size:14px;color:var(--light-mut)}
+.step-n{font-family:var(--mono);font-size:12px;color:var(--light-mut);letter-spacing:.1em}
 
 /* reveal (only when JS is on and motion is OK) */
 @media (prefers-reduced-motion: no-preference){
   .js .rv{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
   .js .rv.in{opacity:1;transform:none}
 }
-.js .rail .rv,.js .shows .rv{opacity:1;transform:none}
+.js .shows .rv{opacity:1;transform:none}
 @media (max-width:560px){body{font-size:16px}section{padding-block:68px}}
 </style>
 <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
   <defs>
     <symbol id="i-try" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><path d="M6 2v2M10 2v2M14 2v2"/></symbol>
     <symbol id="i-play" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 11h4M8 9v4M15 12h.01M18 10h.01"/><path d="M17.32 5H6.68a4 4 0 0 0-3.98 3.59C2.6 9.42 2 14.46 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.41-1.41A2 2 0 0 1 9.83 16h4.34a2 2 0 0 1 1.41.59L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.55-.6-6.58-.69-7.26A4 4 0 0 0 17.32 5z"/></symbol>
@@ -535,6 +565,14 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
     <symbol id="i-info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
     <symbol id="i-wa" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></symbol>
     <symbol id="i-ig" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+    <symbol id="i-rec" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5"/><circle cx="12" cy="11" r="3"/><path d="M11 18h2"/></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></symbol>
+    <symbol id="i-boost" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m22 7-8.5 8.5-5-5L2 17"/><path d="M16 7h6v6"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-2.12 6.36-6.36 2.12 2.12-6.36z"/></symbol>
   </defs>
 </svg>
 
@@ -543,180 +581,179 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
   <div class="wrap bar">
     <a class="brand" href="#top" aria-label="Onefifty, ke atas halaman">ONEFIFTY<span>.</span></a>
     <nav class="nav" aria-label="Bagian halaman">
-      <a href="#cara-ikut">Cara ikut</a>
-      <a href="#audience">Audience</a>
-      <a href="#studi-kasus">Pengalaman</a>
-      <a href="#paket">Harga</a>
-      <a href="#personel">Tentang kami</a>
-      <a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20mau%20bikin%20ide%20aktivasi%20untuk%20brand%20saya.%0A%0ABrand%3A%20%0AEvent%3A%20%0AAudience%20yang%20ingin%20dijangkau%3A%20" rel="noopener" target="_blank">Ngobrol</a>
+      <a href="#show-eksklusif">Show eksklusif</a>
+      <a href="#event">Event</a>
+      <a href="#cara-kerja">Cara kerja</a>
+      <a href="#rekam-jejak">Rekam jejak</a>
+      <a href="#tentang">Tentang Onefifty</a>
+      <a class="btn btn-amp d-only" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank">Bikin Show Eksklusif →</a>
+      <a class="btn btn-amp m-only" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank"><svg aria-hidden="true"><use href="#i-rec"/></svg>Show Eksklusif</a>
     </nav>
   </div>
 </header>
 
 <main id="main">
 
-<!-- 1. HERO -->
+<!-- 01 HERO -->
 <section class="hero" id="top" aria-labelledby="h1">
   <div class="hero-bg">
     <img src="assets/images/welcome-party-live-band-onefifty-800.webp" srcset="assets/images/welcome-party-live-band-onefifty-800.webp 800w, assets/images/welcome-party-live-band-onefifty-1600.webp 1600w" sizes="100vw" alt="" width="1600" height="1068" fetchpriority="high">
   </div>
   <div class="wrap hero-inner">
-    <p class="eyebrow">Local Influence Through Live Experience · Jogja</p>
-    <h1 id="h1"><span>Jangan cuma</span><span>tampil di feed.</span><span class="hl">Hadir di momennya.</span></h1>
-    <p class="sub">Onefifty membantu brand lokal hadir di tengah komunitas melalui live music, interaksi, dan brand experience yang bisa dilanjutkan setelah acara.</p>
+    <p class="eyebrow">Show eksklusif &amp; event brand · Jogja</p>
+    <h1 id="h1"><span>Bikin momennya.</span><span class="hl">Hadir di dalamnya.</span></h1>
+    <p class="sub">Bikin show eksklusif bareng Onefifty: live music khusus untuk brand Anda, dengan momen yang jadi konten TikTok dan Reels. Atau temukan event di Jogja yang cocok untuk audience Anda.</p>
     <p class="cta-row">
-      <a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20mau%20bikin%20ide%20aktivasi%20untuk%20brand%20saya.%0A%0ABrand%3A%20%0AEvent%3A%20%0AAudience%20yang%20ingin%20dijangkau%3A%20" rel="noopener" target="_blank">Bikin Ide Aktivasi →</a>
-      <a class="btn btn-ghost" href="#studi-kasus">Lihat Pengalaman Kami →</a>
+      <a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank"><svg aria-hidden="true"><use href="#i-rec"/></svg>Bikin Show Eksklusif →</a>
+      <a class="btn btn-ghost" href="#event"><svg aria-hidden="true"><use href="#i-search"/></svg>Cari Event Lain</a>
     </p>
-    <p class="hero-cap">Foto: Welcome Party 2026 · Universitas AMIKOM Yogyakarta</p>
+    <p class="hero-tags">Show eksklusif<span>·</span>TikTok &amp; Reels<span>·</span>Live music<span>·</span>Brand activation</p>
+    <p class="hero-cap">Foto: Onefifty di Welcome Party 2026 · Universitas AMIKOM Yogyakarta</p>
   </div>
 </section>
 
-<!-- 2. PROOF -->
-<section class="proof" aria-label="Rekam jejak singkat">
-  <div class="wrap">
-    <ul class="stats">
-      <li class="hot"><b>1.500</b><span>mahasiswa baru dalam satu event (Welcome Party 2026)</span></li>
-      <li><b>12</b><span>panggung, dari kampus sampai mall</span></li>
-      <li><b>9</b><span>personel, dosen &amp; profesional</span></li>
-      <li><b>2022</b><span>mulai bermain bersama</span></li>
-    </ul>
-  </div>
-</section>
-
-<div class="marquee" aria-hidden="true">
-  <div class="marquee-track">
-    <ul><li>Dicoba</li><li>Dimainkan</li><li>Divoting</li><li>Ditukarkan</li><li>Dibagikan</li><li>Dilanjutkan</li></ul>
-    <ul><li>Dicoba</li><li>Dimainkan</li><li>Divoting</li><li>Ditukarkan</li><li>Dibagikan</li><li>Dilanjutkan</li></ul>
-  </div>
-</div>
-
-<!-- 3. REFRAME (WHY) -->
-<section id="beda" aria-labelledby="h-beda">
-  <div class="wrap">
-    <p class="eyebrow rv">Kenapa Onefifty</p>
-    <h2 class="h2 rv" id="h-beda">KOL membawa brand ke feed.<br><em>Kami membawa brand ke momen.</em></h2>
-    <div class="versus">
-      <div class="flow kol rv">
-        <div class="flow-head"><h3>KOL / influencer</h3><p>Dilihat, lalu di-scroll</p></div>
-        <ol aria-label="Alur KOL"><li><span class="node" aria-hidden="true"><svg><use href="#i-tag"/></svg></span><b>Brand</b><small>titip pesan</small></li><li><span class="node" aria-hidden="true"><svg><use href="#i-image"/></svg></span><b>Konten</b><small>dibuat oleh KOL</small></li><li><span class="node" aria-hidden="true"><svg><use href="#i-phone"/></svg></span><b>Feed</b><small>lewat sekilas</small></li></ol>
-      </div>
-      <div class="flow us rv">
-        <div class="flow-head"><h3>Onefifty</h3><p>Dialami bersama</p></div>
-        <ol aria-label="Alur Onefifty"><li><span class="node" aria-hidden="true"><svg><use href="#i-tag"/></svg></span><b>Brand</b><small>masuk ke acara</small></li><li class="key"><span class="node" aria-hidden="true"><svg><use href="#i-music"/></svg></span><b>Live experience</b><small>musik &amp; panggung</small></li><li><span class="node" aria-hidden="true"><svg><use href="#i-users"/></svg></span><b>Audience</b><small>ikut menikmati</small></li><li class="key"><span class="node" aria-hidden="true"><svg><use href="#i-tap"/></svg></span><b>Interaksi</b><small>vote, voucher, coba</small></li><li><span class="node" aria-hidden="true"><svg><use href="#i-next"/></svg></span><b>Konten</b><small>lanjut setelah acara</small></li></ol>
-      </div>
+<!-- 02 SHOW EKSKLUSIF (PRIMARY OFFER) -->
+<section class="rs" id="show-eksklusif" aria-labelledby="h-rs">
+  <div class="wrap rs-grid">
+    <div>
+      <p class="eyebrow rv">Format utama · Show eksklusif</p>
+      <h2 class="h2 rv" id="h-rs">Bikin show sendiri. <em>Kontennya milik brand.</em></h2>
+      <p class="lede rv">Onefifty menggelar show khusus untuk brand Anda, dirancang dan direkam untuk <strong>TikTok dan Reels</strong>. Anda tidak perlu menunggu jadwal event orang lain atau berbagi panggung dengan sponsor lain.</p>
+      <ul class="why-rs">
+        <li class="rv"><svg aria-hidden="true"><use href="#i-sliders"/></svg><b>Lebih terkontrol</b><span>Lokasi, waktu, audience, setlist, dan penempatan produk ditentukan bersama. Momen penting bisa diulang.</span></li>
+        <li class="rv"><svg aria-hidden="true"><use href="#i-rec"/></svg><b>Dibuat untuk vertikal</b><span>Momen dirancang untuk format 9:16 sejak awal, bukan potongan dokumentasi event.</span></li>
+        <li class="rv"><svg aria-hidden="true"><use href="#i-boost"/></svg><b>Bisa di-boost sendiri</b><span>Konten diunggah dari akun brand atau sebagai kolaborasi, lalu jangkauannya diatur dengan budget iklan Anda.</span></li>
+        <li class="rv"><svg aria-hidden="true"><use href="#i-pin"/></svg><b>Di tempat Anda</b><span>Outlet, kafe, kantor, kampus, atau ruang komunitas. Audience-nya bisa pelanggan atau komunitas Anda.</span></li>
+      </ul>
+      <p class="cta-row rv">
+        <a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank"><svg aria-hidden="true"><use href="#i-rec"/></svg>Bikin Show Eksklusif →</a>
+        <a class="lnk" href="#event">Atau cari event lain ↓</a>
+      </p>
+      <p class="rs-note rv">Format, durasi, jumlah video, dan hak pakai konten kita sepakati di awal sesuai kebutuhan brand.</p>
     </div>
-    <p class="pull rv">Kami bukan sekadar membuat orang melihat brand Anda. <span>Kami membantu brand Anda jadi bagian dari pengalaman yang sedang mereka nikmati.</span></p>
+    <figure class="phone rv" style="margin:0" aria-label="Ilustrasi konten vertikal dari show eksklusif">
+      <img src="assets/images/launching-creative-space-live-music-onefifty-800.webp" alt="Onefifty tampil akustik di ruang komunitas, contoh suasana show eksklusif" width="800" height="450" loading="lazy">
+      <div class="ph-top" aria-hidden="true"><span class="rec"><i></i>REC</span><span>9:16</span></div>
+      <div class="ph-side" aria-hidden="true"><svg><use href="#i-heart"/></svg><svg><use href="#i-share"/></svg></div>
+      <figcaption class="ph-cap"><b>@brandanda × @onefifty.band</b><span>Live session di outlet kami 🎸 lagu favorit kalian?</span><span class="boost">Boost dari akun brand</span></figcaption>
+    </figure>
   </div>
 </section>
 
-<!-- 4. HOW BRAND CAN JOIN (WHAT) -->
-<section class="s-paper" id="cara-ikut" aria-labelledby="h-ikut">
+<!-- 03 EVENT DISCOVERY (secondary offer) -->
+<section id="event" aria-labelledby="h-event">
   <div class="wrap">
-    <p class="eyebrow rv">Bentuk kolaborasi</p>
-    <h2 class="h2 rv" id="h-ikut">Brand Anda bisa ikut <em>dengan cara apa?</em></h2>
-    <p class="lede rv">Bukan cuma logo di banner. Produk Anda masuk ke acara, dan penonton ikut terlibat.</p>
-    <ul class="rail join">
-      <li class="rv"><span class="no">01</span><svg class="ic" aria-hidden="true"><use href="#i-try"/></svg><h3>Dicoba</h3><p>Product sampling atau product experience. <strong>Penonton merasakan produknya langsung</strong>, sambil menikmati musik.</p></li>
-      <li class="rv"><span class="no">02</span><svg class="ic" aria-hidden="true"><use href="#i-play"/></svg><h3>Dimainkan</h3><p>Game, challenge, atau aktivitas seru di sela lagu. <strong>Brand jadi bagian dari keseruannya.</strong></p></li>
-      <li class="rv"><span class="no">03</span><svg class="ic" aria-hidden="true"><use href="#i-vote"/></svg><h3>Divoting</h3><p>Penonton memilih lagu, performer, atau opsi tertentu. <strong>Setiap vote adalah interaksi dengan brand.</strong></p></li>
-      <li class="rv"><span class="no">04</span><svg class="ic" aria-hidden="true"><use href="#i-ticket"/></svg><h3>Ditukarkan</h3><p>Voucher, promo, atau reward yang dibawa pulang. <strong>Momen di acara berlanjut jadi kunjungan.</strong></p></li>
-      <li class="rv"><span class="no">05</span><svg class="ic" aria-hidden="true"><use href="#i-share"/></svg><h3>Dibagikan</h3><p>Penonton membuat atau membagikan konten. <strong>Cerita brand menyebar lewat orang yang ada di sana.</strong></p></li>
-      <li class="rv"><span class="no">06</span><svg class="ic" aria-hidden="true"><use href="#i-next"/></svg><h3>Dilanjutkan</h3><p>Momen acara jadi foto, video, reels, UGC, atau aktivitas setelah acara. <strong>Panggungnya selesai, ceritanya jalan terus.</strong></p></li>
-    </ul>
-    <p class="rail-hint">Geser untuk lihat semua →</p>
-  </div>
-</section>
-
-<!-- 5. AUDIENCE (WHO) -->
-<section id="audience" aria-labelledby="h-aud">
-  <div class="wrap">
-    <p class="eyebrow rv">Audience</p>
-    <h2 class="h2 rv" id="h-aud">Bukan cuma panggung. <em>Kami punya akses ke komunitas.</em></h2>
-    <div class="aud-grid">
-      <figure class="aud-feature rv">
-        <img src="assets/images/band-event-live-music-onefifty-2024-800.webp" srcset="assets/images/band-event-live-music-onefifty-2024-800.webp 800w, assets/images/band-event-live-music-onefifty-2024.webp 1440w" sizes="(min-width:900px) 560px, 100vw" alt="Ratusan mahasiswa memenuhi area depan panggung kampus AMIKOM saat Onefifty tampil" width="800" height="533" loading="lazy">
-        <figcaption><small>Contoh nyata · Welcome Party 2026</small><b>1.500</b><span>mahasiswa baru di satu acara</span></figcaption>
-      </figure>
+    <div class="ev-head">
       <div>
-        <ul class="aud-list">
-          <li class="rv"><h3>Mahasiswa</h3><p><b>Dari</b>Welcome Party 2026, PPM 2024, Welcome Party 2022</p></li>
-          <li class="rv"><h3>Young professionals</h3><p><b>Dari</b>Pelepasan wisudawan, lulusan yang siap masuk dunia kerja</p></li>
-          <li class="rv"><h3>Creative community</h3><p><b>Dari</b>AMICTA Celebration, peresmian Creative Space AMIKOM</p></li>
-          <li class="rv"><h3>Technology community</h3><p><b>Dari</b>Kenduri Informatika, pameran karya AI &amp; aplikasi di AMICTA</p></li>
-          <li class="rv"><h3>Academic community</h3><p><b>Dari</b>Kenduri Informatika, Rembug SI, Syawalan civitas akademika</p></li>
-          <li class="rv"><h3>Entrepreneur / UMKM</h3><p><b>Dari</b>Entrepreneur Day 87, ajang promosi UMKM</p></li>
-        </ul>
-        <div class="note rv">
-          <p><strong>Audience berbeda membutuhkan activation yang berbeda.</strong></p>
-          <p>Kami bantu menyesuaikan formatnya dengan acara dan target brand.</p>
-        </div>
+        <p class="eyebrow rv">Pilihan lain · Event di Jogja yang akan datang</p>
+        <h2 class="h2 rv" id="h-event">Atau hadir di event <em>tempat audience berkumpul.</em></h2>
+        <p class="lede rv">Mungkin audience yang Anda cari ada di salah satu event ini. Pilih eventnya, tentukan bentuk kehadiran brand Anda, lalu ajak Onefifty.</p>
+      </div>
+      <div class="ev-side rv">
+        <p>Belum tahu event yang cocok?</p>
+        <button class="btn btn-ghost btn-sm" type="button" data-open="finder"><svg aria-hidden="true"><use href="#i-compass"/></svg>Bantu saya menemukan event</button>
       </div>
     </div>
-  </div>
-</section>
 
-<!-- 6. BRAND FIT (WHO) -->
-<section class="s-2" id="cocok" aria-labelledby="h-cocok">
-  <div class="wrap">
-    <p class="eyebrow rv">Brand fit</p>
-    <h2 class="h2 rv" id="h-cocok">Cocok untuk <em>brand seperti apa?</em></h2>
-    <p class="lede rv">Kategori yang punya peluang untuk masuk ke pengalaman event kami, berdasarkan acara yang pernah kami mainkan.</p>
-    <ul class="ind">
-      <li class="rv"><h3>Coffee &amp; F&amp;B</h3><p>Kopi, minuman, kuliner &amp; hampers</p></li>
-      <li class="rv"><h3>Bank, fintech &amp; e-wallet</h3><p>Bank digital, pembayaran digital, bank UMKM, perbankan syariah</p></li>
-      <li class="rv"><h3>Telco</h3><p>Provider seluler untuk mahasiswa baru</p></li>
-      <li class="rv"><h3>Gadget &amp; laptop</h3><p>Laptop, PC, gadget</p></li>
-      <li class="rv"><h3>Software &amp; SaaS</h3><p>Software kreatif, internet &amp; cloud</p></li>
-      <li class="rv"><h3>Gaming</h3><p>Gaming gear</p></li>
-      <li class="rv"><h3>Education &amp; EdTech</h3><p>Edtech, penerbit</p></li>
-      <li class="rv"><h3>Fashion</h3><p>Untuk audience mahasiswa baru</p></li>
-      <li class="rv"><h3>Marketplace</h3><p>Untuk komunitas UMKM</p></li>
-      <li class="rv"><h3>Logistics</h3><p>Untuk komunitas UMKM</p></li>
-      <li class="rv"><h3>Office &amp; productivity</h3><p>Perangkat kerja, furnitur kantor</p></li>
-      <li class="rv"><h3>Creative industry</h3><p>Studio foto, florist, portal kerja</p></li>
+    <ul class="chips" id="ev-filter" aria-label="Filter kategori event"></ul>
+    <div class="finder-bar" id="finder-bar" hidden>
+      <p id="finder-text"></p>
+      <button class="lnk" type="button" id="finder-reset">Hapus brief ×</button>
+    </div>
+    <ul class="events" id="ev-list" aria-live="polite">
+      <li class="ev-empty"><p>Daftar event butuh JavaScript. Ceritakan kebutuhan Anda langsung lewat WhatsApp.</p><a class="btn btn-wa btn-sm" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20mengajak%20Onefifty%20ke%20event%20saya.%0A%0AEvent%3A%20%0ATanggal%3A%20%0AVenue%3A%20%0ABrand%3A%20%0ATujuan%3A%20" rel="noopener" target="_blank">Chat Onefifty</a></li>
     </ul>
-    <p class="disclaimer"><svg aria-hidden="true"><use href="#i-info"/></svg><span>Ini daftar peluang, bukan daftar klien. Brand Anda bisa jadi yang pertama di kategorinya.</span></p>
+    <p class="ev-note"><svg aria-hidden="true"><use href="#i-info"/></svg><span id="ev-note">Event dikurasi dari sumber publik, bukan event milik Onefifty. Kategori dan “cocok untuk” adalah penilaian kami. Data yang tidak diketahui kami tulis <em>belum tersedia</em>, bukan dikira-kira. Hadir di event tetap perlu persetujuan penyelenggara, dan kami bantu menjajakinya.</span></p>
   </div>
 </section>
 
-<!-- 7. USE CASES (WHAT) -->
-<section class="s-paper" id="contoh" aria-labelledby="h-contoh">
+<!-- 03 THREE PATHS -->
+<section class="s-paper" id="mulai" aria-labelledby="h-mulai">
   <div class="wrap">
-    <p class="eyebrow rv">Contoh format</p>
-    <h2 class="h2 rv" id="h-contoh">Bukan sekadar sponsorship. <em>Kita bikin pengalaman.</em></h2>
-    <p class="lede rv">Beberapa contoh alur yang bisa kita kembangkan bareng. Formatnya selalu disesuaikan dengan acara dan brand Anda.</p>
-    <ul class="rail cases">
-      <li class="rv"><span class="stamp">Contoh ide</span><h3>Coffee / F&amp;B</h3><ol><li><span>Live performance</span></li><li><span>Audience voting</span></li><li><span>Voucher</span></li><li><span>Redemption di outlet</span></li></ol></li>
-      <li class="rv"><span class="stamp">Contoh ide</span><h3>Fintech</h3><ol><li><span>Scan / interaksi</span></li><li><span>Vote</span></li><li><span>Giveaway</span></li><li><span>Partisipasi terukur</span></li></ol></li>
-      <li class="rv"><span class="stamp">Contoh ide</span><h3>Gadget / Tech</h3><ol><li><span>Product experience</span></li><li><span>Audience interaction</span></li><li><span>Live moment</span></li><li><span>Social content</span></li></ol></li>
-      <li class="rv"><span class="stamp">Contoh ide</span><h3>Fashion / Lifestyle</h3><ol><li><span>Audience challenge</span></li><li><span>Photo moment</span></li><li><span>Product exposure</span></li><li><span>UGC</span></li></ol></li>
+    <p class="eyebrow rv">Mulai dari mana?</p>
+    <h2 class="h2 rv" id="h-mulai">Empat jalan <em>ke momen yang sama.</em></h2>
+    <ul class="paths">
+      <li class="path hot rv">
+        <span class="tag-hot">Paling terkontrol</span>
+        <h3>Saya ingin show sendiri</h3>
+        <p>Show khusus untuk brand Anda, momennya jadi konten TikTok dan Reels. Lokasi, audience, dan kontennya diatur bersama, lalu bisa di-boost dari akun brand.</p>
+        <p class="flowline">Brief → Show → Rekam → Posting &amp; boost</p>
+        <a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank">Bikin Show Eksklusif →</a>
+      </li>
+      <li class="path rv">
+        <span class="no">Jalur A · Tertarik event</span>
+        <h3>Saya lihat event yang menarik</h3>
+        <p>Pilih event dari daftar, tentukan bentuk aktivasinya, dan kirim brief ke kami dalam satu langkah.</p>
+        <p class="flowline">Cari event → Pilih → Aktivasi → Onefifty</p>
+        <a class="btn btn-ghost" href="#event">Cari Event →</a>
+      </li>
+      <li class="path rv">
+        <span class="no">Jalur B · Punya event</span>
+        <h3>Saya sudah punya event</h3>
+        <p>Kirim detail event Anda. Kami bantu mencari bentuk kehadiran Onefifty yang paling cocok.</p>
+        <p class="flowline">Brief event → Aktivasi → Onefifty</p>
+        <a class="btn btn-ghost" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20mengajak%20Onefifty%20ke%20event%20saya.%0A%0AEvent%3A%20%0ATanggal%3A%20%0AVenue%3A%20%0ABrand%3A%20%0ATujuan%3A%20" data-open="own" rel="noopener" target="_blank">Kirim Brief Event →</a>
+      </li>
+      <li class="path rv">
+        <span class="no">Jalur C · Belum tahu</span>
+        <h3>Saya belum tahu event apa</h3>
+        <p>Tidak masalah. Ceritakan audience yang ingin Anda temui, kami tampilkan event yang paling relevan.</p>
+        <p class="flowline">Audience → Tujuan → Kategori brand → Event</p>
+        <a class="btn btn-ghost" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20mengajak%20Onefifty%20ke%20event%20saya.%0A%0AEvent%3A%20%0ATanggal%3A%20%0AVenue%3A%20%0ABrand%3A%20%0ATujuan%3A%20" data-open="finder" rel="noopener" target="_blank">Bantu Saya Menemukan Event →</a>
+      </li>
     </ul>
-    <p class="rail-hint">Geser untuk lihat semua →</p>
   </div>
 </section>
 
-<!-- 8. CASE STUDIES (PROOF) -->
-<section id="studi-kasus" aria-labelledby="h-studi">
+<!-- 04 HOW IT WORKS -->
+<section id="cara-kerja" aria-labelledby="h-cara">
   <div class="wrap">
-    <p class="eyebrow rv">Pengalaman kami</p>
-    <h2 class="h2 rv" id="h-studi">12 panggung. <em>Ini peluangnya untuk brand.</em></h2>
-    <p class="lede rv">Acara di bawah benar-benar kami mainkan. Bagian <strong>brand opportunity</strong> dan <strong>contoh activation</strong> adalah ide yang bisa dijalankan di acara serupa, bukan hasil campaign.</p>
+    <p class="eyebrow rv">Cara kerja</p>
+    <h2 class="h2 rv" id="h-cara">Cari. Pilih. Rancang. <em>Ajak.</em></h2>
+    <ol class="steps">
+      <li class="rv"><h3>Cari</h3><p>Jelajahi event di Jogja berdasarkan kategori, atau biarkan kami mencocokkan dari audience yang Anda tuju.</p></li>
+      <li class="rv"><h3>Pilih</h3><p>Lihat detail event: siapa audiensnya, di mana, dan brand seperti apa yang cocok hadir.</p></li>
+      <li class="rv"><h3>Rancang</h3><p>Pilih bentuk kehadiran: tampil, sampling, giveaway, voting, sampai konten. Isi tujuan dan budget.</p></li>
+      <li class="key rv"><h3>Ajak</h3><p>Brief Anda terkirim ke WhatsApp kami, lengkap dan kontekstual. Kami balas dengan rekomendasi format.</p></li>
+    </ol>
+  </div>
+</section>
 
+<!-- 05 ACTIVATION OPTIONS -->
+<section class="s-2" id="aktivasi" aria-labelledby="h-akt">
+  <div class="wrap">
+    <p class="eyebrow rv">Bentuk kehadiran</p>
+    <h2 class="h2 rv" id="h-akt">Bagaimana brand Anda <em>ingin hadir?</em></h2>
+    <p class="lede rv">Ini yang membedakan Onefifty dari direktori event. Pilih satu atau gabungkan beberapa.</p>
+    <ul class="acts-grid">
+      <li class="act rv"><svg class="ic" aria-hidden="true"><use href="#i-music"/></svg><span class="k">Play</span><h3>Onefifty tampil di event</h3><p>Live performance sebagai bagian dari acara. Full band atau akustik, dari 2 lagu sampai 3 sesi.</p></li>
+      <li class="act rv"><svg class="ic" aria-hidden="true"><use href="#i-try"/></svg><span class="k">Experience</span><h3>Audience mencoba brand Anda</h3><p>Product sampling, voucher, atau giveaway di tengah keseruan acara.</p></li>
+      <li class="act rv"><svg class="ic" aria-hidden="true"><use href="#i-tap"/></svg><span class="k">Interact</span><h3>Brand jadi bagian dari performance</h3><p>Segmen khusus di panggung: voting lagu, challenge, atau momen yang menghubungkan brand dengan audience.</p></li>
+      <li class="act rv"><svg class="ic" aria-hidden="true"><use href="#i-share"/></svg><span class="k">Share</span><h3>Momen yang layak dibagikan</h3><p>Momen dirancang agar berlanjut jadi foto, video, reels, dan konten audience setelah acara.</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 07 PAST EVENTS (PROOF) -->
+<section id="rekam-jejak" aria-labelledby="h-jejak">
+  <div class="wrap">
+    <p class="eyebrow rv">Rekam jejak</p>
+    <h2 class="h2 rv" id="h-jejak">Event yang <em>pernah kami jalani.</em></h2>
+    <p class="lede rv">Ini bukti, bukan inventaris. Event di bawah benar-benar kami mainkan. Bagian <strong>ide untuk event serupa</strong> adalah gagasan aktivasi, bukan hasil campaign.</p>
     <article class="study">
       <figure class="study-photo rv">
         <img src="assets/images/welcome-party-live-band-onefifty-800.webp" srcset="assets/images/welcome-party-live-band-onefifty-800.webp 800w, assets/images/welcome-party-live-band-onefifty-1600.webp 1600w" sizes="(min-width:900px) 500px, 100vw" alt="Onefifty berpose di panggung Welcome Party 2026 di depan lautan mahasiswa baru" width="800" height="534" loading="lazy">
         <figcaption>24 Sep 2026 · Kampus Kreatif AMIKOM</figcaption>
       </figure>
       <div class="rv">
-        <div class="study-head"><span class="stamp">Brand opportunity</span><p class="meta">Universitas AMIKOM Yogyakarta · September 2026</p><h3>Welcome Party 2026</h3></div>
+        <div class="study-head"><span class="stamp">Rekam jejak</span><p class="meta">Universitas AMIKOM Yogyakarta · September 2026</p><h3>Welcome Party 2026</h3></div>
         <dl>
           <div><dt>Konteks</dt><dd>Penyambutan mahasiswa baru di Kampus Kreatif AMIKOM.</dd></div>
           <div><dt>Audience</dt><dd class="big">1.500 mahasiswa baru</dd></div>
           <div><dt>Kenapa penting</dt><dd>Mahasiswa baru sedang memilih banyak hal untuk pertama kali di kota baru. Brand yang hadir di hari pertama mereka punya kesempatan dikenal lebih awal.</dd></div>
-          <div><dt>Peluang brand</dt><dd><ul class="tags"><li>Telco</li><li>Bank digital &amp; e-wallet</li><li>Laptop &amp; gadget</li><li>Minuman</li></ul></dd></div>
+          <div><dt>Cocok untuk</dt><dd><ul class="tags"><li>Telco</li><li>Bank digital &amp; e-wallet</li><li>Laptop &amp; gadget</li><li>Minuman</li></ul></dd></div>
         </dl>
-        <div class="idea"><span class="stamp">Contoh activation</span><p>Penonton vote lagu penutup lewat scan QR. Yang ikut vote dapat voucher minuman atau kuota, ditukar di booth samping panggung.</p></div>
+        <div class="idea"><span class="stamp">Ide untuk event serupa</span><p>Penonton vote lagu penutup lewat scan QR. Yang ikut vote dapat voucher minuman atau kuota, ditukar di booth samping panggung.</p></div>
       </div>
     </article>
 
@@ -726,14 +763,14 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
         <figcaption>29 Jul 2026 · Ambarrukmo Plaza</figcaption>
       </figure>
       <div class="rv">
-        <div class="study-head"><span class="stamp">Brand opportunity</span><p class="meta">Ambarrukmo Plaza, Sleman · Juli 2026</p><h3>AMICTA Celebration</h3></div>
+        <div class="study-head"><span class="stamp">Rekam jejak</span><p class="meta">Ambarrukmo Plaza, Sleman · Juli 2026</p><h3>AMICTA Celebration</h3></div>
         <dl>
           <div><dt>Konteks</dt><dd>Pameran animasi dan karya digital, termasuk AI dan aplikasi, di panggung mall.</dd></div>
           <div><dt>Audience</dt><dd>Pembuat dan penikmat karya animasi, AI, aplikasi, dan karya digital, plus pengunjung mall.</dd></div>
           <div><dt>Kenapa penting</dt><dd>Ini audience pembuat. Mereka butuh perangkat, software, dan gear yang mendukung karyanya.</dd></div>
-          <div><dt>Peluang brand</dt><dd><ul class="tags"><li>PC &amp; laptop</li><li>Software kreatif</li><li>Gaming gear</li><li>Kopi</li></ul></dd></div>
+          <div><dt>Cocok untuk</dt><dd><ul class="tags"><li>PC &amp; laptop</li><li>Software kreatif</li><li>Gaming gear</li><li>Kopi</li></ul></dd></div>
         </dl>
-        <div class="idea"><span class="stamp">Contoh activation</span><p>Pengunjung mencoba laptop atau gaming gear di samping panggung. Karya favorit penonton divoting, dan pemenangnya memilih lagu terakhir.</p></div>
+        <div class="idea"><span class="stamp">Ide untuk event serupa</span><p>Pengunjung mencoba laptop atau gaming gear di samping panggung. Karya favorit penonton divoting, dan pemenangnya memilih lagu terakhir.</p></div>
       </div>
     </article>
 
@@ -743,14 +780,14 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
         <figcaption>13 Jul 2026 · Creative Space AMIKOM</figcaption>
       </figure>
       <div class="rv">
-        <div class="study-head"><span class="stamp">Brand opportunity</span><p class="meta">Universitas AMIKOM Yogyakarta · Juli 2026</p><h3>Creative Space AMIKOM</h3></div>
+        <div class="study-head"><span class="stamp">Rekam jejak</span><p class="meta">Universitas AMIKOM Yogyakarta · Juli 2026</p><h3>Creative Space AMIKOM</h3></div>
         <dl>
           <div><dt>Konteks</dt><dd>Peresmian ruang coworking untuk kreator kampus.</dd></div>
           <div><dt>Audience</dt><dd>Kreator kampus dan komunitas yang akan memakai ruang kerja ini.</dd></div>
           <div><dt>Kenapa penting</dt><dd>Ruang coworking dipakai berulang kali. Brand yang masuk saat peresmian bisa lanjut hadir di keseharian ruangnya.</dd></div>
-          <div><dt>Peluang brand</dt><dd><ul class="tags"><li>Kopi</li><li>Internet &amp; cloud</li><li>Perangkat kerja</li><li>Furnitur kantor</li></ul></dd></div>
+          <div><dt>Cocok untuk</dt><dd><ul class="tags"><li>Kopi</li><li>Internet &amp; cloud</li><li>Perangkat kerja</li><li>Furnitur kantor</li></ul></dd></div>
         </dl>
-        <div class="idea"><span class="stamp">Contoh activation</span><p>Sampling kopi selama sesi akustik, lalu voucher kopi untuk kunjungan berikutnya ke ruang kerja.</p></div>
+        <div class="idea"><span class="stamp">Ide untuk event serupa</span><p>Sampling kopi selama sesi akustik, lalu voucher kopi untuk kunjungan berikutnya ke ruang kerja.</p></div>
       </div>
     </article>
 
@@ -810,74 +847,33 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
   </div>
 </section>
 
-<!-- 9. PACKAGES (HOW MUCH) -->
-<section class="s-violet" id="paket" aria-labelledby="h-paket">
+<!-- 08 WHY ONEFIFTY -->
+<section class="s-2" id="kenapa" aria-labelledby="h-kenapa">
   <div class="wrap">
-    <p class="eyebrow rv">Harga</p>
-    <h2 class="h2 rv" id="h-paket">Mulai dari yang sederhana. <em>Kembangkan sesuai tujuan.</em></h2>
-    <ul class="pk-grid">
-      <li class="pk main rv">
-        <p class="pk-name">Starter</p>
-        <p class="pk-price"><small>Mulai</small>Rp3 juta<span>/event</span></p>
-        <p class="pk-for">Untuk brand yang ingin hadir di sebuah event.</p>
-        <p class="pk-label">Contoh komponen</p>
-        <ul><li>Live performance</li><li>Brand mention dari panggung</li><li>Product placement</li><li>Interaksi sederhana dengan audience</li><li>Dokumentasi</li></ul>
-      </li>
-      <li class="pk rv">
-        <p class="pk-name">Experience</p>
-        <p class="pk-price"><small>Harga</small>Sesuai format</p>
-        <p class="pk-for">Untuk brand yang ingin audience ikut berinteraksi.</p>
-        <p class="pk-label">Contoh komponen</p>
-        <ul><li>Live performance</li><li>Interactive activation</li><li>Voting</li><li>Voucher</li><li>Giveaway</li><li>Partisipasi audience</li><li>Peluang konten</li></ul>
-      </li>
-      <li class="pk rv">
-        <p class="pk-name">Custom</p>
-        <p class="pk-price"><small>Harga</small>Kita obrolkan</p>
-        <p class="pk-for">Untuk campaign atau event dengan kebutuhan khusus.</p>
-        <p class="pk-label">Cara kerjanya</p>
-        <ul><li>Kita desain format berdasarkan audience, venue, objective, dan cerita brand.</li></ul>
-      </li>
+    <p class="eyebrow rv">Kenapa Onefifty</p>
+    <h2 class="h2 rv" id="h-kenapa">KOL membawa brand ke feed. <em>Kami membawa brand ke momen.</em></h2>
+    <ul class="stats">
+      <li class="rv"><b>12+</b><span>panggung, dari kampus sampai mall</span></li>
+      <li class="hot rv"><b>1.500</b><span>audience dalam satu event (Welcome Party 2026)</span></li>
+      <li class="rv"><b>9</b><span>personel, dosen &amp; profesional</span></li>
+      <li class="rv"><b>2022</b><span>mulai bermain bersama</span></li>
     </ul>
-    <p class="pk-note rv">Komponen di atas adalah contoh format, bukan paket baku. Harga final menyesuaikan acara dan ide yang kita susun bersama.</p>
-    <p class="pk-cta rv"><a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20cerita%20soal%20kebutuhan%20brand%20saya.%0A%0ABrand%3A%20%0AEvent%20%2F%20tanggal%3A%20%0AAudience%3A%20%0ATujuan%3A%20" rel="noopener" target="_blank">Ceritakan kebutuhan Anda →</a></p>
-    <div class="next-show rv">
-      <span class="stamp">Kesempatan berikutnya</span>
-      <h3>Ikut masuk ke nostalgia.</h3>
-      <p>Kami akan bawa lagu, game, dan kenangan lama ke satu panggung. Kalau brand Anda mau ikut, ayo bikin sesuatu yang seru.</p>
-    </div>
+    <p class="pull rv">Kami bukan sekadar membuat orang melihat brand Anda. <span>Kami membantu brand Anda jadi bagian dari pengalaman yang sedang mereka nikmati.</span></p>
   </div>
 </section>
 
-<!-- 10. MEASUREMENT (HOW) -->
-<section id="ukur" aria-labelledby="h-ukur">
-  <div class="wrap">
-    <p class="eyebrow rv">Pengukuran</p>
-    <h2 class="h2 rv" id="h-ukur">Bukan cuma ramai. <em>Bisa diukur.</em></h2>
-    <p class="lede rv">Setiap activation dapat dirancang dengan indikator yang sesuai tujuan brand.</p>
-    <div class="dash rv" role="group" aria-label="Contoh indikator yang bisa diukur">
-      <p class="dash-top"><span><i aria-hidden="true"></i>Laporan activation · contoh tampilan</span><span>Angka diisi dari acara Anda</span></p>
-      <ul class="metrics">
-        <li><h3>Participation</h3><span class="val" aria-hidden="true">—</span><span class="mbar" aria-hidden="true"></span><p>Berapa orang ikut?</p><small>Peserta aktivitas di acara</small></li>
-        <li><h3>Vote</h3><span class="val" aria-hidden="true">—</span><span class="mbar" aria-hidden="true"></span><p>Berapa orang berinteraksi?</p><small>Jumlah vote lagu atau opsi</small></li>
-        <li><h3>Voucher</h3><span class="val" aria-hidden="true">—</span><span class="mbar" aria-hidden="true"></span><p>Berapa voucher digunakan?</p><small>Voucher yang dibagikan vs ditukar</small></li>
-        <li><h3>Giveaway</h3><span class="val" aria-hidden="true">—</span><span class="mbar" aria-hidden="true"></span><p>Berapa peserta?</p><small>Peserta giveaway</small></li>
-        <li><h3>Content</h3><span class="val" aria-hidden="true">—</span><span class="mbar" aria-hidden="true"></span><p>Berapa konten dibagikan?</p><small>Foto, video, dan unggahan audience</small></li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- 11. PEOPLE (WHY) -->
-<section class="s-paper" id="personel" aria-labelledby="h-mem">
+<!-- 09 ABOUT -->
+<section class="s-paper" id="tentang" aria-labelledby="h-mem">
   <div class="wrap">
     <div class="people-head">
       <div>
-        <p class="eyebrow rv">Orang-orang di balik Onefifty</p>
-        <h2 class="h2 rv" id="h-mem"><span>Engineer by day.</span><span class="night">Musician by night.</span></h2>
-        <p class="lede rv">Di siang hari kami mengajar, meneliti, ngoding, dan membuat produk. Malamnya kami bermain musik.</p>
+        <p class="eyebrow rv">Tentang Onefifty</p>
+        <h2 class="h2 rv" id="h-mem"><span>Kami bukan</span><span>sekadar band.</span></h2>
+        <p class="lede rv">Siang hari kami mengajar, ngoding, meneliti, dan membuat produk. <strong>Malamnya kami bermain musik.</strong></p>
       </div>
-      <p class="why-us rv">Kami hidup di beberapa komunitas sekaligus: teknologi, pendidikan, kreatif, musik, dan profesional. Itulah yang membuat kami memahami bagaimana membuat sebuah brand masuk secara natural ke dalam sebuah momen.</p>
+      <p class="why-us rv">Kami hidup di beberapa komunitas sekaligus: teknologi, pendidikan, kreatif, musik, dan profesional. Itulah yang membuat kami paham cara membuat brand masuk secara natural ke dalam sebuah momen.</p>
     </div>
+    <ul class="members">
     <ul class="members">
       <li class="member rv" itemscope itemtype="https://schema.org/Person"><h3 itemprop="name">Arif Akbarul Huda</h3><p class="dn"><span><b>Siang</b><span itemprop="jobTitle">ML/AI Engineer</span></span><span><b>Malam</b><span class="night-v">Produser musik</span></span></p></li>
       <li class="member rv" itemscope itemtype="https://schema.org/Person"><h3 itemprop="name">Arifiyanto Hadinegoro</h3><p class="dn"><span><b>Siang</b><span itemprop="jobTitle">Soft Computing</span></span><span><b>Malam</b><span class="night-v">Gitar, bass, drum</span></span></p></li>
@@ -889,10 +885,12 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
       <li class="member rv" itemscope itemtype="https://schema.org/Person"><h3 itemprop="name">Nadea Cipta Laksmita</h3><p class="dn"><span><b>Siang</b><span itemprop="jobTitle">AI Music</span></span><span><b>Malam</b><span class="night-v">Kibor, produser musik</span></span></p></li>
       <li class="member rv" itemscope itemtype="https://schema.org/Person"><h3 itemprop="name">Muhammad Najih Fasya</h3><p class="dn"><span><b>Siang</b><span itemprop="jobTitle">Urban &amp; Regional Planning Researcher</span></span><span><b>Malam</b><span class="night-v">Vokal</span></span></p></li>
     </ul>
+    </ul>
     <div class="name-origin rv">
       <h3>Kenapa namanya Onefifty?</h3>
       <p>Diambil dari “Asisten Ahli 150”, jabatan akademik pertama seorang dosen. Jabatan pertama. Langkah pertama. Dari sana kami mulai main bareng.</p>
     </div>
+    <p class="formats rv"><strong>Format panggung:</strong> full band atau akustik, 2 lagu sampai 3 sesi, dengan monitor sendiri. Lagu yang bikin orang ingin ikut nyanyi, dari Sheila on 7, Noah, Ungu, Hindia, sampai ONE OK ROCK.</p>
     <details class="lu-wrap" id="lineup">
       <summary>Lihat siapa main di panggung mana</summary>
       <p class="sub">Tidak selalu orang yang sama. Kami menyesuaikan lineup dengan acaranya.</p>
@@ -1138,60 +1136,52 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
   </div>
 </section>
 
-<!-- 12. MUSIC (capability) -->
-<section id="musik" aria-labelledby="h-musik">
-  <div class="wrap">
-    <p class="eyebrow rv">Booking band</p>
-    <h2 class="h2 rv" id="h-musik">Kalau mau mengundang kami sebagai band, <em>tentu bisa.</em></h2>
-    <div class="music-grid">
-      <figure class="music-photo rv">
-        <img src="assets/images/band-live-music-event-ppm2022-onefifty-800.webp" srcset="assets/images/band-live-music-event-ppm2022-onefifty-800.webp 800w, assets/images/band-live-music-event-ppm2022-onefifty-1600.webp 1600w" sizes="(min-width:900px) 560px, 100vw" alt="Vokalis Onefifty menyapa penonton yang mengangkat tangan di depan panggung" width="800" height="442" loading="lazy">
-        <figcaption>Welcome Party Mahasiswa Baru 2022</figcaption>
-      </figure>
-      <div>
-        <ul class="formats">
-          <li class="rv"><b>Full band</b><span>Formasi lengkap untuk panggung besar</span></li>
-          <li class="rv"><b>Akustik</b><span>Untuk ruang yang lebih intim</span></li>
-          <li class="rv"><b>2 lagu – 3 sesi</b><span>Dari pembuka acara sampai main panjang</span></li>
-          <li class="rv"><b>Monitor sendiri</b><span>Kami bawa monitor sendiri</span></li>
-        </ul>
-        <div class="rep rv">
-          <p>Lagu yang bikin orang ingin ikut nyanyi, dari</p>
-          <ul class="tags"><li>Sheila on 7</li><li>Noah</li><li>Ungu</li><li>Hindia</li><li>ONE OK ROCK</li></ul>
-        </div>
-        <p class="cta-row rv" style="margin-top:28px"><a class="btn btn-ghost" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20booking%20Onefifty.%0A%0ATanggal%3A%20%0ATempat%3A%20%0AGambaran%20acara%3A%20" rel="noopener" target="_blank">Booking Onefifty →</a></p>
-      </div>
+<!-- 10 PRICING -->
+<section class="s-violet" id="harga" aria-labelledby="h-harga">
+  <div class="wrap price">
+    <div>
+      <p class="eyebrow rv">Harga</p>
+      <h2 class="price-big rv" id="h-harga"><small>Mulai dari</small>Rp3 juta<span>/event</span></h2>
+    </div>
+    <div class="rv">
+      <p class="lede" style="margin-top:0">Format dan harga menyesuaikan event, lineup, durasi, dan bentuk aktivasi.</p>
+      <ul><li>Live performance Onefifty</li><li>Brand mention &amp; product placement</li><li>Interaksi audience: voting, voucher, giveaway</li><li>Dokumentasi untuk konten setelah acara</li></ul>
+      <p class="lede" style="font-size:16px">Show eksklusif: produksi dan hak pakai konten dihitung terpisah sesuai kebutuhan.</p>
+      <p class="cta-row" style="margin-top:28px"><a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank">Bikin Show Eksklusif →</a><a class="btn btn-ghost" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20mengajak%20Onefifty%20ke%20event%20saya.%0A%0AEvent%3A%20%0ATanggal%3A%20%0AVenue%3A%20%0ABrand%3A%20%0ATujuan%3A%20" data-open="own" rel="noopener" target="_blank">Diskusikan Event Anda</a></p>
     </div>
   </div>
 </section>
 
-<!-- 13. FAQ -->
+<!-- 11 FAQ -->
 <section class="s-2" id="faq" aria-labelledby="h-faq">
   <div class="wrap">
     <p class="eyebrow rv">FAQ</p>
     <h2 class="h2 rv" id="h-faq">Sebelum ngobrol</h2>
     <div class="faq">
-      <details><summary>Apa bedanya dengan KOL?</summary><p><strong>KOL membawa brand ke feed. Onefifty membawa brand ke momen.</strong> KOL membuat konten tentang brand Anda. Kami mengajak brand masuk ke acara, dinikmati langsung oleh audience, lalu momennya bisa lanjut jadi konten.</p></details>
-      <details><summary>Berapa biayanya?</summary><p>Mulai <strong>Rp3 juta/event</strong>. Besarnya menyesuaikan format acara dan ide kolaborasi.</p></details>
-      <details><summary>Brand seperti apa yang cocok?</summary><p>F&amp;B, coffee, fintech, technology, gadget, education, lifestyle, gaming, dan brand lain yang ingin berinteraksi langsung dengan komunitas.</p></details>
-      <details><summary>Apa yang bisa dilakukan brand?</summary><p>Product experience, voucher, voting, giveaway, sampling, audience interaction, dan berbagai format lain yang sesuai dengan acara.</p></details>
-      <details><summary>Apa yang bisa diukur?</summary><p>Participation, vote, voucher redemption, giveaway participation, dan content sharing. Indikatornya kita sepakati di awal, sesuai tujuan brand.</p></details>
+      <details><summary>Apa itu show eksklusif?</summary><p>Show Onefifty yang digelar khusus untuk satu brand, di lokasi dan waktu yang disepakati, lalu <strong>direkam untuk jadi konten TikTok dan Reels</strong>. Audience-nya bisa pelanggan, member, atau komunitas brand Anda.</p></details>
+      <details><summary>Kenapa show eksklusif lebih terkontrol daripada ikut event?</summary><p>Di event orang lain, jadwal, panggung, dan aturan sponsor ditentukan penyelenggara. Di show eksklusif, <strong>lokasi, setlist, penempatan produk, dan pengambilan gambar ditentukan bersama</strong>, dan momen penting bisa diulang. Kontennya bisa di-boost dari akun brand, jadi jangkauannya Anda yang atur.</p></details>
+      <details><summary>Apakah event di daftar ini milik Onefifty?</summary><p>Bukan. Daftar event dikurasi dari sumber publik. <strong>Onefifty membantu brand menjajaki kehadiran di event tersebut</strong>, termasuk berkomunikasi dengan penyelenggara. Kehadiran tetap bergantung pada persetujuan penyelenggara.</p></details>
+      <details><summary>Dari mana data audience-nya?</summary><p>Segmen audience dan kategori “cocok untuk” adalah penilaian kami berdasarkan jenis event. Angka jumlah pengunjung hanya kami tampilkan bila tersedia dari sumber. <strong>Kalau tidak diketahui, kami tulis belum tersedia.</strong></p></details>
+      <details><summary>Saya sudah punya event sendiri. Bisa?</summary><p>Bisa. Pilih <strong>Saya Sudah Punya Event</strong>, isi detail event, bentuk aktivasi, tujuan, dan budget. Brief Anda langsung terkirim ke WhatsApp kami.</p></details>
+      <details><summary>Berapa biayanya?</summary><p>Mulai <strong>Rp3 juta/event</strong>. Format dan harga menyesuaikan event, lineup, durasi, dan bentuk aktivasi.</p></details>
+      <details><summary>Apa bedanya dengan KOL?</summary><p><strong>KOL membawa brand ke feed. Onefifty membawa brand ke momen.</strong> Brand masuk ke acara, dinikmati langsung oleh audience, lalu momennya bisa lanjut jadi konten.</p></details>
+      <details><summary>Apa yang bisa diukur?</summary><p>Partisipasi, jumlah vote, voucher yang ditukar, peserta giveaway, dan konten yang dibagikan. Indikatornya kita sepakati di awal sesuai tujuan brand.</p></details>
       <details><summary>Bisa booking Onefifty sebagai band saja?</summary><p>Bisa. Full band atau akustik, dari 2 lagu sampai 3 sesi, dengan monitor sendiri. Kirim tanggal, tempat, dan gambaran acaranya.</p></details>
-      <details><summary>Siapa Onefifty?</summary><p>Band pop-rock Jogja yang mulai main bareng sejak 2022. Anggotanya dosen dan profesional dari lingkungan AMIKOM. Sampai sekarang sudah 12 kali naik panggung.</p></details>
+      <details><summary>Siapa Onefifty?</summary><p>Band pop-rock Jogja yang mulai main bareng sejak 2022. Anggotanya dosen dan profesional dari lingkungan AMIKOM. Sudah lebih dari 12 kali naik panggung, dari kampus sampai mall.</p></details>
     </div>
   </div>
 </section>
 
-<!-- 14. FINAL CTA (WHAT NEXT) -->
+<!-- 12 FINAL CTA -->
 <section class="final" id="kolaborasi" aria-labelledby="h-final">
   <div class="final-bg"><img src="assets/images/cengkir-heritage-kenduri-800.webp" alt="" width="800" height="533" loading="lazy"></div>
   <div class="wrap">
     <p class="eyebrow rv" style="color:var(--amp)">Ngobrol yuk</p>
-    <h2 class="rv" id="h-final" style="margin-top:12px">Punya brand yang ingin lebih dekat dengan audience?</h2>
-    <p class="lede rv">Ceritakan brand, event, dan audience yang ingin Anda jangkau. Kami bantu cari cara paling natural untuk memasukkannya ke dalam momen.</p>
+    <h2 class="rv" id="h-final" style="margin-top:12px">Bikin show sendiri? <span>Atau masuk ke event?</span></h2>
+    <p class="lede rv">Show eksklusif memberi Anda kontrol penuh atas momen dan kontennya. Kalau lebih cocok hadir di event yang sudah ada, kami bantu carikan.</p>
     <p class="cta-row rv">
-      <a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20mau%20bikin%20ide%20aktivasi%20untuk%20brand%20saya.%0A%0ABrand%3A%20%0AEvent%3A%20%0AAudience%20yang%20ingin%20dijangkau%3A%20" rel="noopener" target="_blank">Bikin Ide Aktivasi →</a>
-      <a class="btn btn-ghost" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20booking%20Onefifty.%0A%0ATanggal%3A%20%0ATempat%3A%20%0AGambaran%20acara%3A%20" rel="noopener" target="_blank">Booking Onefifty →</a>
+      <a class="btn btn-amp" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank"><svg aria-hidden="true"><use href="#i-rec"/></svg>Bikin Show Eksklusif</a>
+      <a class="btn btn-ghost" href="#event"><svg aria-hidden="true"><use href="#i-search"/></svg>Cari Event Lain</a>
     </p>
     <p class="alt rv">WhatsApp <a href="https://wa.me/6282136123205" rel="noopener" target="_blank">+62 821-3612-3205</a> · Instagram <a href="https://www.instagram.com/onefifty.band" rel="me noopener" target="_blank">@onefifty.band</a></p>
   </div>
@@ -1200,16 +1190,716 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
 
 <footer class="foot">
   <div class="wrap foot-in">
-    <p><b>ONEFIFTY</b><br>Local Influence Through Live Experience · Yogyakarta</p>
-    <p><a href="#cara-ikut">Cara ikut</a> · <a href="#paket">Harga</a> · <a href="https://www.instagram.com/onefifty.band" rel="me noopener" target="_blank">Instagram</a></p>
+    <p><b>ONEFIFTY</b><br>Bikin momennya. Hadir di dalamnya. · Yogyakarta</p>
+    <p><a href="#show-eksklusif">Show eksklusif</a> · <a href="#event">Event</a> · <a href="#cara-kerja">Cara kerja</a> · <a href="#rekam-jejak">Rekam jejak</a> · <a href="#tentang">Tentang</a> · <a href="https://www.instagram.com/onefifty.band" rel="me noopener" target="_blank">Instagram</a></p>
   </div>
 </footer>
 
 <div class="dock">
-  <a class="d-wa" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20mau%20bikin%20ide%20aktivasi%20untuk%20brand%20saya.%0A%0ABrand%3A%20%0AEvent%3A%20%0AAudience%20yang%20ingin%20dijangkau%3A%20" rel="noopener" target="_blank"><svg aria-hidden="true"><use href="#i-wa"/></svg>Bikin Ide Aktivasi<span class="sr"> lewat WhatsApp</span></a>
-  <a class="d-ig" href="https://www.instagram.com/onefifty.band" rel="noopener" target="_blank" aria-label="Instagram @onefifty.band"><svg aria-hidden="true"><use href="#i-ig"/></svg></a>
+  <a class="d-main" href="https://wa.me/6282136123205?text=Halo%20Onefifty%2C%20saya%20ingin%20bikin%20show%20eksklusif%20bareng%20Onefifty%20untuk%20konten%20TikTok%2FReels.%0A%0ABrand%3A%20%0ALokasi%3A%20%0ATarget%20tayang%3A%20%0ATujuan%3A%20" data-open="show" rel="noopener" target="_blank">Bikin Show Eksklusif →</a>
+  <a class="d-wa" href="https://wa.me/6282136123205" rel="noopener" target="_blank" aria-label="WhatsApp Onefifty"><svg aria-hidden="true"><use href="#i-wa"/></svg></a>
 </div>
 
+<!-- EVENT DETAIL + ACTIVATION BUILDER (dipakai juga untuk "Saya sudah punya event") -->
+<dialog id="dlg-plan" aria-labelledby="plan-title">
+  <form id="plan-form" method="dialog" novalidate>
+    <div class="dlg-bar">
+      <button type="button" data-close>← <span id="plan-back">Kembali ke event</span></button>
+      <button type="button" class="x" data-close aria-label="Tutup">×</button>
+    </div>
+    <div class="dlg-body">
+      <!-- mode: event dari daftar -->
+      <div id="plan-event" class="d-head"></div>
+
+      <!-- mode: show eksklusif -->
+      <div id="plan-show" class="d-sec" hidden>
+        <div class="d-head">
+          <span class="step-n">Format utama · Show eksklusif</span>
+          <h2 id="plan-show-title">Bikin show eksklusif</h2>
+          <p class="desc">Show khusus untuk brand Anda, direkam untuk TikTok dan Reels. Ceritakan gambarannya, kami susun format dan rencana kontennya.</p>
+        </div>
+        <fieldset class="radios"><legend>Lokasi</legend>
+          <div class="pills">
+            <label><input type="radio" name="rs_loc" value="Outlet / toko brand"><span>Outlet / toko brand</span></label>
+            <label><input type="radio" name="rs_loc" value="Kafe / ruang komunitas"><span>Kafe / ruang komunitas</span></label>
+            <label><input type="radio" name="rs_loc" value="Kantor"><span>Kantor</span></label>
+            <label><input type="radio" name="rs_loc" value="Kampus"><span>Kampus</span></label>
+            <label><input type="radio" name="rs_loc" value="Belum tahu, minta saran"><span>Belum tahu</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="radios"><legend>Platform</legend>
+          <div class="pills">
+            <label><input type="checkbox" name="rs_plat" value="TikTok" checked><span>TikTok</span></label>
+            <label><input type="checkbox" name="rs_plat" value="Instagram Reels" checked><span>Instagram Reels</span></label>
+            <label><input type="checkbox" name="rs_plat" value="YouTube Shorts"><span>YouTube Shorts</span></label>
+          </div>
+        </fieldset>
+        <div class="fields two">
+          <label class="field"><span>Target tayang</span><input name="rs_when" placeholder="mis. awal Desember 2026" autocomplete="off"></label>
+          <label class="field"><span>Audience yang diundang</span><input name="rs_aud" placeholder="mis. pelanggan, member, komunitas" autocomplete="off"></label>
+        </div>
+      </div>
+
+      <!-- mode: punya event sendiri -->
+      <div id="plan-own" class="d-sec" hidden>
+        <div class="d-head">
+          <span class="step-n">Jalur B · Brief event</span>
+          <h2 id="plan-own-title">Punya event sendiri?</h2>
+          <p class="desc">Kirim event Anda. Kami bantu mencari bentuk kehadiran Onefifty yang paling cocok.</p>
+        </div>
+        <div class="fields two">
+          <label class="field"><span>Nama event</span><input name="ev_name" autocomplete="off"></label>
+          <label class="field"><span>Tanggal</span><input name="ev_date" placeholder="mis. 14 Desember 2026" autocomplete="off"></label>
+          <label class="field"><span>Venue</span><input name="ev_venue" autocomplete="off"></label>
+          <label class="field"><span>Perkiraan jumlah peserta</span><input name="ev_size" inputmode="numeric" autocomplete="off"></label>
+        </div>
+        <label class="field"><span>Audience</span><input name="ev_aud" placeholder="mis. mahasiswa baru, komunitas lari, keluarga" autocomplete="off"></label>
+      </div>
+
+      <div class="d-sec">
+        <h3><small id="sec-act-n">Langkah 1</small>Bagaimana brand Anda ingin hadir?</h3>
+        <div class="pick">
+          <fieldset><legend><svg aria-hidden="true"><use href="#i-music"/></svg><b>PLAY</b><span>Onefifty tampil</span></legend>
+            <label class="ck"><input type="checkbox" name="act" value="Live performance Onefifty" checked><span>Live performance<small>Bagian dari acara</small></span></label>
+          </fieldset>
+          <fieldset><legend><svg aria-hidden="true"><use href="#i-try"/></svg><b>EXPERIENCE</b><span>Audience mencoba brand</span></legend>
+            <label class="ck"><input type="checkbox" name="act" value="Product sampling"><span>Product sampling</span></label>
+            <label class="ck"><input type="checkbox" name="act" value="Voucher"><span>Voucher</span></label>
+            <label class="ck"><input type="checkbox" name="act" value="Giveaway"><span>Giveaway</span></label>
+          </fieldset>
+          <fieldset><legend><svg aria-hidden="true"><use href="#i-tap"/></svg><b>INTERACT</b><span>Brand di dalam performance</span></legend>
+            <label class="ck"><input type="checkbox" name="act" value="Voting"><span>Voting lagu / opsi</span></label>
+            <label class="ck"><input type="checkbox" name="act" value="Segmen brand di panggung"><span>Segmen brand di panggung</span></label>
+          </fieldset>
+          <fieldset><legend><svg aria-hidden="true"><use href="#i-share"/></svg><b>SHARE</b><span>Momen layak dibagikan</span></legend>
+            <label class="ck"><input type="checkbox" name="act" value="Social content"><span>Social content<small>Foto, video, reels setelah acara</small></span></label>
+          </fieldset>
+        </div>
+      </div>
+
+      <div class="d-sec">
+        <h3><small id="sec-plan-n">Langkah 2</small>Rancang momen Anda</h3>
+        <label class="field"><span>Brand</span><input name="brand" placeholder="Nama brand" autocomplete="organization"></label>
+        <fieldset class="radios"><legend>Tujuan</legend>
+          <div class="pills">
+            <label><input type="radio" name="goal" value="Awareness"><span>Awareness</span></label>
+            <label><input type="radio" name="goal" value="Product trial"><span>Product trial</span></label>
+            <label><input type="radio" name="goal" value="Engagement"><span>Engagement</span></label>
+            <label><input type="radio" name="goal" value="Sales"><span>Sales</span></label>
+            <label><input type="radio" name="goal" value="Community"><span>Community</span></label>
+            <label><input type="radio" name="goal" value="Launching"><span>Launching</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="radios"><legend>Budget</legend>
+          <div class="pills">
+            <label><input type="radio" name="budget" value="< Rp5 juta"><span>&lt; Rp5 juta</span></label>
+            <label><input type="radio" name="budget" value="Rp5–10 juta"><span>Rp5–10 juta</span></label>
+            <label><input type="radio" name="budget" value="Rp10–25 juta"><span>Rp10–25 juta</span></label>
+            <label><input type="radio" name="budget" value="> Rp25 juta"><span>&gt; Rp25 juta</span></label>
+            <label><input type="radio" name="budget" value="Belum tahu"><span>Belum tahu</span></label>
+          </div>
+        </fieldset>
+        <details class="preview"><summary>Lihat pesan yang akan dikirim</summary><pre id="plan-msg"></pre></details>
+        <div class="send">
+          <button class="btn btn-wa" type="submit"><svg aria-hidden="true"><use href="#i-wa"/></svg><span id="plan-cta">Minta Onefifty Rancang Formatnya →</span></button>
+          <p>Membuka WhatsApp dengan brief yang sudah terisi. Tidak ada data yang kami simpan di situs ini.</p>
+        </div>
+      </div>
+    </div>
+  </form>
+</dialog>
+
+<!-- FINDER: belum tahu event apa -->
+<dialog id="dlg-finder" aria-labelledby="finder-title">
+  <form id="finder-form" method="dialog">
+    <div class="dlg-bar">
+      <span class="step-n">Jalur C</span>
+      <button type="button" class="x" data-close aria-label="Tutup">×</button>
+    </div>
+    <div class="dlg-body">
+      <div class="d-head">
+        <h2 id="finder-title">Belum tahu event yang cocok?</h2>
+        <p class="desc">Tidak masalah. Ceritakan audience yang ingin Anda temui. Pilih sebanyak yang relevan.</p>
+      </div>
+      <fieldset class="radios"><legend>1 · Target audience</legend><div class="pills" id="f-aud"></div></fieldset>
+      <fieldset class="radios"><legend>2 · Tujuan brand</legend><div class="pills" id="f-goal"></div></fieldset>
+      <fieldset class="radios"><legend>3 · Kategori brand</legend><div class="pills" id="f-cat"></div></fieldset>
+      <div class="send">
+        <button class="btn btn-amp" type="submit"><svg aria-hidden="true"><use href="#i-search"/></svg>Tampilkan event yang mungkin cocok</button>
+        <p>Kami mencocokkan berdasarkan kategori dan audience event, bukan janji hasil atau conversion.</p>
+      </div>
+    </div>
+  </form>
+</dialog>
+
+<!--
+  ============================================================
+  EVENT HUB - UBAH DAFTAR EVENT DI SINI
+  ============================================================
+  updated   : tanggal terakhir data dicek (YYYY-MM-DD)
+  events    : satu objek per event. Event yang end/date-nya sudah lewat
+              otomatis disembunyikan, jadi tidak perlu dihapus manual.
+    id               : slug unik, dipakai di URL (#event/<id>)
+    name, date, end  : date & end format YYYY-MM-DD (end boleh kosong)
+    venue, city
+    category         : pilih dari Music, Campus, Creative, Tech, Community, Lifestyle, Corporate
+    description      : 1 kalimat, dari sumber
+    organizer        : "" bila tidak diketahui -> tampil "Belum tersedia"
+    source_url       : link sumber/event asli (wajib)
+    audience         : segmen perkiraan kami, pilih dari daftar "audiences" di bawah
+    audience_size    : "" bila tidak diketahui. JANGAN mengarang angka.
+    brand_categories : pilih dari daftar "brandCats"; tambahan bebas di fit_extra
+    reason           : kenapa event ini menarik untuk brand (penilaian kami)
+    status           : "confirmed" atau "unverified" (sumber tunggal / belum resmi)
+  Format ini sengaja sama dengan tabel "events" untuk pipeline scraping nanti.
+  ============================================================
+-->
+<script type="application/json" id="events-data">
+{
+  "updated": "2026-10-08",
+  "categories": [
+    "Music",
+    "Campus",
+    "Creative",
+    "Tech",
+    "Community",
+    "Lifestyle",
+    "Corporate"
+  ],
+  "audiences": [
+    "Gen Z",
+    "Mahasiswa",
+    "Young Professional",
+    "Tech Community",
+    "Creative Community",
+    "Family",
+    "Entrepreneur"
+  ],
+  "goals": [
+    "Awareness",
+    "Trial",
+    "Sales",
+    "Community",
+    "Launching"
+  ],
+  "brandCats": [
+    "F&B",
+    "Tech",
+    "Fashion",
+    "Finance",
+    "Education",
+    "Lifestyle"
+  ],
+  "events": [
+    {
+      "id": "yk-festisale-2026",
+      "name": "YK Festisale 2026",
+      "date": "2026-10-01",
+      "end": "2026-10-31",
+      "venue": "Pusat belanja, hotel, retail, UMKM, dan ±20 pasar tradisional",
+      "city": "Yogyakarta",
+      "category": [
+        "Lifestyle",
+        "Community"
+      ],
+      "description": "Festival belanja sebulan penuh yang tersebar di pusat perbelanjaan, hotel, UMKM, dan pasar tradisional. Gratis.",
+      "organizer": "",
+      "source_url": "https://ambarrukmo.com/event-jogja-oktober/",
+      "audience": [
+        "Family",
+        "Entrepreneur"
+      ],
+      "audience_size": "",
+      "brand_categories": [
+        "F&B",
+        "Finance",
+        "Lifestyle",
+        "Fashion"
+      ],
+      "fit_extra": [
+        "Pembayaran digital"
+      ],
+      "reason": "Orang datang memang untuk belanja. Cocok untuk brand yang ingin mendorong trial atau transaksi di titik penjualan.",
+      "status": "confirmed"
+    },
+    {
+      "id": "sarkemfest-2026",
+      "name": "Sarkemfest 2026",
+      "date": "2026-10-05",
+      "end": "2026-10-31",
+      "venue": "Jalan Pasar Kembang",
+      "city": "Yogyakarta",
+      "category": [
+        "Community",
+        "Lifestyle"
+      ],
+      "description": "Festival di kawasan Pasar Kembang, dekat Malioboro. Gratis.",
+      "organizer": "",
+      "source_url": "https://ambarrukmo.com/event-jogja-oktober/",
+      "audience": [
+        "Gen Z",
+        "Family"
+      ],
+      "audience_size": "",
+      "brand_categories": [
+        "F&B",
+        "Lifestyle"
+      ],
+      "fit_extra": [],
+      "reason": "Kawasan wisata dengan arus pengunjung harian. Cocok untuk sampling dan voucher yang bisa langsung ditukar.",
+      "status": "confirmed"
+    },
+    {
+      "id": "kustomfest-2026",
+      "name": "Kustomfest 2026",
+      "date": "2026-10-10",
+      "end": "2026-10-11",
+      "venue": "Jogja Expo Center (JEC)",
+      "city": "Yogyakarta",
+      "category": [
+        "Creative",
+        "Lifestyle",
+        "Community"
+      ],
+      "description": "Festival kendaraan kustom dengan pameran dan aktivitas komunitas. Gratis.",
+      "organizer": "",
+      "source_url": "https://ambarrukmo.com/event-jogja-oktober/",
+      "audience": [
+        "Creative Community",
+        "Young Professional"
+      ],
+      "audience_size": "",
+      "brand_categories": [
+        "Lifestyle",
+        "Fashion",
+        "F&B",
+        "Tech"
+      ],
+      "fit_extra": [
+        "Otomotif"
+      ],
+      "reason": "Komunitas kustom dikenal loyal dan bangga pada identitasnya. Brand gaya hidup punya ruang untuk masuk lewat budaya, bukan sekadar logo.",
+      "status": "confirmed"
+    },
+    {
+      "id": "rockin-noizee-2026",
+      "name": "Rockin Noizee 2026",
+      "date": "2026-10-17",
+      "end": "",
+      "venue": "Transmart Maguwo",
+      "city": "Sleman",
+      "category": [
+        "Music"
+      ],
+      "description": "Event musik rock. Tiket mulai Rp20.000.",
+      "organizer": "",
+      "source_url": "https://ambarrukmo.com/event-jogja-oktober/",
+      "audience": [
+        "Gen Z",
+        "Mahasiswa"
+      ],
+      "audience_size": "",
+      "brand_categories": [
+        "F&B",
+        "Fashion",
+        "Lifestyle"
+      ],
+      "fit_extra": [
+        "Telco"
+      ],
+      "reason": "Event musik dengan tiket terjangkau di dalam area mall. Energi panggungnya cocok untuk segmen interaksi dan voting.",
+      "status": "confirmed"
+    },
+    {
+      "id": "chicken-and-egg-run-2026",
+      "name": "Chicken and Egg Run 2026",
+      "date": "2026-10-18",
+      "end": "",
+      "venue": "Benteng Vredeburg",
+      "city": "Yogyakarta",
+      "category": [
+        "Lifestyle",
+        "Community"
+      ],
+      "description": "Lari dengan kategori Family Run 2.5K, 5K, dan 10K.",
+      "organizer": "",
+      "source_url": "https://ambarrukmo.com/event-jogja-oktober/",
+      "audience": [
+        "Family",
+        "Young Professional"
+      ],
+      "audience_size": "",
+      "brand_categories": [
+        "F&B",
+        "Lifestyle",
+        "Finance"
+      ],
+      "fit_extra": [
+        "Kesehatan"
+      ],
+      "reason": "Ada kategori keluarga. Area finish adalah momen santai yang pas untuk live music, sampling, dan giveaway.",
+      "status": "confirmed"
+    },
+    {
+      "id": "mining-run-2026",
+      "name": "Mining Run 2026",
+      "date": "2026-10-24",
+      "end": "",
+      "venue": "UPN \"Veteran\" Yogyakarta",
+      "city": "Sleman",
+      "category": [
+        "Campus",
+        "Lifestyle"
+      ],
+      "description": "Lari kampus dengan kategori 5K dan 10K.",
+      "organizer": "",
+      "source_url": "https://ambarrukmo.com/event-jogja-oktober/",
+      "audience": [
+        "Mahasiswa",
+        "Young Professional"
+      ],
+      "audience_size": "",
+      "brand_categories": [
+        "F&B",
+        "Finance",
+        "Lifestyle"
+      ],
+      "fit_extra": [
+        "Kesehatan"
+      ],
+      "reason": "Event kampus dengan peserta aktif. Pintu masuk ke audience mahasiswa di luar acara orientasi.",
+      "status": "confirmed"
+    },
+    {
+      "id": "cangkemanation-2026",
+      "name": "Cangkemanation Standup Comedy Show",
+      "date": "2026-10-24",
+      "end": "",
+      "venue": "IFI Yogyakarta",
+      "city": "Yogyakarta",
+      "category": [
+        "Creative"
+      ],
+      "description": "Pertunjukan stand-up comedy. Tiket mulai Rp55.000.",
+      "organizer": "",
+      "source_url": "https://ambarrukmo.com/event-jogja-oktober/",
+      "audience": [
+        "Gen Z",
+        "Creative Community"
+      ],
+      "audience_size": "",
+      "brand_categories": [
+        "F&B",
+        "Lifestyle",
+        "Tech"
+      ],
+      "fit_extra": [],
+      "reason": "Audience yang datang untuk tertawa lebih terbuka pada brand yang ikut bermain. Cocok untuk segmen interaktif yang ringan.",
+      "status": "confirmed"
+    },
+    {
+      "id": "psychofest-2026",
+      "name": "Psychofest 2026",
+      "date": "2026-10-25",
+      "end": "",
+      "venue": "Kampus III Universitas Sanata Dharma",
+      "city": "Sleman",
+      "category": [
+        "Campus"
+      ],
+      "description": "Event kampus seputar psikologi dan komunitas mahasiswa.",
+      "organizer": "",
+      "source_url": "https://ambarrukmo.com/event-jogja-oktober/",
+      "audience": [
+        "Mahasiswa",
+        "Gen Z"
+      ],
+      "audience_size": "",
+      "brand_categories": [
+        "Education",
+        "F&B",
+        "Finance",
+        "Tech"
+      ],
+      "fit_extra": [
+        "Kesehatan mental"
+      ],
+      "reason": "Audience mahasiswa dengan minat jelas. Relevan untuk edtech, layanan kesehatan, dan brand sehari-hari mahasiswa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "soundrenaline-yogyakarta-2026",
+      "name": "Soundrenaline Sana Sini di Yogyakarta",
+      "date": "2026-10-31",
+      "end": "",
+      "venue": "Area Ambarrukmo",
+      "city": "Sleman",
+      "category": [
+        "Music"
+      ],
+      "description": "Festival musik penutup Oktober, dengan line-up termasuk The Adams dan PORIS. Tiket mulai Rp95.000.",
+      "organizer": "",
+      "source_url": "https://ambarrukmo.com/event-jogja-oktober/",
+      "audience": [
+        "Gen Z",
+        "Young Professional",
+        "Mahasiswa"
+      ],
+      "audience_size": "",
+      "brand_categories": [
+        "F&B",
+        "Fashion",
+        "Lifestyle",
+        "Tech"
+      ],
+      "fit_extra": [],
+      "reason": "Festival besar biasanya punya sponsor utama sendiri. Peluang yang lebih realistis ada di area sekitar atau side event, dan itu yang bisa kami jajaki.",
+      "status": "confirmed"
+    },
+    {
+      "id": "farmasi-cup-2026",
+      "name": "Farmasi Cup 2026",
+      "date": "2026-10-31",
+      "end": "",
+      "venue": "Mandala Krida",
+      "city": "Yogyakarta",
+      "category": [
+        "Campus"
+      ],
+      "description": "Kompetisi untuk mahasiswa dan komunitas farmasi.",
+      "organizer": "",
+      "source_url": "https://ambarrukmo.com/event-jogja-oktober/",
+      "audience": [
+        "Mahasiswa"
+      ],
+      "audience_size": "",
+      "brand_categories": [
+        "F&B",
+        "Education",
+        "Lifestyle"
+      ],
+      "fit_extra": [
+        "Kesehatan"
+      ],
+      "reason": "Kompetisi antar-mahasiswa membawa suporter. Jeda pertandingan dan penutupan adalah slot yang pas untuk tampil.",
+      "status": "confirmed"
+    },
+    {
+      "id": "jcwf-2026",
+      "name": "Jogja Cultural Wellness Festival 2026",
+      "date": "2026-11-06",
+      "end": "2026-11-08",
+      "venue": "Loman Park Hotel",
+      "city": "Sleman",
+      "category": [
+        "Lifestyle"
+      ],
+      "description": "Festival wellness berbasis budaya Jawa, masuk kalender event Dinas Pariwisata DIY.",
+      "organizer": "",
+      "source_url": "https://www.ttgasia.com/?p=120674",
+      "audience": [
+        "Young Professional",
+        "Family"
+      ],
+      "audience_size": "",
+      "brand_categories": [
+        "Lifestyle",
+        "F&B"
+      ],
+      "fit_extra": [
+        "Wellness",
+        "Hospitality"
+      ],
+      "reason": "Audience yang peduli gaya hidup sehat. Cocok untuk sesi akustik yang tenang dan product experience.",
+      "status": "unverified"
+    }
+  ]
+}
+</script>
+<script>
+(function(){
+  var WA='6282136123205';
+  var data; try{ data=JSON.parse(document.getElementById('events-data').textContent); }
+  catch(err){ document.getElementById('ev-list').innerHTML='<li class="ev-empty"><p>Data event salah ketik: '+err.message+'</p></li>'; return; }
+  var $=function(id){return document.getElementById(id);};
+  var esc=function(t){return String(t==null?'':t).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
+  var MON=['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agu','Sep','Okt','Nov','Des'];
+  var MONL=['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
+  var pad=function(n){return (n<10?'0':'')+n;};
+  var d0=new Date(), today=d0.getFullYear()+'-'+pad(d0.getMonth()+1)+'-'+pad(d0.getDate());
+  var parts=function(s){var p=s.split('-');return {y:+p[0],m:+p[1]-1,d:+p[2]};};
+  // "10–11 Okt 2026", "30 Okt – 2 Nov 2026"
+  var fmtRange=function(e,names){ var a=parts(e.date), b=e.end&&e.end!==e.date?parts(e.end):null;
+    if(!b) return a.d+' '+names[a.m]+' '+a.y;
+    if(a.m===b.m&&a.y===b.y) return a.d+'–'+b.d+' '+names[a.m]+' '+a.y;
+    return a.d+' '+names[a.m]+' – '+b.d+' '+names[b.m]+' '+b.y; };
+  var dayDiff=function(s){ var p=parts(s); return Math.round((new Date(p.y,p.m,p.d)-new Date(d0.getFullYear(),d0.getMonth(),d0.getDate()))/864e5); };
+  var soon=function(e){ var end=e.end||e.date;
+    if(e.date<=today&&today<=end) return '<span class="soon now">Sedang berlangsung</span>';
+    var n=dayDiff(e.date); return '<span class="soon">'+(n===1?'Besok':'Dalam '+n+' hari')+'</span>'; };
+  var NA='Belum tersedia';
+
+  var events=data.events.filter(function(e){return (e.end||e.date)>=today;})
+    .sort(function(a,b){return a.date<b.date?-1:a.date>b.date?1:0;});
+  var byId={}; data.events.forEach(function(e){byId[e.id]=e;});
+  var state={cat:'Semua', brief:null};
+
+  /* ---------- filter chips ---------- */
+  var renderChips=function(){
+    var counts={}; events.forEach(function(e){e.category.forEach(function(c){counts[c]=(counts[c]||0)+1;});});
+    var h='<li><button type="button" class="chip-btn" data-cat="Semua" aria-pressed="'+(state.cat==='Semua')+'">Semua <small>'+events.length+'</small></button></li>';
+    data.categories.forEach(function(c){ if(!counts[c]) return;
+      h+='<li><button type="button" class="chip-btn" data-cat="'+esc(c)+'" aria-pressed="'+(state.cat===c)+'">'+esc(c)+' <small>'+counts[c]+'</small></button></li>'; });
+    $('ev-filter').innerHTML=h;
+  };
+  $('ev-filter').addEventListener('click',function(e){ var b=e.target.closest('[data-cat]'); if(!b) return; state.cat=b.getAttribute('data-cat'); renderChips(); renderList(); });
+
+  /* ---------- brief matching (jalur C) ---------- */
+  var score=function(e,br){ var aud=e.audience.filter(function(a){return br.aud.indexOf(a)>-1;});
+    var cat=e.brand_categories.filter(function(c){return br.cat.indexOf(c)>-1;});
+    return {n:aud.length*2+cat.length, hits:aud.concat(cat)}; };
+
+  /* ---------- event cards ---------- */
+  var renderList=function(){
+    var list=events.filter(function(e){return state.cat==='Semua'||e.category.indexOf(state.cat)>-1;}), hits={};
+    if(state.brief){
+      list=list.map(function(e){var s=score(e,state.brief); hits[e.id]=s; return e;}).filter(function(e){return hits[e.id].n>0;})
+        .sort(function(a,b){return hits[b.id].n-hits[a.id].n||(a.date<b.date?-1:1);});
+    }
+    if(!list.length){
+      $('ev-list').innerHTML='<li class="ev-empty"><p>'+(state.brief?'Belum ada event di daftar kami yang cocok dengan brief ini. Ceritakan saja kebutuhan Anda, kami bantu carikan.':'Belum ada event di kategori ini.')+'</p>'
+        +'<button type="button" class="btn btn-amp btn-sm" data-open="own">Ceritakan Kebutuhan Saya →</button></li>';
+      return;
+    }
+    $('ev-list').innerHTML=list.map(function(e){
+      var m=hits[e.id]?'<span class="match">Cocok: '+esc(hits[e.id].hits.join(' · '))+'</span>':soon(e);
+      var fit=e.brand_categories.concat(e.fit_extra||[]);
+      return '<li class="ev-card"><div class="when"><time datetime="'+e.date+'">'+fmtRange(e,MON)+'</time>'+m+'</div>'
+        +'<h3><a href="#event/'+esc(e.id)+'">'+esc(e.name)+'</a></h3>'
+        +'<p class="venue"><svg aria-hidden="true"><use href="#i-pin"/></svg><span>'+esc(e.venue)+', '+esc(e.city)+'</span></p>'
+        +'<ul class="tags" aria-label="Kategori">'+e.category.map(function(c){return '<li>'+esc(c)+'</li>';}).join('')+'</ul>'
+        +'<p class="desc">'+esc(e.description)+'</p>'
+        +'<p class="fit"><b>Cocok untuk</b>'+esc(fit.join(' · '))+'</p>'
+        +'<div class="acts"><a class="lnk" href="#event/'+esc(e.id)+'">Lihat event →</a><a class="btn btn-amp" href="#event/'+esc(e.id)+'/ajak">Ajak Onefifty ke Event Ini →</a></div></li>';
+    }).join('');
+  };
+  var upd=parts(data.updated);
+  $('ev-note').insertAdjacentHTML('beforeend',' Data dicek '+upd.d+' '+MONL[upd.m]+' '+upd.y+'.');
+
+  /* ---------- detail + activation builder ---------- */
+  var dlg=$('dlg-plan'), form=$('plan-form'), cur=null;
+  var val=function(n){var el=form.elements[n]; return el?String(el.value||'').trim():'';};
+  var row=function(k,v,isLink){ if(!v) return '<div><dt>'+k+'</dt><dd class="na">'+NA+'</dd></div>';
+    return '<div><dt>'+k+'</dt><dd>'+(isLink?'<a href="'+esc(v)+'" rel="noopener" target="_blank">'+esc(v.replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,''))+' ↗</a>':esc(v))+'</dd></div>'; };
+  var renderDetail=function(e){
+    var fit=e.brand_categories.concat(e.fit_extra||[]).join(' · ');
+    $('plan-event').innerHTML='<time datetime="'+e.date+'">'+fmtRange(e,MONL)+'</time>'
+      +'<h2 id="plan-title">'+esc(e.name)+'</h2>'
+      +'<p class="venue"><svg aria-hidden="true"><use href="#i-pin"/></svg><span>'+esc(e.venue)+', '+esc(e.city)+'</span></p>'
+      +'<ul class="tags">'+e.category.map(function(c){return '<li>'+esc(c)+'</li>';}).join('')+'</ul>'
+      +'<p class="desc">'+esc(e.description)+'</p>'
+      +'<div class="d-sec" style="margin-top:18px"><h3>Kenapa event ini menarik untuk brand?</h3>'
+      +'<p class="reason"><b>Penilaian kami</b>'+esc(e.reason)+'</p>'
+      +'<dl class="facts">'
+      +row('Segmen audience',e.audience.join(', ')+(e.audience.length?' (perkiraan kami)':''))
+      +row('Perkiraan jumlah',e.audience_size)
+      +row('Jenis event',e.category.join(', '))
+      +row('Venue',e.venue+', '+e.city)
+      +row('Penyelenggara',e.organizer)
+      +row('Cocok untuk',fit)
+      +row('Sumber',e.source_url,true)
+      +(e.status==='unverified'?'<div><dt>Status</dt><dd>Baru dari satu sumber. Kami konfirmasi ulang ke penyelenggara.</dd></div>':'')
+      +'</dl></div>';
+  };
+  // mode: event dari daftar (cur = event) | 'own' (punya event) | 'show' (show eksklusif)
+  var mode='own';
+  var setMode=function(ev,m){
+    cur=ev; mode=ev?'event':(m||'own');
+    $('plan-event').hidden=mode!=='event'; $('plan-own').hidden=mode!=='own'; $('plan-show').hidden=mode!=='show';
+    dlg.setAttribute('aria-labelledby',{event:'plan-title',own:'plan-own-title',show:'plan-show-title'}[mode]);
+    $('plan-back').textContent=ev?'Kembali ke event':'Kembali';
+    $('sec-act-n').textContent=ev?'Langkah 1':'Langkah 2';
+    $('sec-plan-n').textContent=ev?'Langkah 2':'Langkah 3';
+    $('plan-cta').textContent={event:'Minta Onefifty Rancang Formatnya →',own:'Diskusikan dengan Onefifty →',show:'Rancang Show Saya →'}[mode];
+    if(mode==='show'){ ['Live performance Onefifty','Social content'].forEach(function(v){ var i=form.querySelector('input[name="act"][value="'+v+'"]'); if(i) i.checked=true; }); }
+    if(ev) renderDetail(ev);
+    updateMsg();
+  };
+  var buildMsg=function(){
+    var acts=[].slice.call(form.querySelectorAll('input[name="act"]:checked')).map(function(i){return i.value;});
+    var lines=['Halo Onefifty 👋',''];
+    if(cur){
+      lines.push('Saya tertarik mengajak Onefifty ke *'+cur.name+'* pada *'+fmtRange(cur,MONL)+'* ('+cur.venue+').','');
+    }else if(mode==='show'){
+      var plat=[].slice.call(form.querySelectorAll('input[name="rs_plat"]:checked')).map(function(i){return i.value;});
+      lines.push('Saya ingin bikin *show eksklusif* bareng Onefifty untuk konten '+(plat.join(' & ')||'TikTok & Reels')+'.','');
+      [['Lokasi','rs_loc'],['Target tayang','rs_when'],['Audience yang diundang','rs_aud']].forEach(function(f){ if(val(f[1])) lines.push(f[0]+': '+val(f[1])); });
+      if(lines[lines.length-1]!=='') lines.push('');
+    }else{
+      lines.push('Saya punya event dan ingin mengajak Onefifty.','');
+      [['Event','ev_name'],['Tanggal','ev_date'],['Venue','ev_venue'],['Audience','ev_aud'],['Perkiraan peserta','ev_size']].forEach(function(f){ if(val(f[1])) lines.push(f[0]+': '+val(f[1])); });
+      if(lines[lines.length-1]!=='') lines.push('');
+    }
+    lines.push('Brand: '+(val('brand')||'-'));
+    lines.push('Tujuan: '+(val('goal')||'-'));
+    lines.push('Aktivasi: '+(acts.join(' + ')||'-'));
+    lines.push('Budget: '+(val('budget')||'-'));
+    lines.push('',cur?'Bisa dibantu rekomendasikan formatnya?':mode==='show'?'Bisa dibantu susun format show dan rencana kontennya?':'Bisa didiskusikan formatnya?');
+    if(cur) lines.push('','Info event: '+cur.source_url);
+    return lines.join('\n');
+  };
+  var updateMsg=function(){ $('plan-msg').textContent=buildMsg(); };
+  form.addEventListener('input',updateMsg);
+  form.addEventListener('change',updateMsg);
+  form.addEventListener('submit',function(e){ e.preventDefault();
+    window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(buildMsg()),'_blank','noopener'); });
+
+  var openPlan=function(ev,jump,m){
+    setMode(ev||null,m);
+    if(!dlg.open) dlg.showModal();
+    dlg.scrollTop=0;
+    if(jump){ var t=form.querySelector('.pick'); setTimeout(function(){ t.closest('.d-sec').scrollIntoView({block:'start'}); },30); }
+  };
+  dlg.addEventListener('close',function(){ if(/^#event\//.test(location.hash)) history.replaceState(null,'','#event'); else if(location.hash==='#bikin-show') history.replaceState(null,'','#show-eksklusif'); });
+
+  /* ---------- finder (jalur C) ---------- */
+  var fdlg=$('dlg-finder'), fform=$('finder-form');
+  var pills=function(id,name,opts){ $(id).innerHTML=opts.map(function(o){return '<label><input type="checkbox" name="'+name+'" value="'+esc(o)+'"><span>'+esc(o)+'</span></label>';}).join(''); };
+  pills('f-aud','aud',data.audiences); pills('f-goal','goal',data.goals); pills('f-cat','cat',data.brandCats);
+  var checked=function(n){return [].slice.call(fform.querySelectorAll('input[name="'+n+'"]:checked')).map(function(i){return i.value;});};
+  fform.addEventListener('submit',function(e){ e.preventDefault();
+    var br={aud:checked('aud'),goal:checked('goal'),cat:checked('cat')};
+    fdlg.close();
+    if(!br.aud.length&&!br.cat.length){ state.brief=null; }
+    else{
+      state.brief=br; state.cat='Semua';
+      $('finder-text').innerHTML='<b>Event yang paling relevan dengan brief Anda</b> · '+esc(br.aud.concat(br.cat).join(', '))+(br.goal.length?' · tujuan: '+esc(br.goal.join(', ')):'');
+      // bawa tujuan ke builder
+      var g={Trial:'Product trial'}[br.goal[0]]||br.goal[0];
+      if(g){ var r=form.querySelector('input[name="goal"][value="'+g+'"]'); if(r) r.checked=true; }
+      if(br.aud.length&&!val('ev_aud')) form.elements.ev_aud.value=br.aud.join(', ');
+    }
+    $('finder-bar').hidden=!state.brief;
+    renderChips(); renderList();
+    $('event').scrollIntoView({block:'start'});
+  });
+  $('finder-reset').addEventListener('click',function(){ state.brief=null; fform.reset(); $('finder-bar').hidden=true; renderList(); });
+
+  /* ---------- wiring ---------- */
+  document.addEventListener('click',function(e){
+    var o=e.target.closest('[data-open]');
+    if(o){ e.preventDefault(); var w=o.getAttribute('data-open'); if(w==='finder'){ fdlg.showModal(); } else { openPlan(null,false,w); } return; }
+    var c=e.target.closest('[data-close]'); if(c){ c.closest('dialog').close(); }
+  });
+  [dlg,fdlg].forEach(function(d){ d.addEventListener('click',function(e){ if(e.target===d) d.close(); }); });
+  var route=function(){ if(location.hash==='#bikin-show'){ openPlan(null,false,'show'); return; }
+    var m=location.hash.match(/^#event\/([\w-]+)(\/ajak)?$/); if(!m) return;
+    var ev=byId[m[1]]; if(ev) openPlan(ev,!!m[2]); else history.replaceState(null,'','#event'); };
+  window.addEventListener('hashchange',route);
+
+  renderChips(); renderList(); updateMsg(); route();
+})();
+</script>
 <script>
 (function(){
   var els=document.querySelectorAll('.rv');
@@ -1233,7 +1923,7 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
    "@type": "WebPage",
    "@id": "https://omayib.github.io/onefifty/#webpage",
    "url": "https://omayib.github.io/onefifty/",
-   "name": "Onefifty: Local Influence Through Live Experience",
+   "name": "Onefifty: Temukan Event di Jogja, Hadir di Momennya",
    "about": {
     "@id": "https://omayib.github.io/onefifty/#band"
    },
@@ -1241,7 +1931,7 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
     "@id": "https://omayib.github.io/onefifty/#website"
    },
    "inLanguage": "id",
-   "description": "KOL membawa brand ke feed. Onefifty membawa brand ke momen. Aktivasi brand lewat live music di Jogja: product experience, voting, voucher, giveaway, dan konten setelah acara. Mulai Rp3 juta/event.",
+   "description": "Cari event di Jogja yang relevan dengan audience brand Anda, pilih bentuk kehadirannya, lalu ajak Onefifty: live music, sampling, voting, giveaway, dan konten. Mulai Rp3 juta/event.",
    "primaryImageOfPage": {
     "@type": "ImageObject",
     "url": "https://omayib.github.io/onefifty/assets/images/og-onefifty.jpg",
@@ -1261,7 +1951,7 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
    ],
    "url": "https://omayib.github.io/onefifty/",
    "description": "Onefifty adalah band pop-rock dari Yogyakarta yang dibentuk pada 2022 oleh dosen dan profesional di lingkungan Universitas AMIKOM Yogyakarta. Onefifty sudah 12 kali naik panggung, dari kampus sampai mall, dan membuka kolaborasi agar brand bisa hadir di momen live music yang dinikmati bersama.",
-   "slogan": "Jangan cuma tampil di feed. Hadir di momennya.",
+   "slogan": "Bikin momennya. Hadir di dalamnya.",
    "foundingDate": "2022",
    "foundingLocation": {
     "@type": "Place",
@@ -2268,7 +2958,7 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
   },
   {
    "@type": "Service",
-   "@id": "https://omayib.github.io/onefifty/#paket",
+   "@id": "https://omayib.github.io/onefifty/#harga",
    "name": "Live music untuk brand",
    "serviceType": "Live music, brand activation",
    "description": "Brand hadir di acara melalui live music, interaksi penonton, dan momen yang bisa berlanjut menjadi konten.",
@@ -2285,7 +2975,7 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
    },
    "offers": {
     "@type": "Offer",
-    "url": "https://omayib.github.io/onefifty/#paket",
+    "url": "https://omayib.github.io/onefifty/#harga",
     "priceCurrency": "IDR",
     "price": 3000000,
     "priceSpecification": {
@@ -2297,70 +2987,94 @@ summary{cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--acc)
     "availability": "https://schema.org/LimitedAvailability"
    }
   },
-  {
-   "@type": "FAQPage",
-   "mainEntity": [
-    {
-     "@type": "Question",
-     "name": "Apa bedanya dengan KOL atau influencer?",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Bedanya sederhana. KOL membuat konten untuk brand. Kami mengajak brand masuk ke acara dan dinikmati bersama."
-     }
-    },
-    {
-     "@type": "Question",
-     "name": "Bagaimana brand bisa ikut?",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Cerita dulu acaranya dan apa yang ingin dikenalkan. Nanti kita cari cara yang paling enak untuk memasukkannya ke panggung."
-     }
-    },
-    {
-     "@type": "Question",
-     "name": "Berapa biayanya?",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Mulai Rp3 juta/event. Besarnya menyesuaikan acara dan ide yang kita buat."
-     }
-    },
-    {
-     "@type": "Question",
-     "name": "Apa yang diukur?",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Bisa dari hal sederhana: berapa yang ikut vote, berapa voucher yang dipakai, berapa orang ikut giveaway, atau berapa konten yang dibagikan."
-     }
-    },
-    {
-     "@type": "Question",
-     "name": "Siapa Onefifty?",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Kami band pop-rock Jogja. Mulai main bareng sejak 2022. Anggotanya dosen dan profesional dari lingkungan AMIKOM. Sampai sekarang sudah 12 kali naik panggung."
-     }
-    },
-    {
-     "@type": "Question",
-     "name": "Bisa diundang ke acara kami?",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Bisa. Full band atau akustik, dari 2 lagu sampai 3 sesi, dengan monitor sendiri. Kirim tanggal, tempat, dan gambaran acaranya ke @onefifty.band."
-     }
-    },
-    {
-     "@type": "Question",
-     "name": "Musiknya seperti apa?",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Intinya: lagu yang bikin orang ingin ikut nyanyi. Dari Sheila on 7, Noah, Ungu, Hindia, sampai ONE OK ROCK."
-     }
+ {
+  "@type": "FAQPage",
+  "@id": "https://omayib.github.io/onefifty/#faq",
+  "mainEntity": [
+   {
+    "@type": "Question",
+    "name": "Apa itu show eksklusif?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Show Onefifty yang digelar khusus untuk satu brand, di lokasi dan waktu yang disepakati, lalu direkam untuk jadi konten TikTok dan Reels. Audience-nya bisa pelanggan, member, atau komunitas brand."
     }
-   ]
-  }
+   },
+   {
+    "@type": "Question",
+    "name": "Kenapa show eksklusif lebih terkontrol daripada ikut event?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Di event orang lain, jadwal, panggung, dan aturan sponsor ditentukan penyelenggara. Di show eksklusif, lokasi, setlist, penempatan produk, dan pengambilan gambar ditentukan bersama, dan momen penting bisa diulang. Kontennya bisa di-boost dari akun brand."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Apakah event di daftar ini milik Onefifty?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Bukan. Daftar event dikurasi dari sumber publik. Onefifty membantu brand menjajaki kehadiran di event tersebut, termasuk berkomunikasi dengan penyelenggara. Kehadiran tetap bergantung pada persetujuan penyelenggara."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Dari mana data audience-nya?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Segmen audience dan kategori cocok untuk adalah penilaian kami berdasarkan jenis event. Angka jumlah pengunjung hanya ditampilkan bila tersedia dari sumber. Kalau tidak diketahui, kami tulis belum tersedia."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Saya sudah punya event sendiri. Bisa?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Bisa. Pilih Saya Sudah Punya Event, isi detail event, bentuk aktivasi, tujuan, dan budget. Brief langsung terkirim ke WhatsApp Onefifty."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Berapa biayanya?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Mulai Rp3 juta/event. Format dan harga menyesuaikan event, lineup, durasi, dan bentuk aktivasi."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Apa bedanya dengan KOL?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "KOL membawa brand ke feed. Onefifty membawa brand ke momen. Brand masuk ke acara, dinikmati langsung oleh audience, lalu momennya bisa lanjut jadi konten."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Apa yang bisa diukur?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Partisipasi, jumlah vote, voucher yang ditukar, peserta giveaway, dan konten yang dibagikan. Indikatornya disepakati di awal sesuai tujuan brand."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Bisa booking Onefifty sebagai band saja?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Bisa. Full band atau akustik, dari 2 lagu sampai 3 sesi, dengan monitor sendiri."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Siapa Onefifty?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Band pop-rock Jogja yang mulai main bareng sejak 2022. Anggotanya dosen dan profesional dari lingkungan Universitas AMIKOM Yogyakarta. Sudah lebih dari 12 kali naik panggung, dari kampus sampai mall."
+    }
+   }
+  ]
+ }
  ]
 }
 </script>
-
 </body>
 </html>
